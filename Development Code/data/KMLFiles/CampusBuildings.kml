@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Campus Buildings.kml</name>
+	<visibility>0</visibility>
+	<StyleMap id="msn_ylw-pushpin6819">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7131</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2700</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6818">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin719</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2704</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6817">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7112</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27012</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27017">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27010">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin688">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7136</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27013">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7131">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6823">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7118</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2707</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7111">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27011">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6813">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7113</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27038">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6829">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin711</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27031</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7112">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7130">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7110">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6839">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin712</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin684">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin717</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27033</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7133">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2703">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin715">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7129">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27019">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27036">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27021">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6835">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27037</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7135">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27032">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6815">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin710</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27013</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7120">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27018">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin68">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7128</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27017</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2709">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7122">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6811">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7124</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27016</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27031">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27029">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27015">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7119">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27020">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7128">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7117">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6834">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7134</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin270</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6810">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7132</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2708</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27034">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6828">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7139</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27021</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27024">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2701">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6822">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27026</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7114">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin716">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6814">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7123</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2706</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6812">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7127</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27014</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6825">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin715</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27018</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7127">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin686">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7116</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27015</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7132">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7116">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7113">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27016">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin711">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin687">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7126</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27034</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6837">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7138</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2701</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7126">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7115">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin717">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2702">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27026">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7121">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2704">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6838">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7137</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2709</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6816">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin713</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27028</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7125">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27022">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6836">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7117</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27020</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27025">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2705">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin710">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6824">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7119</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27019</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2708">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6820">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7121</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27027</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27028">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27012">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27027">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin689">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin718</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27036</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7124">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin682">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7135</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27035</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6830">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7129</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27029</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6832">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7114</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27025</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin718">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7134">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin681">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7120</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27022</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin270">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2707">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27030">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2706">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6821">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7125</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2702</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin685">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin716</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27023</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin71">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7137">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27033">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7136">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7123">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7139">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6831">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27039</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27014">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27037">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2700">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin714">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin680">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7122</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27024</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27023">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6827">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin71</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27038</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7138">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin713">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin719">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin27035">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7118">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6833">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7133</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2705</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin683">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7115</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27032</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin712">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6826">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin714</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2703</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27039">
+		<IconStyle>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/blue.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Buildings</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<description><![CDATA[<img src="http://blue"/>Located on the 430-acre campus are numerous buildings designed to meet the diverse needs of the students and employees. While building names often remind of historic legacy, the structures are modern facilities that reflect the wholesome academic, cultural, social and spiritual environment of BYU-Idaho.<a href="http://www2.byui.edu/BldgsGrnds/">http://www2.byui.edu/BldgsGrnds/</a>]]></description>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>AGM - Ag. Engineering Bldg</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Lab area for Department of Agribusiness, Plant & Animal Science.
+<hours>Monday - Saturday, 6:00 a.m. - 11:30p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/AGM.jpg"/><code>AGM</code>]]></description>
+			<LookAt>
+				<longitude>-111.7819490679294</longitude>
+				<latitude>43.81508129620511</latitude>
+				<altitude>0</altitude>
+				<heading>0.01518996299339908</heading>
+				<tilt>38.63825459261039</tilt>
+				<range>1862.360502564478</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6819</styleUrl>
+			<Point>
+				<coordinates>-111.7833376663043,43.81379212103921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ASB - Auxiliary Services Bldg</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Division of Continuing Education, University Press, a Copy Spot, the university's central warehouse, purchasing and travel offices.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m..</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/ASB.jpg"/><code>ASB</code>]]></description>
+			<LookAt>
+				<longitude>-111.7814124988751</longitude>
+				<latitude>43.81444955413488</latitude>
+				<altitude>0</altitude>
+				<heading>0.3890544803697221</heading>
+				<tilt>2.417229849732323</tilt>
+				<range>512.5715428340829</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin68</styleUrl>
+			<Point>
+				<coordinates>-111.7831472222222,43.8141,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AUS - Mark Austin Technical &amp; Engineering Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Architecture & Construction, Department of Automotive Technology, Department of Computer Science and Engineering, and Department of Mechanical Engineering.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/AUS.jpg"/><code>AUS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7839380281601</longitude>
+				<latitude>43.81524973033747</latitude>
+				<altitude>0</altitude>
+				<heading>0.3873059689913395</heading>
+				<tilt>2.41750638270168</tilt>
+				<range>527.2477546133979</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6811</styleUrl>
+			<Point>
+				<coordinates>-111.784646,43.815756,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BCTR - BYU-Idaho Center</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The 435,000-square-foot building, containing a 15,000-seat auditorium and a multi-purpose area large enough for 10 full basketball courts, opened following a dedication on Dec. 17, 2010.<hours>Monday - Saturday, 5:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/BCTR.jpg"/><code>BCTR</code>]]></description>
+			<LookAt>
+				<longitude>-111.7850459012138</longitude>
+				<latitude>43.81851388931413</latitude>
+				<altitude>0</altitude>
+				<heading>0.3864540001787963</heading>
+				<tilt>2.418325646774478</tilt>
+				<range>136.1356498498252</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin683</styleUrl>
+			<Point>
+				<coordinates>-111.785046,43.818514,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BEN - Ezra Taft Benson Agricultural &amp; Biological Sciences Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Biology, Department of Horticulture, laboratories, greenhouses, horticulture outlet for studio flowers and plant sales, and the Wildlife Museum.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/BEN.jpg"/><code>BEN</code>]]></description>
+			<LookAt>
+				<longitude>-111.7830759404994</longitude>
+				<latitude>43.81544110779499</latitude>
+				<altitude>0</altitude>
+				<heading>0.3877998908582569</heading>
+				<tilt>2.184777165697224</tilt>
+				<range>83.0436867798963</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin689</styleUrl>
+			<Point>
+				<coordinates>-111.783076,43.815441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BID - Biddulph Hall</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/BID.jpg"/>University Communications Offices. Online Learning Offices.<code>BID</code>]]></description>
+			<LookAt>
+				<longitude>-111.7851230172272</longitude>
+				<latitude>43.81705448729318</latitude>
+				<altitude>0</altitude>
+				<heading>0.387114676644504</heading>
+				<tilt>2.015994312004034</tilt>
+				<range>118.2814368330674</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6826</styleUrl>
+			<Point>
+				<coordinates>-111.785123,43.817054,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BRN - Barnes Hall (women)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Women's Housing.<code>BRN</code>]]></description>
+			<LookAt>
+				<longitude>-111.7787678287545</longitude>
+				<latitude>43.81917066483715</latitude>
+				<altitude>0</altitude>
+				<heading>0.3900270848923788</heading>
+				<tilt>1.954148542800175</tilt>
+				<range>155.8547866306484</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6823</styleUrl>
+			<Point>
+				<coordinates>-111.778768,43.819171,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TRK - BYU-Idaho Track</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/BYU-Idaho-Track.jpg"/><code>TRK</code>]]></description>
+			<LookAt>
+				<longitude>-111.7844109782628</longitude>
+				<latitude>43.82062309752545</latitude>
+				<altitude>0</altitude>
+				<heading>0.3869784548886369</heading>
+				<tilt>2.416431251972074</tilt>
+				<range>549.9228939837971</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6815</styleUrl>
+			<Point>
+				<coordinates>-111.7852241820636,43.82088738066916,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CHP - Chapman Hall (men)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Men's housing.<code>CHP</code>]]></description>
+			<LookAt>
+				<longitude>-111.78025882382</longitude>
+				<latitude>43.81820218266717</latitude>
+				<altitude>0</altitude>
+				<heading>3.839794011864524</heading>
+				<tilt>0.01056770552202042</tilt>
+				<range>92.44317633358237</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6825</styleUrl>
+			<Point>
+				<coordinates>-111.78025882382,43.818202,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CLK - John L. Clarke Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Health Science, Department of Interior Design, Department of Nursing, Department of Home and Family, preschool for the child development program.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/CLK.jpg"/><code>CLK</code>]]></description>
+			<LookAt>
+				<longitude>-111.781750500812</longitude>
+				<latitude>43.82017854223336</latitude>
+				<altitude>0</altitude>
+				<heading>0.0747053028192283</heading>
+				<tilt>0</tilt>
+				<range>164.6823297884782</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6836</styleUrl>
+			<Point>
+				<coordinates>-111.781750500812,43.820179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CML - Construction Management Lab</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Lab area for Department of Department of Architecture and Construction.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><code>CML</code>]]></description>
+			<LookAt>
+				<longitude>-111.7877723708454</longitude>
+				<latitude>43.81523905980951</latitude>
+				<altitude>0</altitude>
+				<heading>0.07152816260988115</heading>
+				<tilt>0</tilt>
+				<range>95.72243624658799</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6839</styleUrl>
+			<Point>
+				<coordinates>-111.7877723708454,43.815239,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HIN - Gordon B. Hinckley Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Teacher Education, faculty offices, Institute classes, and a stake center.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/HIN.jpg"/><code>HIN</code>]]></description>
+			<LookAt>
+				<longitude>-111.779900438695</longitude>
+				<latitude>43.81584119638012</latitude>
+				<altitude>0</altitude>
+				<heading>0.07606043161390004</heading>
+				<tilt>0</tilt>
+				<range>131.3352464469825</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6829</styleUrl>
+			<Point>
+				<coordinates>-111.779900438695,43.815841,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HRT - John W. Hart Physical Education Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Exercise & Sports Science, Main Gymnasium/Hart Auditorium, Auxiliary Gym, field house, swimming pool, racquetball courts, dressing rooms, physical fitness and wellness centers.<hours>Monday - Saturday, 5:00 a.m. - 11:30 p.m.</hours><a href="http://www2.byui.edu/HartBuilding/">http://www2.byui.edu/HartBuilding/</a><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/HRT.jpg"/><code>HRT</code>]]></description>
+			<LookAt>
+				<longitude>-111.7853113120816</longitude>
+				<latitude>43.81953533491873</latitude>
+				<altitude>0</altitude>
+				<heading>0.07264380127454774</heading>
+				<tilt>0</tilt>
+				<range>147.6600215449356</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6813</styleUrl>
+			<Point>
+				<coordinates>-111.7853113120816,43.819535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HTG - Heating Plant</name>
+			<visibility>0</visibility>
+			<description><![CDATA[BYU-Idaho support facility for heating and hot water.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/HTG.jpg"/><code>HTG</code>]]></description>
+			<LookAt>
+				<longitude>-111.786002691815</longitude>
+				<latitude>43.81729782000943</latitude>
+				<altitude>0</altitude>
+				<heading>0.07176817623009156</heading>
+				<tilt>0</tilt>
+				<range>279.7762795407672</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6837</styleUrl>
+			<Point>
+				<coordinates>-111.786003,43.817298,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KER - Kerr Hall (women)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/KER.jpg"/>Women's housing.<code>KER</code>]]></description>
+			<LookAt>
+				<longitude>-111.779574674281</longitude>
+				<latitude>43.81925764412482</latitude>
+				<altitude>0</altitude>
+				<heading>0.07626729255006302</heading>
+				<tilt>0</tilt>
+				<range>70.07955317550848</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6822</styleUrl>
+			<Point>
+				<coordinates>-111.779575,43.819258,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KIM - Spencer W. Kimball Student &amp; Admin. Services Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Academic Administrative Services, Accounting Office, Admissions Office, Alumni Office, Career & Academic Advising, Cashier and Ticket Services, Dean of Students Office, Executive Offices, Financial Services, Housing Office, Human Resources, International Services, Internship and Career Services, Police, Registrar & Records Office.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/KIM.jpg"/><code>KIM</code>]]></description>
+			<LookAt>
+				<longitude>-111.7814920079955</longitude>
+				<latitude>43.8170710579537</latitude>
+				<altitude>0</altitude>
+				<heading>0.07529505534945051</heading>
+				<tilt>0</tilt>
+				<range>91.91959624923813</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6824</styleUrl>
+			<Point>
+				<coordinates>-111.781492,43.817071,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KRK - Oscar A. Kirkham Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Dance, Kirkham Auditorium, Arena Theater, and ceramics and sculpture studios.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/KRK.jpg"/><code>KRK</code>]]></description>
+			<LookAt>
+				<longitude>-111.7814504881083</longitude>
+				<latitude>43.82101119163986</latitude>
+				<altitude>0</altitude>
+				<heading>0.07513660537981816</heading>
+				<tilt>0</tilt>
+				<range>197.5611520863991</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6833</styleUrl>
+			<Point>
+				<coordinates>-111.781479,43.821114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LAM - Lamprecht Hall (women)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/LAM.jpg"/>Women's housing.<code>LAM</code>]]></description>
+			<LookAt>
+				<longitude>-111.7795166571904</longitude>
+				<latitude>43.81823394463678</latitude>
+				<altitude>0</altitude>
+				<heading>0.07621541226861279</heading>
+				<tilt>0</tilt>
+				<range>144.0410053971835</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6831</styleUrl>
+			<Point>
+				<coordinates>-111.7795166571904,43.818234,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MC  - Hyrum Manwaring Student Center</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Bookstore, Food Services and catering office, bowling alley, ballrooms, the ID Center, Lost and Found, and Scheduling Office.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><code>MC</code>]]></description>
+			<LookAt>
+				<longitude>-111.7822531725888</longitude>
+				<latitude>43.81840878067287</latitude>
+				<altitude>0</altitude>
+				<heading>0.0746087596684912</heading>
+				<tilt>0</tilt>
+				<range>380.6402293487771</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6817</styleUrl>
+			<Point>
+				<coordinates>-111.7824358484635,43.818356,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MCK - David O. McKay Library</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Academic Learning, book collection, e-book collection, periodicals, computers labs, Family History Center,  archives, a Copy Spot, a special exhibition area, instructional technology labs, equipment checkout and rental, and a self-serve recording room.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/MCK.jpg"/><a href="http://www.lib.byui.edu/">http://www.lib.byui.edu/</a><code>MCK</code>]]></description>
+			<LookAt>
+				<longitude>-111.783166208709</longitude>
+				<latitude>43.81929382133023</latitude>
+				<altitude>0</altitude>
+				<heading>0.07369729536038129</heading>
+				<tilt>0</tilt>
+				<range>203.9759962198338</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6827</styleUrl>
+			<Point>
+				<coordinates>-111.7831824759322,43.81931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PER - Perkins Hall (women)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/PER.jpg"/>Women's housing.<code>PER</code>]]></description>
+			<LookAt>
+				<longitude>-111.7802638786385</longitude>
+				<latitude>43.81925305060584</latitude>
+				<altitude>0</altitude>
+				<heading>0.07491918129202069</heading>
+				<tilt>0</tilt>
+				<range>271.5922794273951</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin681</styleUrl>
+			<Point>
+				<coordinates>-111.780264,43.819253,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PPG - Physical Plant Grounds Construction &amp; Sign Shop</name>
+			<visibility>0</visibility>
+			<description><![CDATA[BYU-Idaho support facility for landscaping, ground maintenance and signage.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/PPG.jpg"/><code>PPG</code>]]></description>
+			<LookAt>
+				<longitude>-111.7868588912479</longitude>
+				<latitude>43.81545690983414</latitude>
+				<altitude>0</altitude>
+				<heading>0.07036353140654883</heading>
+				<tilt>7.504212420801061</tilt>
+				<range>358.431446397893</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin682</styleUrl>
+			<Point>
+				<coordinates>-111.7863794861812,43.815277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PPO - Physical Plant Office Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Physical Facilities Office and administrative offices for buildings and grounds, custodial, media services, telecommunications, safety, and support services.<code>PPO</code>]]></description>
+			<LookAt>
+				<longitude>-111.7853369234744</longitude>
+				<latitude>43.81605433714605</latitude>
+				<altitude>0</altitude>
+				<heading>0.69545387277841</heading>
+				<tilt>0.8113730621964028</tilt>
+				<range>344.2219332342619</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6832</styleUrl>
+			<Point>
+				<coordinates>-111.785534566528,43.81610786158144,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PPS - Physical Plant Shop Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Central shops for carpentry; electrical; fleet services; heating, ventilation, and air conditioning; locks and keys; and plumbing and mechanical operations.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/PPS.jpg"/><code>PPS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7859443479993</longitude>
+				<latitude>43.81594597634651</latitude>
+				<altitude>0</altitude>
+				<heading>0.07099670793237173</heading>
+				<tilt>7.504956690192673</tilt>
+				<range>357.6334081598646</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6810</styleUrl>
+			<Point>
+				<coordinates>-111.7862616419683,43.81608713539277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PWS - Plumbing &amp; Welding Shop</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Central shop for plumbing and welding services.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><code>PWS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7853107728127</longitude>
+				<latitude>43.81526579736887</latitude>
+				<altitude>0</altitude>
+				<heading>0.0714353488847036</heading>
+				<tilt>7.504949586230865</tilt>
+				<range>351.5774759668775</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6838</styleUrl>
+			<Point>
+				<coordinates>-111.7856935891339,43.81524710258279,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rexburg Temple</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Owned and operated by The Church of Jesus Christ of Latter-day Saints.<a href="http://www.lds.org/church/temples/rexburg-idaho?lang=eng">http://www.lds.org/church/temples/rexburg-idaho?lang=eng</a><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Rexburg-Temple.jpg"/><code>RexburgTemple</code>]]></description>
+			<LookAt>
+				<longitude>-111.7784921749187</longitude>
+				<latitude>43.810832416805</latitude>
+				<altitude>0</altitude>
+				<heading>0.07615431636263717</heading>
+				<tilt>7.506111231371379</tilt>
+				<range>706.6590453175007</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6814</styleUrl>
+			<Point>
+				<coordinates>-111.7790806427203,43.81078671963867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RGS - Radio and Graphic Services Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[University Communications, KBYI FM 100.5, KBYR 91.5, Creative Services (graphic design and photography).<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/RGS.jpg"/><code>RGS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7789434430949</longitude>
+				<latitude>43.81706519459516</latitude>
+				<altitude>0</altitude>
+				<heading>0.3907640742929622</heading>
+				<tilt>2.41696014749241</tilt>
+				<range>515.8495790321108</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6820</styleUrl>
+			<Point>
+				<coordinates>-111.7794111111111,43.81719722222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RIC - Ricks Hall (women)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/RIC.jpg"/>Women's housing.<code>RIC</code>]]></description>
+			<LookAt>
+				<longitude>-111.778914594058</longitude>
+				<latitude>43.81812607978744</latitude>
+				<altitude>0</altitude>
+				<heading>0.07586378654083144</heading>
+				<tilt>7.504935018512699</tilt>
+				<range>339.1575162089074</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin684</styleUrl>
+			<Point>
+				<coordinates>-111.7787133752228,43.81822432808117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RIG - Rigby Hall (faculty offices)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Faculty offices, Student Orientation Office.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/RIG.jpg"/><code>RIG</code>]]></description>
+			<LookAt>
+				<longitude>-111.7841900066221</longitude>
+				<latitude>43.81696924342953</latitude>
+				<altitude>0</altitude>
+				<heading>0.07221120081654042</heading>
+				<tilt>7.504951428777099</tilt>
+				<range>353.1476754342194</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6821</styleUrl>
+			<Point>
+				<coordinates>-111.7844852535644,43.81703343636426,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RKS - Thomas E. Ricks Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of History, Geography and Political Science; Department of Mathematics; Department of Psychology; and Department of Sociology and Social Work.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/RKS.jpg"/><code>RKS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7812015011548</longitude>
+				<latitude>43.81514466531412</latitude>
+				<altitude>0</altitude>
+				<heading>0.07428026546617601</heading>
+				<tilt>7.504928153510457</tilt>
+				<range>333.3052790350565</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6816</styleUrl>
+			<Point>
+				<coordinates>-111.7810562583411,43.81480081490508,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROM - George S. Romney Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Chemistry, Department of Geology, Department of Recreation Leadership, Department of Physics, the planetarium, hall displays, and the Geology Museum.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/ROM.jpg"/><code>ROM</code>]]></description>
+			<LookAt>
+				<longitude>-111.7832273352486</longitude>
+				<latitude>43.81943529937006</latitude>
+				<altitude>0</altitude>
+				<heading>0.07287759619474374</heading>
+				<tilt>7.504957862026734</tilt>
+				<range>358.6321180254922</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin687</styleUrl>
+			<Point>
+				<coordinates>-111.7832260539463,43.82016112668069,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SHC - Student Health &amp; Counseling Center</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Student Health Center (pharmacy, laboratory, x-ray and orthopedic services), Student Counseling Center (individual, group, and marital counseling).<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/SHC.jpg"/><code>SHC</code>]]></description>
+			<LookAt>
+				<longitude>-111.7792542421602</longitude>
+				<latitude>43.81681618820919</latitude>
+				<altitude>0</altitude>
+				<heading>0.07562845006797936</heading>
+				<tilt>7.504927706292852</tilt>
+				<range>332.9236244663213</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6830</styleUrl>
+			<Point>
+				<coordinates>-111.7793551156355,43.81676224350996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SMI - Joseph Fielding Smith Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Accounting, Department of Business Management, Department of Economics, Department of Computer Information Technology, Department of Foreign Languages & Literatures, Online Testing Center.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/SMI.jpg"/><code>SMI</code>]]></description>
+			<LookAt>
+				<longitude>-111.7815120835109</longitude>
+				<latitude>43.81920193746524</latitude>
+				<altitude>0</altitude>
+				<heading>0.07406516363565933</heading>
+				<tilt>7.504950887141598</tilt>
+				<range>352.6859574943252</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6818</styleUrl>
+			<Point>
+				<coordinates>-111.7815120835109,43.81920193746524,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SNO - Eliza R. Snow Performing Arts Center</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<a href="http://www2.byui.edu/music/">http://www2.byui.edu/music/</a>Department of Music, Department of Theatre, Barrus Concert Hall, Recital Hall, Snow Drama Theater, Blackbox Theatre, and costume shop.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/SNO.jpg"/><code>SNO</code>]]></description>
+			<LookAt>
+				<longitude>-111.7834341454015</longitude>
+				<latitude>43.82040568861844</latitude>
+				<altitude>0</altitude>
+				<heading>0.07273433785227945</heading>
+				<tilt>7.504962929827779</tilt>
+				<range>362.9526932817074</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin685</styleUrl>
+			<Point>
+				<coordinates>-111.7838436641783,43.82124136558699,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SPO - Jacob Spori Bldg.</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Communication, Department of Art, art galleries, and artifacts from original Spori Building.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/SPO.jpg"/><code>SPO</code>]]></description>
+			<LookAt>
+				<longitude>-111.7814491412516</longitude>
+				<latitude>43.82013049760194</latitude>
+				<altitude>0</altitude>
+				<heading>0.0741087629208262</heading>
+				<tilt>7.504956798572788</tilt>
+				<range>357.725676886904</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin688</styleUrl>
+			<Point>
+				<coordinates>-111.782473612406,43.82072818956483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STA - BYU-Idaho Stadium</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/STA.jpg"/>Location of the Outdoor Resource Center. Equipment rentals and retail sales.<code>STA</code>]]></description>
+			<LookAt>
+				<longitude>-111.7858582214964</longitude>
+				<latitude>43.8203142379387</latitude>
+				<altitude>0</altitude>
+				<heading>0.07105588330289755</heading>
+				<tilt>7.504970096010418</tilt>
+				<range>369.061819394994</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6812</styleUrl>
+			<Point>
+				<coordinates>-111.7860562066846,43.82088938870982,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TAY - John Taylor Bldg</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Department of Religious Education, Department of Humanities & Philosophy, campus stake center, student commons area.<hours>Monday - Saturday, 6:00 a.m. - 11:30 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/TAY.jpg"/><code>TAY</code>]]></description>
+			<LookAt>
+				<longitude>-111.7811963030408</longitude>
+				<latitude>43.81705797643297</latitude>
+				<altitude>0</altitude>
+				<heading>0.07428366261367701</heading>
+				<tilt>7.504937392579089</tilt>
+				<range>341.1815781361161</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin680</styleUrl>
+			<Point>
+				<coordinates>-111.7825014132253,43.8169583379312,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TRG - Thomas E. Ricks Memorial Gardens</name>
+			<visibility>0</visibility>
+			<description><![CDATA[A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/TRG.jpg"/><code>TRG</code>]]></description>
+			<LookAt>
+				<longitude>-111.7815419421354</longitude>
+				<latitude>43.81582205080509</latitude>
+				<altitude>0</altitude>
+				<heading>0.07404435386096393</heading>
+				<tilt>7.50493333682967</tilt>
+				<range>337.7240447342619</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6828</styleUrl>
+			<Point>
+				<coordinates>-111.7815582309278,43.81570456903709,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>University Stake Center</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Meetinghouse for The Church of Jesus Christ of Latter-day Saints.<code>UniversityStakeCenter</code>]]></description>
+			<LookAt>
+				<longitude>-111.7810747356341</longitude>
+				<latitude>43.81091259491949</latitude>
+				<altitude>0</altitude>
+				<heading>0.0743664980785264</heading>
+				<tilt>7.506125365526108</tilt>
+				<range>718.7145727888399</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6835</styleUrl>
+			<Point>
+				<coordinates>-111.7813726187567,43.81076331198296,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UV - University Village (families)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Family Housing.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/University-Village.jpg"/><code>UV</code>]]></description>
+			<LookAt>
+				<longitude>-111.7880177484073</longitude>
+				<latitude>43.81043018645631</latitude>
+				<altitude>0</altitude>
+				<heading>0.06956130645615458</heading>
+				<tilt>7.504934061596555</tilt>
+				<range>338.3409127848902</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6834</styleUrl>
+			<Point>
+				<coordinates>-111.7884626043464,43.81065773389802,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VOS - Vehicle Operations Service Station</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Support area for the university's fleet services.<code>VOS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7859468775369</longitude>
+				<latitude>43.81528245659366</latitude>
+				<altitude>0</altitude>
+				<heading>0.07104564736820489</heading>
+				<tilt>46.76618755479343</tilt>
+				<range>59.57610215978541</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin686</styleUrl>
+			<Point>
+				<coordinates>-111.7859468775369,43.81528245659366,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

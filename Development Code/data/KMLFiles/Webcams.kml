@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Webcams.kml</name>
+	<visibility>0</visibility>
+	<Style id="sh_purple">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/purple.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_purple">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_purple</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_purple</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_purple">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/purple.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Webcams</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<description><![CDATA[<img src="http://purple"/>Campus Webcams<a href="http://www.byui.edu/web-cameras">http://www.byui.edu/web-cameras</a>]]></description>
+		<Placemark>
+			<name>BYU-Idaho Center</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The BYU-Idaho Center as viewed from the top of the Heating Plant. The auditorium holds approximately 15,000 students, and houses a multi-use area the size of 10 basketball courts.<a href="http://www.byui.edu/web-cameras/byu-idaho-center">http://www.byui.edu/web-cameras/byu-idaho-center</a><img src="http://www2.byui.edu/images/aud2.asp"/><code>WEBCAM-BCTR</code>]]></description>
+			<LookAt>
+				<longitude>-111.7859961501059</longitude>
+				<latitude>43.81734689466764</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003757885541745923</heading>
+				<tilt>0</tilt>
+				<range>365.1477804148103</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.7860667278933,43.8174727678256,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Copy Spot</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The Copy Spot is a place to print, bind, laminate and make copies.<a href="http://www.byui.edu/web-cameras/copy-spot">http://www.byui.edu/web-cameras/copy-spot</a><img src="http://www2.byui.edu/images/copyspot.asp"/><code>WEBCAM-COPYSPOT</code>]]></description>
+			<LookAt>
+				<longitude>-111.7833734422843</longitude>
+				<latitude>43.81917169975698</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001941820739684584</heading>
+				<tilt>0</tilt>
+				<range>361.0392709853551</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.7827491953888,43.81873374634906,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rexburg Temple</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The LDS Temple in Rexburg.<a href="http://www.byui.edu/web-cameras/rexburg-temple">http://www.byui.edu/web-cameras/rexburg-temple</a><img src="http://www2.byui.edu/images/temple.asp"/><code>WEBCAM-REXBURGTEMPLE</code>]]></description>
+			<LookAt>
+				<longitude>-111.7812925047664</longitude>
+				<latitude>43.81468204013469</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0005012196118646888</heading>
+				<tilt>0</tilt>
+				<range>334.2604680150907</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.7813356146109,43.8147766540493,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rexburg Weather</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<a href="http://www.byui.edu/web-cameras/weather">http://www.byui.edu/web-cameras/weather</a><img src="http://www2.byui.edu/images/weather.asp"/>A webcam that shows the current Rexburg Weather<code>WEBCAM-REXBURGWEATHER</code>]]></description>
+			<LookAt>
+				<longitude>-111.7822688565715</longitude>
+				<latitude>43.81463506130888</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001177180967279025</heading>
+				<tilt>0</tilt>
+				<range>337.3613511021538</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.7817958606861,43.81488909541087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Smith Quad</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The Smith Quad.<img src="http://www2.byui.edu/images/smithQuad.asp"/><a href="http://www.byui.edu/web-cameras/smith-quad">http://www.byui.edu/web-cameras/smith-quad</a><code>WEBCAM-SMITHQUAD</code>]]></description>
+			<LookAt>
+				<longitude>-111.7815206162947</longitude>
+				<latitude>43.81912616283883</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0006591485332007414</heading>
+				<tilt>0</tilt>
+				<range>355.1855363563372</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.7816203148442,43.8194678339386,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Spori Quad</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The Spori Quad is viewed from the north side of the David O. McKay Library and provides an excellent view of the north end of campus.<a href="http://www.byui.edu/web-cameras/spori-quad">http://www.byui.edu/web-cameras/spori-quad</a><img src="http://www2.byui.edu/images/spori.asp"/><code>WEBCAM-SPORIQUAD</code>]]></description>
+			<LookAt>
+				<longitude>-111.7827700484372</longitude>
+				<latitude>43.82011785231194</latitude>
+				<altitude>0</altitude>
+				<heading>-0.00152404194941267</heading>
+				<tilt>0</tilt>
+				<range>363.4220139308619</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.78242173104,43.8198065088971,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stadium</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Stadium Field is viewed from the sport box.<a href="http://www.byui.edu/web-cameras/stadium">http://www.byui.edu/web-cameras/stadium</a><img src="http://www2.byui.edu/images/stadium.asp"/><code>WEBCAM-STADIUM</code>]]></description>
+			<LookAt>
+				<longitude>-111.7858122433851</longitude>
+				<latitude>43.82103174418772</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003630543443168499</heading>
+				<tilt>0</tilt>
+				<range>372.0458309372855</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.7862113641073,43.82109444444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Taylor Quad</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The Taylor Quad connects the north and south ends of campus between the Manwaring Center and Taylor Building. The Quad is viewed from a new addition to the third floor of the Manwaring center looking south.<a href="http://www.byui.edu/web-cameras/taylor-quad">http://www.byui.edu/web-cameras/taylor-quad</a><img src="http://www2.byui.edu/images/taylorQuad.asp"/><code>WEBCAM-TAYLORQUAD</code>]]></description>
+			<LookAt>
+				<longitude>-111.7824388502883</longitude>
+				<latitude>43.81778686950585</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001294941109794398</heading>
+				<tilt>0</tilt>
+				<range>353.1338093400622</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.7826635608059,43.81812898730021,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Testing Center</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The Testing Center.<a href="http://www.byui.edu/web-cameras/testing-center">http://www.byui.edu/web-cameras/testing-center</a><img src="http://www2.byui.edu/images/testingCenter.asp"/><code>WEBCAM-TESTINGCENTER</code>]]></description>
+			<LookAt>
+				<longitude>-111.7834149703098</longitude>
+				<latitude>43.81844479672874</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001970776809069327</heading>
+				<tilt>0</tilt>
+				<range>358.699474743999</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.7832879872433,43.81869331567047,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Thomas E. Ricks Gardens</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The Thomas E. Ricks Gardens are located between the Thomas E. Ricks building and the Taylor Chapel (top right). They are named for the founder of the school and provide a peaceful atmosphere for students to relax between classes. This camera looks west into the gardens from the Gordon B. Hinckley Building. The gardens were dedicated on February 18, 2005 by Elder David A. Bednar, former President of BYU-Idaho. The gardens are an extension of the horticulture program.<a href="http://www.byui.edu/web-cameras/ricks-gardens">http://www.byui.edu/web-cameras/ricks-gardens</a><img src="http://www2.byui.edu/images/gardens.asp"/><code>WEBCAM-GARDENS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7808338464928</longitude>
+				<latitude>43.81555858737033</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001837135273041714</heading>
+				<tilt>0</tilt>
+				<range>337.134099130309</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.7801207608054,43.81573311615345,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

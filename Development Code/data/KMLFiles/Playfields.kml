@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Playfields.kml</name>
+	<visibility>0</visibility>
+	<Style id="sh_green">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/green.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_green">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_green</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_green</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_green">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/green.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Playfields</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<description><![CDATA[<img src="http://green"/>Recreational areas often scheduled for Student Activities.<a href="http://www.byui.edu/activities">http://www.byui.edu/activities</a>]]></description>
+		<Placemark>
+			<name>4 Plex- Field 1</name>
+			<visibility>0</visibility>
+			<description><![CDATA[7th South Activity Fields<br />Artificial field turf.<br />Muti-use full soccer and softball field.<br />Recreational area often scheduled for Student Activities.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/4plex1-2Fields.jpg"/><code>PLAYFIELD-1</code>]]></description>
+			<LookAt>
+				<longitude>-111.7850974706725</longitude>
+				<latitude>43.810198255063</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02045845858677078</heading>
+				<tilt>0</tilt>
+				<range>545.8788074847123</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7846084967424,43.81054127708088,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4 Plex- Field 2</name>
+			<visibility>0</visibility>
+			<description><![CDATA[7th South Activity Fields<br />Artificial field turf.<br />Muti-use full soccer and softball field.<br />Recreational area often scheduled for Student Activities.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/4plex1-2Fields.jpg"/><code>PLAYFIELD-2</code>]]></description>
+			<LookAt>
+				<longitude>-111.7851010473876</longitude>
+				<latitude>43.81020565883379</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02045998912757494</heading>
+				<tilt>0</tilt>
+				<range>476.3092853393067</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7846834569128,43.80933478831204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4 Plex- Field 3</name>
+			<visibility>0</visibility>
+			<description><![CDATA[7th South Activity Fields<br />Grass muti-use fields.<br />Recreational area often scheduled for Student Activities.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/4Plex3-4Fields.jpg"/><code>PLAYFIELD-3</code>]]></description>
+			<LookAt>
+				<longitude>-111.7850580900294</longitude>
+				<latitude>43.81004701642621</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02045673563835935</heading>
+				<tilt>0</tilt>
+				<range>424.9512181178137</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7858519476696,43.81071798665069,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4 Plex- Field 4</name>
+			<visibility>0</visibility>
+			<description><![CDATA[7th South Activity Fields<br />Grass muti-use fields.<br />Recreational area often scheduled for Student Activities.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/4Plex3-4Fields.jpg"/><code>PLAYFIELD-4</code>]]></description>
+			<LookAt>
+				<longitude>-111.7850580900294</longitude>
+				<latitude>43.81004701642621</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02045673563835935</heading>
+				<tilt>0</tilt>
+				<range>424.9512181178137</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7862319352064,43.81003608579535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bowling Center</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Bottom floor of the Manwaring Center<hours>Monday - Saturday 1:00p.m. - 10:30p.m.<br />Have any questions, please call us at 496-7460.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Bowling.jpg"/><code>PLAYFIELD-BOWLING</code>]]></description>
+			<LookAt>
+				<longitude>-111.782881017876</longitude>
+				<latitude>43.81909620938533</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01973550250544366</heading>
+				<tilt>0</tilt>
+				<range>331.0755804910195</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7822454340857,43.81823134565679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BYU-I Center Courts</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The 435,000-square-foot building, containing a 15,000-seat auditorium and a multi-purpose area large enough for 10 full indoor basketball and volleyball courts.<br />Indoor full running and walking track.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/BYU-I-center-courts-.jpg"/><code>PLAYFIELD-ICENTER</code>]]></description>
+			<LookAt>
+				<longitude>-111.7850160677897</longitude>
+				<latitude>43.81893228692503</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02069214148842812</heading>
+				<tilt>0</tilt>
+				<range>746.8143737744939</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7844832223163,43.81841703577014,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hart Auxilary Gym</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<hours>Monday - Saturday<br />5:00 AM to 11:30 PM<br />Closed during Devotional</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Hart-Aux-Gym.jpg"/><code>PLAYFIELD-HARTAUX</code>]]></description>
+			<LookAt>
+				<longitude>-111.785379726886</longitude>
+				<latitude>43.81912435849024</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02094362784616077</heading>
+				<tilt>0</tilt>
+				<range>578.0808307770182</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7844997879188,43.81955263347049,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hart Fitness Center</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Phone number 496-7490<br />The Fitness Center, located in the Hart building, is a state of the art facility. It is equipped with both cardiovascular and strength training equipment. Our cardiovascular equipment includes treadmills, elliptical trainers, stair steppers and cycling/spinning bikes.  We have for your convenience, weight machines and free weights to accommodate all your strength training needs.<hours>Monday through Saturday<br />5:00 a.m. - 11:45 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Fitness-Center.jpg"/><code>PLAYFIELD-HARTFITNESS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7846324491987</longitude>
+				<latitude>43.81945297995082</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02013633597345992</heading>
+				<tilt>0</tilt>
+				<range>578.2566146118883</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7861131438963,43.81955907356128,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hart Main Gym</name>
+			<visibility>0</visibility>
+			<description><![CDATA[The John W. Hart building is BYU-Idaho's center for physical education and fitness. It is home to the Department of Physical Education, the Physical Activities arm of the Activities Program, the Wellness Center, and other facilities of physical fitness. The building contains the Hart Auditorium, a 3,741 seat arena for sports and performing events (can hold up to 4,900 depending on the event and seating configuration), as well as campus ecclesiastical and academic gatherings. The Hart also houses a 25 yard swimming pool, fully equipped weight training and aerobic fitness areas, a field house, three basketball courts including one full size court in the Hart Auditorium, and raquetball courts. Both men's and women's locker rooms are available with clothing and lockers available for rental. The Hart Building is primarily for the use of currently enrolled BYU-Idaho students and BYU-Idaho employees, but members of the community and other guests can obtain limited use passes to use the Hart facilities.<hours>Monday - Saturday<br />5:00 a.m. to 11:30 p.m.<br />Closed during Devotional</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Hart-Main-Gym.jpg"/><code>PLAYFIELD-MAIN</code>]]></description>
+			<LookAt>
+				<longitude>-111.7846324491987</longitude>
+				<latitude>43.81945297995082</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02013633597345992</heading>
+				<tilt>0</tilt>
+				<range>578.2566146118883</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7854134929677,43.81953783834503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Raquetball Courts</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<hours>Monday - Saturday<br />5:00 a.m. to 11:30 p.m.<br />Closed during Devotional</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Racquetball.jpg"/><code>PLAYFIELD-RACQUETBALL</code>]]></description>
+			<LookAt>
+				<longitude>-111.786381122406</longitude>
+				<latitude>43.82044720908249</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02134720054935221</heading>
+				<tilt>0</tilt>
+				<range>583.0811881315889</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7861592748414,43.81927662896208,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stadium Track and Field</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Artificial field turf muti-use full track, football and soccer field. Recreational area often scheduled for Student Activities.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/BYU-IdahoTrack.jpg"/><code>PLAYFIELD-STADIUM</code>]]></description>
+			<LookAt>
+				<longitude>-111.7847641832052</longitude>
+				<latitude>43.82128892880236</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01977085756538257</heading>
+				<tilt>0</tilt>
+				<range>526.5877124012966</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7852831224419,43.82096963524247,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Swimming Pool</name>
+			<visibility>0</visibility>
+			<description><![CDATA[25 yard swimming pool.<a href="http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/pool">http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/pool</a><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Swimming.jpg"/><code>PLAYFIELD-SWIMMING</code>]]></description>
+			<LookAt>
+				<longitude>-111.7854365261802</longitude>
+				<latitude>43.81968243998653</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02150439876241196</heading>
+				<tilt>0</tilt>
+				<range>255.6012370396267</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7846573564554,43.81928888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tennis Courts- East</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Recreational area often scheduled for Student Activities.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Tennis-Courts-East.jpg"/><code>PLAYFIELD-EASTTENNIS</code>]]></description>
+			<LookAt>
+				<longitude>-111.77892051916</longitude>
+				<latitude>43.81750510383333</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01568449983246908</heading>
+				<tilt>0</tilt>
+				<range>357.7050107221444</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7786622733956,43.81712830137598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tennis Courts- West</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Recreational area often scheduled for Student Activities.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Tennis-Courts-West.jpg"/><code>PLAYFIELD-WESTTENNIS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7869178356503</longitude>
+				<latitude>43.81959635090555</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02126204276142501</heading>
+				<tilt>0</tilt>
+				<range>457.5151262315626</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7871018896488,43.81936445832934,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Upper Playfields-Middle</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Grass fields used for flag football and ultimate frisbee.<br />Recreational area often scheduled for Student Activities.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/UpperFields.jpg"/><code>PLAYFIELD-MIDDLEUPPER</code>]]></description>
+			<LookAt>
+				<longitude>-111.7855816191347</longitude>
+				<latitude>43.81248810616646</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02046657582866117</heading>
+				<tilt>0</tilt>
+				<range>537.2059326653573</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7854668088413,43.81245500730314,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Upper Playfields-North</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Grass fields used for flag football and ultimate frisbee.<br />Recreational area often scheduled for Student Activities.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/UpperFields.jpg"/><code>PLAYFIELD-NORTHUPPER</code>]]></description>
+			<LookAt>
+				<longitude>-111.7853527225586</longitude>
+				<latitude>43.81309023618917</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02030811254932545</heading>
+				<tilt>0</tilt>
+				<range>539.2773552297049</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7854493760957,43.81281083420959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Upper Playfields-South</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Grass fields used for flag football and ultimate frisbee.<br />Recreational area often scheduled for Student Activities.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/UpperFields.jpg"/><code>PLAYFIELD-SOUTHUPPER</code>]]></description>
+			<LookAt>
+				<longitude>-111.7855816191347</longitude>
+				<latitude>43.81248810616646</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02046657582866117</heading>
+				<tilt>0</tilt>
+				<range>537.2059326653573</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_green</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.785439936203,43.81204689742254,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

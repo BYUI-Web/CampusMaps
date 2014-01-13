@@ -1,0 +1,165 @@
+//main: map.less
+
+/*MIXINS BEGIN*/
+.vert-center(@height) {
+  position:absolute; 
+  top:50%; 
+  height:@height; 
+  margin-top:-@height / 2; /* negative half of the height */
+}
+.transition (@affected: all, @transition_time: 0.7s, @easing:ease) {
+    -webkit-transition: @affected @transition_time;
+       -moz-transition: @affected @transition_time;
+        -ms-transition: @affected @transition_time;
+         -o-transition: @affected @transition_time;
+            transition: @affected @transition_time;
+}
+.transition-duration(@duration: 0.2s) {
+-webkit-transition-duration: @duration;
+   -moz-transition-duration: @duration;
+    -ms-transition-duration: @duration;
+     -o-transition-duration: @duration;
+        transition-duration: @duration;
+}
+
+.transitionTransform(@transition_time: 200ms) {
+    -webkit-transition: -webkit-transform @transition_time;
+       -moz-transition: -moz-transform @transition_time;
+        -ms-transition: -ms-transform @transition_time;
+         -o-transition: -o-transform @transition_time;
+            transition: transform @transition_time;
+}
+
+.box_gradient_2stop(@from_color:#eeeeee, @to_color:#fbfbfb) {
+  /*background-color: #fbfbfb;*/
+  background-image: -webkit-gradient(linear, left top, left bottom, from(@from_color), to(@to_color)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(left, @from_color, @to_color); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(left, @from_color, @to_color); /* FF3.6 */
+  background-image:     -ms-linear-gradient(left, @from_color, @to_color); /* IE10 */
+  background-image:      -o-linear-gradient(left, @from_color, @to_color); /* Opera 11.10+ */
+        /*-ms-filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@from_color, endColorstr=@to_color, GradientType=1)";*/ /* For Internet Explorer 8 */
+  background-image:         linear-gradient(left, @from_color, @to_color);
+}
+.box_gradient_2stop_top(@from_color:#eeeeee, @to_color:#fbfbfb) {
+  /*background-color: #fbfbfb;*/
+  //background-image: -webkit-gradient(linear, left top, left bottom, from(@from_color), to(@to_color)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, @from_color, @to_color); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, @from_color, @to_color); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, @from_color, @to_color); /* IE10 */
+  background-image:      -o-linear-gradient(top, @from_color, @to_color); /* Opera 11.10+ */
+        /*-ms-filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@from_color, endColorstr=@to_color, GradientType=1)";*/ /* For Internet Explorer 8 */
+  background-image:         linear-gradient(top, @from_color, @to_color);
+}  
+.box_gradient_4stop(@stop1:#1A5E80, @stop2:#326BA9, @stop3:#326BA9, @stop4:#1A5E80, @stop1pct:0%, @stop2pct:25%, @stop3pct:75%, @stop4pct:100%) {
+  background:   -webkit-linear-gradient(top, @stop1 @stop1pct, @stop2 @stop2pct, @stop3 @stop3pct, @stop4 @stop4pct); /* Chrome10+,Safari5.1+ */
+  background:      -moz-linear-gradient(top, @stop1 @stop1pct, @stop2 @stop2pct, @stop3 @stop3pct, @stop4 @stop4pct); /* FF3.6+ */
+  background:       -ms-linear-gradient(top, @stop1 @stop1pct, @stop2 @stop2pct, @stop3 @stop3pct, @stop4 @stop4pct); /* IE10+ */
+  background:        -o-linear-gradient(top, @stop1 @stop1pct, @stop2 @stop2pct, @stop3 @stop3pct, @stop4 @stop4pct); /* Opera 11.10+ */
+  background:          -webkit-gradient(linear, left top, left bottom, color-stop(@stop1pct,@stop1), color-stop(@stop2pct,@stop2), color-stop(@stop3pct,@stop3), color-stop(@stop4pct,@stop4)); /* Chrome,Safari4+ */
+  background:           linear-gradient(top, @stop1 @stop1pct, @stop2 @stop2pct, @stop3 @stop3pct, @stop4 @stop4pct); /* W3C */
+}
+.box_gradient_3stop(@stop1:#1A5E80, @stop2:#326BA9, @stop3:#326BA9) {
+  background:   -webkit-linear-gradient(top, @stop1 0%, @stop2 50%, @stop3 100%); /* Chrome10+,Safari5.1+ */
+  background:      -moz-linear-gradient(top, @stop1 0%, @stop2 50%, @stop3 100%); /* FF3.6+ */
+  background:       -ms-linear-gradient(top, @stop1 0%, @stop2 50%, @stop3 100%); /* IE10+ */
+  background:        -o-linear-gradient(top, @stop1 0%, @stop2 50%, @stop3 100%); /* Opera 11.10+ */
+  background:          -webkit-gradient(linear, left top, left bottom, color-stop(0%,@stop1), color-stop(50%,@stop2), color-stop(100%,@stop3)); /* Chrome,Safari4+ */
+  background:           linear-gradient(top, @stop1 0%, @stop2 50%, @stop3 100%); /* W3C */
+}
+
+// Border Radius
+.border-radius(@radius: 5px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+/* Some naming discrepancies caused our pages to be made using _ and - in the mixin call for box-shadow, so keep both functions the same */
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @alpha:1) {
+	-webkit-box-shadow:    @x @y @blur rgba(0, 0, 0, @alpha);
+	   -moz-box-shadow:    @x @y @blur rgba(0, 0, 0, @alpha);
+	        box-shadow:    @x @y @blur rgba(0, 0, 0, @alpha);
+}
+.box_shadow (@x: 0, @y: 0, @blur: 1px, @alpha:1) {
+  -webkit-box-shadow:    @x @y @blur rgba(0, 0, 0, @alpha);
+     -moz-box-shadow:    @x @y @blur rgba(0, 0, 0, @alpha);
+          box-shadow:    @x @y @blur rgba(0, 0, 0, @alpha);
+}
+.box (@base: #f938ab){ 
+	color:  saturate(@base, 5%);
+	border-color:  lighten(@base, 30%);
+	div { 
+	  .box-shadow(0, 0, 5px, 0.4) 
+	}
+}
+.rounded-corners (@radius: 5px) {
+	-webkit-border-radius:    @radius;
+	   -moz-border-radius:    @radius;
+	        border-radius:    @radius;
+}
+
+// Clearfix for clearing floats like a boss h5bp.com/q
+.clearfix() {
+  zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    zoom: 1;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Opacity
+.opacity(@opacity: 100) {
+  filter: e(%("alpha(opacity=%d)", @opacity));
+  -khtml-opacity: @opacity / 100;
+    -moz-opacity: @opacity / 100;
+         opacity: @opacity / 100;
+}
+
+// Center-align a block level element
+.center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center-box(@orientation: vertical){
+  /* flexbox, por favor */
+  display: -webkit-box;
+  -webkit-box-orient: @orientation;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+ 
+  display: -moz-box;
+  -moz-box-orient: @orientation;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  
+  display: box;
+  box-orient: @orientation;
+  box-pack: center;
+  box-align: center;
+}
+
+// Sizing shortcuts
+.size(@height: 5px, @width: 5px) {
+  height: @height;
+  width: @width;
+}
+.square(@size: 5px) {
+  .size(@size, @size);
+}
+
+// Input placeholder text
+.placeholder(@color: @grayLight) {
+  :-moz-placeholder {
+    color: @color;
+  }
+  ::-webkit-input-placeholder {
+    color: @color;
+  }
+}
+/*MIXINS END*/

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Food &amp; Dining.kml</name>
+	<visibility>0</visibility>
+	<Style id="sh_rust">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/rust.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_rust">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.byui.edu/prebuilt/maps/imgs/icons/blank-colors/rust.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_rust">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_rust</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_rust</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Food &amp; Dining</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<description><![CDATA[<img src="http://rust"/>Food & Dining locations are operated by Food Services for your eating pleasure and convenience.<a href="http://www.byui.edu/food-services">http://www.byui.edu/food-services</a>]]></description>
+		<Placemark>
+			<name>Café Kimball</name>
+			<visibility>0</visibility>
+			<description><![CDATA[1st Floor of the Kimball Building on the South end of the commons.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Cafe-Kimball.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/cafe-kimball">http://www.byui.edu/food-services/locations-and-hours/cafe-kimball</a><code>CAFEKIMBALL</code>]]></description>
+			<LookAt>
+				<longitude>-111.7832800033154</longitude>
+				<latitude>43.81729289189315</latitude>
+				<altitude>0</altitude>
+				<heading>0.001732111916452121</heading>
+				<tilt>0</tilt>
+				<range>1165.574701867377</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7814087838211,43.81663558951467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Café McKay</name>
+			<visibility>0</visibility>
+			<description><![CDATA[1st Floor of the McKay Library.<hours>Monday through Friday: 8:30 a.m. - 3:15 p.m.<br>*Closed Tuesdays for devotional at 1:45 p.m.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/CafeMcKay.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/cafe-mckay">http://www.byui.edu/food-services/locations-and-hours/cafe-mckay</a><code>CAFEMCKAY</code>]]></description>
+			<LookAt>
+				<longitude>-111.782333813655</longitude>
+				<latitude>43.81792966620454</latitude>
+				<altitude>0</altitude>
+				<heading>0.002386876013267094</heading>
+				<tilt>0</tilt>
+				<range>505.1072944590654</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7830128352975,43.81909299926238,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Caliente</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Located on the 2nd floor of the MC.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/caliente.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/caliente">http://www.byui.edu/food-services/locations-and-hours/caliente</a><code>CALIENTE</code>]]></description>
+			<LookAt>
+				<longitude>-111.7827263369657</longitude>
+				<latitude>43.81843997862082</latitude>
+				<altitude>0</altitude>
+				<heading>0.002115440410232926</heading>
+				<tilt>0</tilt>
+				<range>287.9327850123031</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7824973903352,43.81852167946543,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chef&apos;s Point</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Located on the 2nd floor of the MC.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Chefs-Point.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/chefs-point">http://www.byui.edu/food-services/locations-and-hours/chefs-point</a><code>CHEFSPOINT</code>]]></description>
+			<LookAt>
+				<longitude>-111.7825493333734</longitude>
+				<latitude>43.81860942861</latitude>
+				<altitude>0</altitude>
+				<heading>-1.423970279269546e-05</heading>
+				<tilt>0</tilt>
+				<range>223.5924677880955</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7824269019565,43.81857137498275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Far East Fusion</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Located on the 2nd floor of the MC.<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Far-east-fusion.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/far-east-fusion">http://www.byui.edu/food-services/locations-and-hours/far-east-fusion</a><code>FAREASTFUSION</code>]]></description>
+			<LookAt>
+				<longitude>-111.7825302681265</longitude>
+				<latitude>43.81862768037938</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002221669801311153</heading>
+				<tilt>0</tilt>
+				<range>215.3009925836009</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7824559091124,43.81854131350695,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Freshëns</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Freshëns sells smoothies, frozen treats, doughnuts, bagels, muffins, cookies and more!<br>Located on the 1st floor of the MC<img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Freshens.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/freshens">http://www.byui.edu/food-services/locations-and-hours/freshens</a><code>FRESHENS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7826125909334</longitude>
+				<latitude>43.81862258455542</latitude>
+				<altitude>0</altitude>
+				<heading>-5.730184667087761e-05</heading>
+				<tilt>10.97630337916073</tilt>
+				<range>133.9761710748678</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7826563925517,43.81857636264045,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Garden View Café</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Located on the 1st floor of the Ricks Building<hours>Monday through Friday: 8:30 a.m. - 2:30 p.m.<br />*Closes for Devotional at 2:00 p.m. every Tuesday.</hours><a href="http://www.byui.edu/food-services/locations-and-hours/garden-view-cafe">http://www.byui.edu/food-services/locations-and-hours/garden-view-cafe</a><code>GARDENVIEWCAFE</code>]]></description>
+			<LookAt>
+				<longitude>-111.7820016418468</longitude>
+				<latitude>43.81606992068286</latitude>
+				<altitude>0</altitude>
+				<heading>0.8456919833512092</heading>
+				<tilt>4.528375223406444</tilt>
+				<range>534.0577358729028</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7809402312479,43.81479073032416,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grand Teton Grill</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Located on the 2nd floor of the MC<hours>Monday through Friday: 8:30 a.m. - 6:00 p.m., Saturday: 11:00 a.m. - 6:00 p.m.<br>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Teton-Grill.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/grand-teton-grill">http://www.byui.edu/food-services/locations-and-hours/grand-teton-grill</a><code>GRANDTETONGRILL</code>]]></description>
+			<LookAt>
+				<longitude>-111.7825531736366</longitude>
+				<latitude>43.8186094286482</latitude>
+				<altitude>0</altitude>
+				<heading>-1.689864404305946e-05</heading>
+				<tilt>0</tilt>
+				<range>223.6056803990646</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7824118292022,43.81862574632019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Harvest Hills Bakery</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Located on the 2nd  floor of the MC<hours>Monday Through Friday: 8:30 a.m. - 2:00 p.m.<br>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.</hours><a href="http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery">http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery</a><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Harvest-Hill-Bakery.jpg"/><codeHARVESTHILLSBAKERY</code>]]></description>
+			<LookAt>
+				<longitude>-111.7826125907725</longitude>
+				<latitude>43.81862258453931</latitude>
+				<altitude>0</altitude>
+				<heading>-5.730113687444074e-05</heading>
+				<tilt>10.97722697586972</tilt>
+				<range>133.9761709556353</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7826159175001,43.81851277918786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Henry&apos;s Fork BBQ</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Stacks and wraps food, located on the 2nd floor of the MC<hours>Monday through Friday: 11:00 a.m. - 2:00 p.m.<br />*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.</hours><a href="http://www.byui.edu/food-services/locations-and-hours/henrys-fork-bbq">http://www.byui.edu/food-services/locations-and-hours/henrys-fork-bbq</a><code>HENRYSFORKBBQ</code>]]></description>
+			<LookAt>
+				<longitude>-111.7825582206223</longitude>
+				<latitude>43.81860092032124</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001110978619288541</heading>
+				<tilt>0</tilt>
+				<range>228.1276149406884</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7825524476314,43.81853149418591,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MC Market</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Located on the 1st floor of the MC<hours>Monday-Friday: 9:00 a.m. - 7:00 p.m.<br>Saturdays: 10:00 a.m. - 7:00 p.m.<br />*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday<br />Sunday: Closed</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/McMarket.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/mc-market">http://www.byui.edu/food-services/locations-and-hours/mc-market</a><code>MCMARKET</code>]]></description>
+			<LookAt>
+				<longitude>-111.782766845532</longitude>
+				<latitude>43.81871026925815</latitude>
+				<altitude>0</altitude>
+				<heading>-1.269242014684443</heading>
+				<tilt>25.70642419715686</tilt>
+				<range>110.8189952926662</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7826526017039,43.81861464827622,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Salad Bar</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Located on the 2nd  floor of the MC<hours>Monday through Friday: 11:00 a.m. - 6:00 p.m.<br>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Salad.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/salad-bar">http://www.byui.edu/food-services/locations-and-hours/salad-bar</a><code>SALADBAR</code>]]></description>
+			<LookAt>
+				<longitude>-111.782617699756</longitude>
+				<latitude>43.81861537774913</latitude>
+				<altitude>0</altitude>
+				<heading>-6.083947515446759e-05</heading>
+				<tilt>10.97722696619759</tilt>
+				<range>133.9705407156239</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7824785411088,43.81863461978169,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stacks and Wraps</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Located on the 2nd  floor of the MC<hours>Monday through Saturday: 11:00 a.m. - 6:00 p.m.<br>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Stacks-and-Wraps.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps">http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps</a><code>STACKSANDWRAPS</code>]]></description>
+			<LookAt>
+				<longitude>-111.7826125907725</longitude>
+				<latitude>43.81862258453931</latitude>
+				<altitude>0</altitude>
+				<heading>-5.730113687444074e-05</heading>
+				<tilt>10.97722697586972</tilt>
+				<range>133.9761709556353</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7824055117548,43.81865148142322,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tuscan Valley</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Located on the 2nd floor of the MC<hours>Monday through Friday: 10:30 a.m. - 6:00 p.m.<br>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.</hours><img src="http://www.byui.edu/Prebuilt/maps/imgs/objects/Tuscan-Valley.jpg"/><a href="http://www.byui.edu/food-services/locations-and-hours/tuscan-valley">http://www.byui.edu/food-services/locations-and-hours/tuscan-valley</a><code>TUSCANVALLEY</code>]]></description>
+			<LookAt>
+				<longitude>-111.7826156295609</longitude>
+				<latitude>43.81861178461033</latitude>
+				<altitude>0</altitude>
+				<heading>-5.94054956793154e-05</heading>
+				<tilt>10.97722693380176</tilt>
+				<range>133.9515533599033</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_rust</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7823956951955,43.81868128717473,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
