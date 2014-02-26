@@ -1,0 +1,596 @@
+//main: map.less
+
+/* BYU-Idaho Campus Map Custom Styles */
+
+/* Made by Jakob Anderson, www.jakobanderson.com */
+
+.nolink {
+    text-decoration: none;
+    color: #111;
+}
+/************************************************************/
+
+/*                                                          */
+
+/*  Global classes                                          */
+
+/*                                                          */
+
+/************************************************************/
+
+.scrolling-element-class {
+    overflow: auto;
+    /* inertia-effected mobile scrolling effect in supported devices */
+    /* for a more natural mobile scrolling interaction */
+    -webkit-overflow-scrolling: touch;
+}
+.scrolling-element-class .child-element {
+    position: relative;
+    /* force native GPU to render scroll effect in supported devices and browsers */
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.animate {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.no-animate {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
+.box {
+    margin: 0 0 18px;
+    padding: 13px 22px 0;
+    border: 1px solid #EAEAEA;
+    border-color: #F8F8F8 #EAEAEA #D4D4D4;
+    background-color: #FAFAFA;
+    .box_gradient_3stop(#fff, #fefefe, #f2f2f2);
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    zoom: 1;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1.0);
+}
+/************************************************************/
+
+/*                                                          */
+
+/*  Mobile and global styles                                */
+
+/*  - "Mobile-First Strategy"                               */
+
+/*  - Everything is light and mobile-optimized by default,  */
+
+/*  - then can be progressively enhanced for desktops       */
+
+/*  - once detected.                                        */
+
+/*                                                          */
+
+/************************************************************/
+
+/************************************************************/
+
+/*                                                          */
+
+/*  Heading bar                                             */
+
+/*  - contains the heading/branding,                        */
+
+/*  - as well as the menu toggle button                     */
+
+/*                                                          */
+
+/************************************************************/
+
+#title {
+    color: white;
+    //.transition(height,300ms);
+    height: 57px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 1px solid #2b3e4d;
+    background: @byui_med_blue;
+
+background-repeat: repeat-x;
+}
+#heading {
+    font-size: 25px;
+    padding: 17px 0 10px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.9);
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    .transition(all, 300ms);
+    line-height: 1em;
+    text-shadow: 0 1px 0 #333;
+    height: 28px;
+    sup {
+        font-size: 0.4em;
+        position: relative;
+        top: -4px;
+        padding: 0;
+        margin: 0;
+        line-height: 1em;
+    }
+}
+#device_type {
+    top: 10px;
+    left: 15px;
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 35px;
+    overflow: hidden;
+    text-decoration: none;
+    #device_container {
+        position: relative;
+        .device {
+            color: white;
+            font-size: 30px;
+            margin: 12px 0px;
+        }
+    }
+}
+#device_container {
+    top: -2px;
+    .transition(top, 300ms);
+}
+#menu_button {
+    font-size: 35px;
+    top: 17px;
+    right: 10px;
+    //display: none;
+    position: absolute;
+    padding: 8px;
+    text-decoration: none;
+    .transition(all, 300ms);
+    color: #1A2233;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .25);
+    &:hover {
+        color: #ddd;
+    }
+}
+/***********************************/
+
+/*                                 */
+
+/*  Lower Container                */
+
+/*  - will contain the map canvas  */
+
+/*  - and the category menu        */
+
+/*                                 */
+
+/***********************************/
+
+#container {
+    width: 100%;
+    display: block;
+    position: absolute;
+    color: black;
+    background: transparent;
+    height: 100%;
+    overflow: hidden;
+}
+#menu {
+    width: 300px;
+    height: 100%;
+    display: none;
+    position: absolute;
+    overflow: scroll;
+    /* well-tested all-around, but gives extra white scroll area in firefox */
+    overflow-y: auto;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    .transitionTransform(200ms);
+    right: 0;
+    background-color: @byui_darker_gray;
+
+    /*background-color: #202126;
+		background-image:url(../imgs/interface/light_speckle.png);*/
+    color: #9da0ab;
+    /*border-left: 1px solid #2b3e4d;*/
+}
+#inner_menu {
+    overflow: hidden;
+    // -webkit-overflow-scrolling: touch;
+    display: block;
+    position: relative;
+    min-height: 96%;
+}
+.category {
+    display: block;
+    border-top: 1px solid@byui_darker_gray;
+
+border-bottom: 1px solid@byui_dark_gray;
+
+position: relative;
+    clear: both;
+}
+.category_bar {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    clear: both;
+    text-decoration: none;
+    /*background:#33383e;
+		.box_gradient_3stop(#43464d, #33383e, #32353c);
+		.box_gradient_3stop(rgba(67,70,77, 0.8), rgba(51,56,62, 0.8), rgba(50,53,60, 0.8));
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);*/
+}
+.cat_icon {
+    height: 30px;
+    margin: 6px 3px 6px 5px;
+    top: 1px;
+    position: relative;
+}
+.category_name {
+    top: -13px;
+    left: 5px;
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+    color: #EEE;
+    font-weight: 100;
+}
+.cat_info {
+    font-size: 13px;
+    padding: 8px 25px 20px;
+    color: #ddd;
+    a {
+        color: #4ca4fb;
+    }
+}
+.cat_container {
+    height: 0;
+    display: none;
+    .transition(height, 1s);
+    background-color: lighten(@byui_darker_gray, 7%);
+}
+#map_canvas {
+    -webkit-font-smoothing: normal;
+    text-shadow: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    #nojs-msg {
+        text-align: center;
+    }
+}
+#notification {
+    display: block;
+    position: relative;
+    right: 3px;
+    margin-right: 8px;
+    text-align: right;
+    a {
+        color: @byui_light_gray;
+        text-decoration: none;
+        font-size: 23px;
+        cursor: pointer;
+        padding:0 4px;
+    }
+}
+#feedback {
+    
+} 
+#updated {
+    font-size: 9px;
+    color: white;
+    text-shadow: 0 1px 3px #333;
+    padding: 0 0 5px 15px;
+    line-height: 1.3em;
+}
+.object {
+    display: block;
+    position: relative;
+    .clearfix();
+    text-decoration: none;
+    color: #ddd;
+    min-height: 26px;
+    padding: 2px;
+    /*border-radius:4px;
+		border-top: 1px solid #555;
+		border-bottom: 1px solid black;*/
+}
+.object:hover,
+.object:active,
+.object.active {
+    background: @byui_light_blue;
+
+text-shadow: none;
+}
+.obj_icon {
+    float: left;
+    display: block;
+    margin: 1px 5px 2px;
+    height:30px;
+}
+.object_name {
+    width: 175px;
+    font-size: 12px;
+    padding: 0;
+    display: block;
+    float: left;
+    margin: 6px 0 4px;
+}
+.object.polygon {
+    margin: 3px;
+    padding: 5px;
+}
+.object_name.polygon {
+    margin-left: 5px;
+}
+.polygon_key {
+    text-align: center;
+    height: 26px;
+    display: block;
+    float: left;
+    width: 25px;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px 0px 0px 4px;
+    border: 3px solid;
+    box-shadow: 1px 1px 8px #111;
+    box-shadow: 1px 1px 8px rgba(50, 50, 50, 0.9);
+    span.icon-checkmark {
+        color: #111;
+        text-shadow: 0 1px 0 rgba(50, 50, 50, 0.9);
+        font-size: 16px;
+        top: 3px;
+        left: 2px;
+        position: relative;
+    }
+}
+.polygon.active_polygon {
+    background: #d1d5e3;
+    color: #111;
+    text-shadow: none;
+}
+.polygon.active_polygon .polygon_key {
+    background-image: url('../imgs/interface/check.png');
+    background-repeat: no-repeat;
+}
+#map_keys {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-transform: uppercase;
+    .map_key_category {
+        display: none;
+        .clearfix();
+        min-height: 85px;
+        background: #044F84;
+        .box_gradient_2stop_top(@from_color:#375182, @to_color:#1f3350);
+
+box-shadow: 1px 1px 15px #000;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.9);
+        padding: 10px;
+        .animate();
+        min-width: 155px;
+        margin: 5px;
+        border-radius: 5px;
+        a.close {
+            position: absolute;
+            top: 13px;
+            right: 13px;
+            text-shadow: 1px 1px 1px #111;
+            color: white;
+        }
+        &.active_key_group {
+            display: block;
+        }
+    }
+    .key_title {
+        margin-bottom: 10px;
+        text-shadow: none;
+        text-shadow: 1px 1px 1px #111;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+    }
+    .polygon_key {
+        position: relative;
+        border-radius: 4px;
+        float: left;
+        padding: 8px;
+        height: auto;
+        display: none;
+        font-size: 21px;
+        text-shadow: none;
+        font-weight: 100;
+        -webkit-font-smoothing: antialiased;
+        margin: 0 3px;
+        color: #222;
+        &.active_key {
+            display: block;
+        }
+    }
+}
+#embed .infopane {
+    width: 270px;
+    padding: 0;
+    .phone-call {
+        display: block;
+    }
+    img {
+        width: 100px;
+        height: 75px;
+    }
+}
+.infopane {
+    width: 500px;
+    margin: 0;
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: inherit;
+    overflow: auto;
+    font-size: 12px;
+    line-height: 1.4em;
+    -webkit-overflow-scrolling: touch;
+    h2 {
+        line-height: 1.2em;
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .btn {
+        color: white;
+        width: 100%;
+        min-height: 20px;
+        padding-top: 6px;
+        padding: 6px 0;
+        text-decoration: none;
+        //display:block;
+        clear: both;
+        margin: 0px 2px 10px 0;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+    }
+    .btn:hover {
+        color: white;
+    }
+    .button-div {
+        width: 55%;
+        float: left;
+    }
+    .info-row {
+        margin: 0px 0px 4px;
+        clear: left;
+    }
+    .phone-call {
+        display: none;
+        font-size: 18px;
+    }
+    .ie7 .phone-call {
+        display: inline;
+    }
+    img {
+        width: 200px;
+        height: 150px;
+    }
+}
+.addthis_toolbox {
+    float: right;
+}
+.addthis_toolbox p {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0;
+}
+#object_search {
+    text-align: center;
+    margin: 5px;
+    overflow: hidden;
+}
+.search-wrapper {
+    padding: 5px;
+    background-color: #FFF;
+    width: 94%;
+}
+#object_search input {
+    font-size: 15px;
+    font-weight: 100;
+    border: 0;
+    width: 88%;
+    margin-left: 5px;
+    outline: none;
+}
+#object_search span {
+    cursor: pointer;
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+    float: right;
+}
+/**************************************/
+
+/*                                    */
+
+/*  Desktop style overrides           */
+
+/*  - "Mobile-First"                  */
+
+/*  - Desktop rules overwrite         */
+
+/*  - specific style changes          */
+
+/*  - targeted at just desktop users  */
+
+/*                                    */
+
+/**************************************/
+
+@media (max-width: 800px) {
+    #container {
+        overflow: auto;
+    }
+    #device_container {
+        top: -37px;
+        .transition(top, 300ms);
+    }
+    #title {
+        height: 40px;
+        // .transition(height,300ms);
+
+    }
+    #menu_button {
+        font-size: 28px;
+        top: 6px;
+        right: 0px;
+    }
+    #heading {
+        font-size: 20px;
+        padding: 9px 0 10px;
+    }
+    #menu {
+        width: 100%;
+    }
+    #device_type {
+        top: 6px;
+        left: 5px;
+        #device_container .device {
+            font-size: 23px;
+            margin: 11px 0px;
+        }
+    }
+    .category_name {
+        top: -15px;
+        font-size: 20px;
+    }
+    .cat_icon {
+        height: 100%;
+        margin: 5px;
+    }
+    .obj_icon {
+        margin: 0 5px;
+    }
+    .object_name {
+        width: 80%;
+        font-size: 15px;
+        padding: 1px;
+    }
+    .polygon_key {
+        height: 28px;
+    }
+    .infopane {
+        width: 270px;
+        padding: 0;
+        .phone-call {
+            display: block;
+        }
+        img {
+            width: 100px;
+            height: 75px;
+        }
+    }
+}

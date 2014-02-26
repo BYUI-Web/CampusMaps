@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- Version: 1.1 Revision 1 -->
+<!-- Updated 7.31.2013 -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>BYU-Idaho Campus Map</title>
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <style>
+        /****************/
+    /* Global items */
+    /****************/
+    html {
+      margin:0;
+      height: 100%;
+      width: 100%;
+      font: 14px/1.3em Helvetica, Arial, Verdana, sans-serif;
+      -webkit-text-size-adjust:90%;
+      zoom:1;
+      position:relative;
+      overflow:hidden;
+    }
+    body{
+      height: 100%;
+      width: 100%;
+      margin:0;
+      height:inherit;
+      width:inherit;
+      background-color: #111;
+    }
+    a {
+        outline: 0;
+    }
+    a img{
+      border:none;8
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <div id='map' style='height: 100%;'></div>
+
+    <!-- scripts concatenated and minified via build script? -->
+    <script type="text/javascript">
+        var options = {
+          "element": "map",
+          "categories" : [
+              "data/KMLFiles/CampusBuildings.kml",
+              "data/KMLFiles/Parking.kml",
+              "data/KMLFiles/FoodDining.kml",
+              "data/KMLFiles/emergency.kml",
+              "data/KMLFiles/Playfields.kml",
+              "data/KMLFiles/Webcams.kml",
+              "data/KMLFiles/VendingMachines.kml"
+            ]
+         };
+    </script>
+    <script type="text/javascript" src="js/myLibs/area.js"></script>
+    <script type="text/javascript" src="js/myLibs/location.js"></script>
+    <script type="text/javascript" src="js/myLibs/category.js"></script>
+    <script type="text/javascript" src="js/myLibs/KMLParser.js"></script>
+    <script type="text/javascript" src="js/myLibs/map.js"></script>
+    <script type="text/javascript" src="js/myLibs/campusMap.js"></script>
+    <script type="text/javascript" src="js/myLibs/campusMapStart.js"></script>
+
+
+
+
+
+    <!-- end script imports -->
+
+    <script type="text/javascript">
+        /*iOS Auto-Zoom bugFix, rewritten version By @mathias, @cheeaun and @jdalton*/(function(a){function c(){b.content="width=device-width,minimum-scale="+d[0]+",maximum-scale="+d[1];a.removeEventListener(e,c,!0)}var e="gesturestart",d=[1,1],b="querySelectorAll"in a?a.querySelectorAll("meta[name=viewport]"):[];if((b=b[b.length-1])&&"addEventListener"in a)c(),d=[0.25,1.6],a.addEventListener(e,c,!0)})(document);
+    </script>
+    <!-- AddThis Smart Layers END -->
+</body>
+
+</html>
