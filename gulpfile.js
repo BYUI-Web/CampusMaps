@@ -5,8 +5,9 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var concat = require('gulp-concat');
 var replace = require('gulp-replace');
+var lint = require('gulp-jshint');
 
-gulp.task('default', ['less', 'minifycss', 'combinejs', 'minifyjs', 'production'], function() {
+gulp.task('default', ['less', 'minifycss', 'lint', 'combinejs', 'minifyjs', 'production'], function() {
 
 })
 
@@ -24,13 +25,19 @@ gulp.task('minifycss', ['less'], function() {
 			   .pipe(gulp.dest('./Code/css'))
 });
 
-gulp.task('combinejs', function() {
+gulp.task('lint', function() {
+    return gulp.src("./Code/js/myLibs/*.js")
+                .pipe(lint())
+                .pipe(lint.reporter("default"));
+});
+
+gulp.task('combinejs', ['lint'], function() {
 	return gulp.src("./Code/js/myLibs/*.js")
 			   .pipe(concat("campusMap.js"))
 			   .pipe(gulp.dest('./Code/js/'));
 });
 
-gulp.task('minifyjs', ['combinejs'], function() {
+gulp.task('minifyjs', ['combinejs', 'lint'], function() {
 	return gulp.src("./Code/js/campusMap.js")
 			   .pipe(uglify())
                .pipe(rename("campusMap.min.js"))
@@ -49,4 +56,4 @@ gulp.task('production', ["minifyjs", "combinejs"], function() {
 
 gulp.watch('./Code/css/less/*', ['less', 'minifycss']);
 
-gulp.watch('./Code/js/myLibs/*.js', ['combinejs', 'minifyjs', 'production']);
+gulp.watch('./Code/js/myLibs/*.js', ['lint', 'combinejs', 'minifyjs', 'production']);
