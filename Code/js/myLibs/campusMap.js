@@ -10,12 +10,12 @@
  * includeMenus - bool - a bool that determines if the header and menus will be included in the page
  * KMLFiles - array - an array of strings that specify where the KML files you wish to load are located
  * device - int - stores the current device type, was initially used to keep track of the whether the user
- *				 was on a mobile device or a desktop to alter styling but is no longer necessary because
- *				 all of the styling between different devices is handles in the CSS with media queries
+ *              was on a mobile device or a desktop to alter styling but is no longer necessary because
+ *              all of the styling between different devices is handles in the CSS with media queries
  * categories - array - will hold all of the categories for the map
  * globals - object - an object literal that contains a local reference to the window object and the document object
- *					 for use in any methods as well as passing to other objects upon initialization when they need
- *					 a local version
+ *                  for use in any methods as well as passing to other objects upon initialization when they need
+ *                  a local version
  *
  * As you can see in the code when the object is created it takes into account the options object passed to it
  * to define all of it's attributes.  There are default values for most of the attributes except for
@@ -30,10 +30,10 @@
  * Method descriptions will be included above each method
  */
 function CampusMap(options) {
-    this.element = (options['element']) ? options['element'] : console.log("No element provided."),
-    this.menuState = (options['menuState']) ? options['menuState'] : 1,
-    this.includeMenus = (options['includeMenus'] == null) ? true : options['includeMenus'],
-    this.KMLFiles = (options['categories']) ? options['categories'] : console.log("No KML Files specified"),
+    this.element = (options.element) ? options.element : console.log("No element provided."),
+    this.menuState = (options.menuState) ? options.menuState : 1,
+    this.includeMenus = (options.includeMenus === null) ? true : options.includeMenus,
+    this.KMLFiles = (options.categories) ? options.categories : console.log("No KML Files specified"),
     this.device = 0,
     this.categories = [];
 
@@ -106,7 +106,7 @@ CampusMap.prototype.initializeMaps = function () {
         //after everything is loaded lets put a marker showing where you are
         campusMap.getLocation();
     });
-}
+};
 
 
 //builds the needed HTML for the map
@@ -120,7 +120,7 @@ CampusMap.prototype.buildHTML = function () {
     html += '<div id="map_keys"></div>';
     //place the html into the dom where they have specified it to be located
     this.globals.doc.getElementById(this.element).innerHTML = html;
-}
+};
 
 
 //asynchronasly loads the category/objects file and then parses it
@@ -173,7 +173,7 @@ CampusMap.prototype.loadKMLFiles = function (callback) {
 
     //once everything is done we will save the information to local storage
     localStorage.mapData = JSON.stringify(mapData);
-}
+};
 
 
 //creates category objects from the category data
@@ -191,7 +191,7 @@ CampusMap.prototype.buildCategories = function (data) {
         var DOM = this.categories[index].getCatDOMObj();
         element.appendChild(DOM);
     }
-}
+};
 
 
 //parses all of the locations and creates location objects out of them all
@@ -208,7 +208,7 @@ CampusMap.prototype.parseLocations = function (locations, color) {
     }
     //send back the array of the Location objects for the category to hold
     return markerLocations;
-}
+};
 
 
 //parses all of the areas and creates area objects out of them all
@@ -222,7 +222,7 @@ CampusMap.prototype.parseAreas = function (areas) {
 
     }
     return polygonAreas;
-}
+};
 
 
 //detects what kind of device is being 
@@ -230,7 +230,7 @@ CampusMap.prototype.detectDevice = function () {
     var width = this.globals.doc.getElementById(this.element).offsetWidth;
     //it was determined that anything less than 800 pixels would be considered a mobile device
     this.device = (width < 800) ? 0 : 1;
-}
+};
 
 
 //binds all of the events for each category the CampusMap object has and their subsequent Location and Area objects
@@ -256,7 +256,7 @@ CampusMap.prototype.bindAllEvents = function () {
             }
         }
     }
-}
+};
 
 
 //builds the mapKey element so that it contains all the key for each polygon in each category
@@ -275,14 +275,14 @@ CampusMap.prototype.buildMapKey = function () {
             this.parentElement.style.display = "none";
         })
     }
-}
+};
 
 
 //gets the height of the element that the map is being embedded into
 CampusMap.prototype.getMapHeight = function () {
     var height = this.globals.doc.getElementById(this.element).offsetHeight;
     return (this.includeMenus) ? height - 57 : height;
-}
+};
 
 
 //sets the height of the elements the CampusMap object creates to hold the map
@@ -293,7 +293,7 @@ CampusMap.prototype.setMapHeight = function () {
     container.style.height = height + "px";
     var map_canvas = this.globals.doc.getElementById('map_canvas');
     map_canvas.style.height = height + "px";
-}
+};
 
 
 //initializes the search functionality mainly by binding the events to the 
@@ -315,7 +315,7 @@ CampusMap.prototype.initializeSearch = function () {
         campusMap.performSearch("");
     });
 
-}
+};
 
 
 //performs the search looking in each Location and Area object to see if any of their names match the provided search
@@ -385,7 +385,7 @@ CampusMap.prototype.performSearch = function (val) {
             cat.closeCategory(sibling);
         }
     }
-}
+};
 
 
 //attaches the event listener to the menu button to open and close it
@@ -395,13 +395,13 @@ CampusMap.prototype.bindMenuButton = function () {
         //to the current anonymous function
         campusMap.toggleMenu();
     });
-}
+};
 
 
 //toggle the menu depending on it's current state
 CampusMap.prototype.toggleMenu = function () {
     (this.menuState) ? this.hideMenu() : this.showMenu();
-}
+};
 
 
 //hide the menu
@@ -414,14 +414,14 @@ CampusMap.prototype.hideMenu = function () {
         var width = this.globals.doc.getElementById(this.element).offsetWidth;
         this.updateTransform(menu, width, 0);
     }
-}
+};
 
 
 //show the menu
 CampusMap.prototype.showMenu = function () {
     this.menuState = 1;
     this.updateTransform(this.globals.doc.getElementById('menu'),0,0);
-}
+};
 
 
 //displays a certain location depending on if a code has been sent in the hash of the url
@@ -440,7 +440,7 @@ CampusMap.prototype.anchorLocation = function () {
             this.fireEvent(this.globals.doc.getElementById(object.elementID), 'click');
         }
     }
-}
+};
 
 
 //finds an object from it's code
@@ -465,7 +465,7 @@ CampusMap.prototype.findObject = function (code) {
         }
     }
     return object;
-}
+};
 
 
 //this function will display everything.  Used when an object it is embeded and there are
@@ -485,7 +485,7 @@ CampusMap.prototype.displayAll = function () {
             }
         }
     }
-}
+};
 
 //crossbrowser solution to triggering an event on an element
 CampusMap.prototype.fireEvent = function (element, event) {
@@ -499,7 +499,7 @@ CampusMap.prototype.fireEvent = function (element, event) {
         var evt = document.createEventObject();
         return element.fireEvent('on' + event, evt)
     }
-}
+};
 
 
 //crossbrowser solution for adding click events
@@ -509,7 +509,7 @@ CampusMap.prototype.addClickHandler = function (element, callback) {
     } catch (e) {
         element.attachEvent("onclick", callback);
     }
-}
+};
 
 CampusMap.prototype.addKeyUpListener = function (element, callback) {
     try {
@@ -517,20 +517,21 @@ CampusMap.prototype.addKeyUpListener = function (element, callback) {
     } catch (e) {
         element.attachEvent("onkeyup", callback);
     }
-}
+};
 
 //this function will test for geolocation support and then prompt the user for their location
 CampusMap.prototype.getLocation = function () {
     if (navigator.geolocation && this.device === 0) {
         navigator.geolocation.getCurrentPosition(this.showPosition);
     }
-}
+};
 
 //this function will show the users position on the map
 CampusMap.prototype.showPosition = function (position) {
     var marker = map.createMarker(position.coords.latitude, position.coords.longitude, "You are here", "imgs/icons/youarehere.png");
     marker.setVisible(true);
-}
+};
+
 CampusMap.prototype.handleResize = function () {
     this.globals.win.addEventListener('resize', function () {
         campusMap.detectDevice();
@@ -551,9 +552,10 @@ CampusMap.prototype.handleResize = function () {
         
         campusMap.setMapHeight();
     });
-}
+};
+
 CampusMap.prototype.updateTransform = function (element, x, y) {
     element.style.webkitTransform = "translate(" + x + "px," + y + "px)";
     element.style.mozTransform = "translate(" + x + "px," + y + "px)";
     element.style.transform = "translate(" + x + "px," + y + "px)"
-}
+};

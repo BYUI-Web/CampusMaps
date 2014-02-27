@@ -42,7 +42,7 @@ Category.prototype.buildCatDOM = function() {
       element.innerHTML += '<img class="cat_icon" src="https://www.byui.edu/Prebuilt/maps/imgs/icons/blank-colors/'+ this.iconColor + '.png" />';
       element.innerHTML += '<span class="category_name">' + this.title + '</span>';
       return element;
-}
+};
 
 
 //builds and returns a dom element that contains all of the HTML for a specific category
@@ -69,7 +69,7 @@ Category.prototype.getCatDOMObj = function() {
 	catContainer.appendChild(objContainer);
 	catObj.appendChild(catContainer);
 	return catObj;
-}
+};
 
 
 //gets the html for this category's Location object
@@ -81,7 +81,7 @@ Category.prototype.appendLocations = function(container) {
 		}
 	}
 	return container;
-}
+};
 
 
 //gets the html for this category's Area object
@@ -93,7 +93,7 @@ Category.prototype.appendAreas = function(container) {
 		}
 	}
 	return container;
-}
+};
 
 
 
@@ -104,7 +104,7 @@ Category.prototype.bindEventListener = function() {
 		event.preventDefault();
 		cat.toggle();
 	});
-}
+};
 
 
 //toggles the opening and closing of the category
@@ -118,7 +118,7 @@ Category.prototype.toggle = function() {
 	} else {
 		this.closeCategory(sibling);
 	}
-}
+};
 
 
 //opens the category in the menu
@@ -126,7 +126,7 @@ Category.prototype.openCategory = function(sibling) {
 	sibling.style.display = "block";
 	sibling.style.height = "100%";
 	this.state = 1;
-}
+};
 
 
 //closes the category in the menu
@@ -135,7 +135,7 @@ Category.prototype.closeCategory = function(sibling) {
 	sibling.style.display = "none";
 	sibling.style.height = "0";
 	this.state = 0;
-}
+};
 
 
 //toggles all of the markers on the map for this category
@@ -146,7 +146,7 @@ Category.prototype.toggleMarkersVisibility = function() {
 	} else {
 		this.hideAllMarkers();
 	}
-}
+};
 
 
 //shows all of the markers on the map for this category
@@ -159,7 +159,7 @@ Category.prototype.showAllMarkers = function() {
 			}
 		}
 	}
-}
+};
 
 
 //hides all of the markers on the map for this category
@@ -171,7 +171,7 @@ Category.prototype.hideAllMarkers = function() {
 			this.markerLocations[i].hideMarker();
 		}
 	}
-}
+};
 
 
 //hides all of the polygons on the map for this category
@@ -184,7 +184,7 @@ Category.prototype.hideAllPolygons = function() {
 			this.polygonLocations[i].hideMapKey();
 		}
 	}
-}
+};
 
 
 //builds the html for this categorys mapKey
@@ -200,4 +200,4 @@ Category.prototype.buildMapKey = function() {
 		html += "</div>";
 	}
 	return html;
-}
+};

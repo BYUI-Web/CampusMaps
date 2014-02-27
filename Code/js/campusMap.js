@@ -308,7 +308,7 @@ KMLParser.prototype.convertToArray = function(collection) {
 * name - string - the name of the polygon for use in the right menu
 * code - string - the unique code for use in referencing this object
 * contains - string - descriptive text for the polygon, used in the info window when someone clicks on the rendered
-*					  polygon on the map
+*                       polygon on the map
 * borderColor - string - a color for use on the border of the polygon
 * fillColor - string - a color for use to fill the polygon
 * map - url - an absolute path to the location of the KML file that defines this polygon
@@ -319,16 +319,16 @@ KMLParser.prototype.convertToArray = function(collection) {
 * hidden - bool - for use in the search function to know if this Area object matches the search criteria and should be rendered or not
 */
 function Area() {
-	this.name = arguments[0],
-	this.code = arguments[1],
-	this.info = arguments[2],
+	this.name = arguments[0];
+	this.code = arguments[1];
+	this.info = arguments[2];
 	this.lineColor = arguments[3][0].lineColor;
 	this.fillColor = arguments[3][0].polyColor;
 	this.polygons = this.createPolygons(arguments[3]);
 	this.numberOfPolygons = this.polygons.length;
-	this.elementID = this.code + "_poly",
+	this.elementID = this.code + "_poly";
 	this.globals = arguments[4];
-	this.state = 0,
+	this.state = 0;
 	this.hidden = false;
 
 	//attaches all of the info window events on the polygons
@@ -346,13 +346,13 @@ Area.prototype.buildAreaDOM = function() {
     element.innerHTML += '<div class="object_name polygon">' + this.name + '</div>';
 
     return element;
-}
+};
 
 
 //builds this object's MapKey html
 Area.prototype.buildMapKey = function () {
 	return '<div class="polygon_key" id="poly_key_' + this.code + '" style="border-color:' + this.borderColor + '; background-color:' + this.fillColor + '">' + this.code + '</div>';
-}
+};
 
 
 //binds the event listener for the HTML element in the right menu that represents this object
@@ -363,7 +363,7 @@ Area.prototype.bindEventListener = function() {
 		area.globals.win.location.hash = area.code;
 		area.togglePolygon();
 	});
-}
+};
 
 
 //toggle whether the polygon is showing or not
@@ -379,7 +379,7 @@ Area.prototype.togglePolygon = function() {
 	else if (this.state === 1) {
 		this.hidePolygons(span, polyKey);
 	}
-}
+};
 
 
 //shows the polygon on the map and in the MapKey
@@ -396,7 +396,7 @@ Area.prototype.showPolygons = function(span, polyKey) {
 		polyKey.className = "polygon_key active_key";
 	}
 	this.state = 1;
-}
+};
 
 
 //hides the polygon on the map and in the MapKey
@@ -414,7 +414,7 @@ Area.prototype.hidePolygons = function(span, polyKey) {
 		}
 	}	
 	this.state = 0;
-}
+};
 
 
 //creates all of the polygons for this Area object
@@ -431,7 +431,7 @@ Area.prototype.createPolygons = function(polygons) {
 		newPolygons[i].setMap(map.map);
 	}
 	return newPolygons;
-}
+};
 
 
 //creates a polygon for this area object
@@ -444,8 +444,8 @@ Area.prototype.createPolygon = function(coordinates, strokeColor, strokeOpacity,
 		fillColor: fillColor,
 		fillOpacity: fillOpacity,
 		visible: false
-	})
-}
+	});
+};
 
 
 //hides both the polygon on the map(and mapkey) and in the right navigation
@@ -454,7 +454,7 @@ Area.prototype.hideAll = function() {
 		this.hideMapKey();
 		this.hideNavigation();
 	}
-}
+};
 
 
 //hides the HTML representing this object in the MapKey
@@ -464,14 +464,14 @@ Area.prototype.hideMapKey = function() {
 	var polyKey = (campusMap.includeMenus) ? this.globals.doc.getElementById("poly_key_" + this.code) : undefined;
 		//make sure that it is not checked and therefore not showing up in the map
 	this.hidePolygons(span, polyKey);
-}
+};
 
 //hides the HTML element that represents this object in the navigation
 Area.prototype.hideNavigation = function() {
 	this.hidden = true;
 	//hide it in the left navigation
 	this.globals.doc.getElementById(this.elementID).style.display = "none";
-}
+};
 
 
 //shows both the polygon on the map(and mapkey) and in the right navigation
@@ -480,7 +480,7 @@ Area.prototype.showAll = function() {
 		this.showMapKey();
 		this.showNavigation();
 	}
-}
+};
 
 //shows the HTML representing this object in the MapKey
 Area.prototype.showMapKey = function() {
@@ -488,21 +488,21 @@ Area.prototype.showMapKey = function() {
 	var span = (campusMap.includeMenus) ? this.globals.doc.getElementById(this.elementID).children[0].children[0] : undefined;
 	var polyKey = (campusMap.includeMenus) ? this.globals.doc.getElementById("poly_key_" + this.code) : undefined;
 	this.showPolygons(span, polyKey);
-}
+};
 
 
 //shows the HTML element that represents this object in the navigation
 Area.prototype.showNavigation = function() {
 	this.hidden = false;
 	this.globals.doc.getElementById(this.elementID).style.display = "block";
-}
+};
 
 //attaches all of the events onto each polygon when it is loaded on the google map
 Area.prototype.attachInfoWindowEvents = function() {
 	for (var i = 0; i < this.numberOfPolygons; i++) {
 		map.createPolygonInfoWindow(this.polygons[i], this);
 	}
-}
+};
 /***************************************************************************************************
  * this class is the definition for the campusMap class
  * the object created from this class has all of the necessary code in order to create a campus map
@@ -515,12 +515,12 @@ Area.prototype.attachInfoWindowEvents = function() {
  * includeMenus - bool - a bool that determines if the header and menus will be included in the page
  * KMLFiles - array - an array of strings that specify where the KML files you wish to load are located
  * device - int - stores the current device type, was initially used to keep track of the whether the user
- *				 was on a mobile device or a desktop to alter styling but is no longer necessary because
- *				 all of the styling between different devices is handles in the CSS with media queries
+ *              was on a mobile device or a desktop to alter styling but is no longer necessary because
+ *              all of the styling between different devices is handles in the CSS with media queries
  * categories - array - will hold all of the categories for the map
  * globals - object - an object literal that contains a local reference to the window object and the document object
- *					 for use in any methods as well as passing to other objects upon initialization when they need
- *					 a local version
+ *                  for use in any methods as well as passing to other objects upon initialization when they need
+ *                  a local version
  *
  * As you can see in the code when the object is created it takes into account the options object passed to it
  * to define all of it's attributes.  There are default values for most of the attributes except for
@@ -535,10 +535,10 @@ Area.prototype.attachInfoWindowEvents = function() {
  * Method descriptions will be included above each method
  */
 function CampusMap(options) {
-    this.element = (options['element']) ? options['element'] : console.log("No element provided."),
-    this.menuState = (options['menuState']) ? options['menuState'] : 1,
-    this.includeMenus = (options['includeMenus'] == null) ? true : options['includeMenus'],
-    this.KMLFiles = (options['categories']) ? options['categories'] : console.log("No KML Files specified"),
+    this.element = (options.element) ? options.element : console.log("No element provided."),
+    this.menuState = (options.menuState) ? options.menuState : 1,
+    this.includeMenus = (options.includeMenus === null) ? true : options.includeMenus,
+    this.KMLFiles = (options.categories) ? options.categories : console.log("No KML Files specified"),
     this.device = 0,
     this.categories = [];
 
@@ -611,7 +611,7 @@ CampusMap.prototype.initializeMaps = function () {
         //after everything is loaded lets put a marker showing where you are
         campusMap.getLocation();
     });
-}
+};
 
 
 //builds the needed HTML for the map
@@ -625,7 +625,7 @@ CampusMap.prototype.buildHTML = function () {
     html += '<div id="map_keys"></div>';
     //place the html into the dom where they have specified it to be located
     this.globals.doc.getElementById(this.element).innerHTML = html;
-}
+};
 
 
 //asynchronasly loads the category/objects file and then parses it
@@ -678,7 +678,7 @@ CampusMap.prototype.loadKMLFiles = function (callback) {
 
     //once everything is done we will save the information to local storage
     localStorage.mapData = JSON.stringify(mapData);
-}
+};
 
 
 //creates category objects from the category data
@@ -696,7 +696,7 @@ CampusMap.prototype.buildCategories = function (data) {
         var DOM = this.categories[index].getCatDOMObj();
         element.appendChild(DOM);
     }
-}
+};
 
 
 //parses all of the locations and creates location objects out of them all
@@ -713,7 +713,7 @@ CampusMap.prototype.parseLocations = function (locations, color) {
     }
     //send back the array of the Location objects for the category to hold
     return markerLocations;
-}
+};
 
 
 //parses all of the areas and creates area objects out of them all
@@ -727,7 +727,7 @@ CampusMap.prototype.parseAreas = function (areas) {
 
     }
     return polygonAreas;
-}
+};
 
 
 //detects what kind of device is being 
@@ -735,7 +735,7 @@ CampusMap.prototype.detectDevice = function () {
     var width = this.globals.doc.getElementById(this.element).offsetWidth;
     //it was determined that anything less than 800 pixels would be considered a mobile device
     this.device = (width < 800) ? 0 : 1;
-}
+};
 
 
 //binds all of the events for each category the CampusMap object has and their subsequent Location and Area objects
@@ -761,7 +761,7 @@ CampusMap.prototype.bindAllEvents = function () {
             }
         }
     }
-}
+};
 
 
 //builds the mapKey element so that it contains all the key for each polygon in each category
@@ -780,14 +780,14 @@ CampusMap.prototype.buildMapKey = function () {
             this.parentElement.style.display = "none";
         })
     }
-}
+};
 
 
 //gets the height of the element that the map is being embedded into
 CampusMap.prototype.getMapHeight = function () {
     var height = this.globals.doc.getElementById(this.element).offsetHeight;
     return (this.includeMenus) ? height - 57 : height;
-}
+};
 
 
 //sets the height of the elements the CampusMap object creates to hold the map
@@ -798,7 +798,7 @@ CampusMap.prototype.setMapHeight = function () {
     container.style.height = height + "px";
     var map_canvas = this.globals.doc.getElementById('map_canvas');
     map_canvas.style.height = height + "px";
-}
+};
 
 
 //initializes the search functionality mainly by binding the events to the 
@@ -820,7 +820,7 @@ CampusMap.prototype.initializeSearch = function () {
         campusMap.performSearch("");
     });
 
-}
+};
 
 
 //performs the search looking in each Location and Area object to see if any of their names match the provided search
@@ -890,7 +890,7 @@ CampusMap.prototype.performSearch = function (val) {
             cat.closeCategory(sibling);
         }
     }
-}
+};
 
 
 //attaches the event listener to the menu button to open and close it
@@ -900,13 +900,13 @@ CampusMap.prototype.bindMenuButton = function () {
         //to the current anonymous function
         campusMap.toggleMenu();
     });
-}
+};
 
 
 //toggle the menu depending on it's current state
 CampusMap.prototype.toggleMenu = function () {
     (this.menuState) ? this.hideMenu() : this.showMenu();
-}
+};
 
 
 //hide the menu
@@ -919,14 +919,14 @@ CampusMap.prototype.hideMenu = function () {
         var width = this.globals.doc.getElementById(this.element).offsetWidth;
         this.updateTransform(menu, width, 0);
     }
-}
+};
 
 
 //show the menu
 CampusMap.prototype.showMenu = function () {
     this.menuState = 1;
     this.updateTransform(this.globals.doc.getElementById('menu'),0,0);
-}
+};
 
 
 //displays a certain location depending on if a code has been sent in the hash of the url
@@ -945,7 +945,7 @@ CampusMap.prototype.anchorLocation = function () {
             this.fireEvent(this.globals.doc.getElementById(object.elementID), 'click');
         }
     }
-}
+};
 
 
 //finds an object from it's code
@@ -970,7 +970,7 @@ CampusMap.prototype.findObject = function (code) {
         }
     }
     return object;
-}
+};
 
 
 //this function will display everything.  Used when an object it is embeded and there are
@@ -990,7 +990,7 @@ CampusMap.prototype.displayAll = function () {
             }
         }
     }
-}
+};
 
 //crossbrowser solution to triggering an event on an element
 CampusMap.prototype.fireEvent = function (element, event) {
@@ -1004,7 +1004,7 @@ CampusMap.prototype.fireEvent = function (element, event) {
         var evt = document.createEventObject();
         return element.fireEvent('on' + event, evt)
     }
-}
+};
 
 
 //crossbrowser solution for adding click events
@@ -1014,7 +1014,7 @@ CampusMap.prototype.addClickHandler = function (element, callback) {
     } catch (e) {
         element.attachEvent("onclick", callback);
     }
-}
+};
 
 CampusMap.prototype.addKeyUpListener = function (element, callback) {
     try {
@@ -1022,20 +1022,21 @@ CampusMap.prototype.addKeyUpListener = function (element, callback) {
     } catch (e) {
         element.attachEvent("onkeyup", callback);
     }
-}
+};
 
 //this function will test for geolocation support and then prompt the user for their location
 CampusMap.prototype.getLocation = function () {
     if (navigator.geolocation && this.device === 0) {
         navigator.geolocation.getCurrentPosition(this.showPosition);
     }
-}
+};
 
 //this function will show the users position on the map
 CampusMap.prototype.showPosition = function (position) {
     var marker = map.createMarker(position.coords.latitude, position.coords.longitude, "You are here", "imgs/icons/youarehere.png");
     marker.setVisible(true);
-}
+};
+
 CampusMap.prototype.handleResize = function () {
     this.globals.win.addEventListener('resize', function () {
         campusMap.detectDevice();
@@ -1056,12 +1057,13 @@ CampusMap.prototype.handleResize = function () {
         
         campusMap.setMapHeight();
     });
-}
+};
+
 CampusMap.prototype.updateTransform = function (element, x, y) {
     element.style.webkitTransform = "translate(" + x + "px," + y + "px)";
     element.style.mozTransform = "translate(" + x + "px," + y + "px)";
     element.style.transform = "translate(" + x + "px," + y + "px)"
-}
+};
 //adds the script for the addthis social sharing api
 addScript("https://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51f6872a25a1fb8c", { win: window, doc: document });
 //addScript("https://www.byui.edu/Prebuilt/maps/js/vendor/modernizr-2.6.1.min.js", {doc: document});
@@ -1140,7 +1142,7 @@ Category.prototype.buildCatDOM = function() {
       element.innerHTML += '<img class="cat_icon" src="https://www.byui.edu/Prebuilt/maps/imgs/icons/blank-colors/'+ this.iconColor + '.png" />';
       element.innerHTML += '<span class="category_name">' + this.title + '</span>';
       return element;
-}
+};
 
 
 //builds and returns a dom element that contains all of the HTML for a specific category
@@ -1167,7 +1169,7 @@ Category.prototype.getCatDOMObj = function() {
 	catContainer.appendChild(objContainer);
 	catObj.appendChild(catContainer);
 	return catObj;
-}
+};
 
 
 //gets the html for this category's Location object
@@ -1179,7 +1181,7 @@ Category.prototype.appendLocations = function(container) {
 		}
 	}
 	return container;
-}
+};
 
 
 //gets the html for this category's Area object
@@ -1191,7 +1193,7 @@ Category.prototype.appendAreas = function(container) {
 		}
 	}
 	return container;
-}
+};
 
 
 
@@ -1202,7 +1204,7 @@ Category.prototype.bindEventListener = function() {
 		event.preventDefault();
 		cat.toggle();
 	});
-}
+};
 
 
 //toggles the opening and closing of the category
@@ -1216,7 +1218,7 @@ Category.prototype.toggle = function() {
 	} else {
 		this.closeCategory(sibling);
 	}
-}
+};
 
 
 //opens the category in the menu
@@ -1224,7 +1226,7 @@ Category.prototype.openCategory = function(sibling) {
 	sibling.style.display = "block";
 	sibling.style.height = "100%";
 	this.state = 1;
-}
+};
 
 
 //closes the category in the menu
@@ -1233,7 +1235,7 @@ Category.prototype.closeCategory = function(sibling) {
 	sibling.style.display = "none";
 	sibling.style.height = "0";
 	this.state = 0;
-}
+};
 
 
 //toggles all of the markers on the map for this category
@@ -1244,7 +1246,7 @@ Category.prototype.toggleMarkersVisibility = function() {
 	} else {
 		this.hideAllMarkers();
 	}
-}
+};
 
 
 //shows all of the markers on the map for this category
@@ -1257,7 +1259,7 @@ Category.prototype.showAllMarkers = function() {
 			}
 		}
 	}
-}
+};
 
 
 //hides all of the markers on the map for this category
@@ -1269,7 +1271,7 @@ Category.prototype.hideAllMarkers = function() {
 			this.markerLocations[i].hideMarker();
 		}
 	}
-}
+};
 
 
 //hides all of the polygons on the map for this category
@@ -1282,7 +1284,7 @@ Category.prototype.hideAllPolygons = function() {
 			this.polygonLocations[i].hideMapKey();
 		}
 	}
-}
+};
 
 
 //builds the html for this categorys mapKey
@@ -1298,7 +1300,7 @@ Category.prototype.buildMapKey = function() {
 		html += "</div>";
 	}
 	return html;
-}
+};
 /*********************************************************************************
 * the location class definition is for use by markers
 * uses the arguments parameter
@@ -1354,7 +1356,7 @@ Location.prototype.buildLocationDOM = function() {
     element.innerHTML +=   '<div class="object_name">' + this.name + '</div>';
 
     return element;
-}
+};
 
 
 //binds the event listener to the HTML element that represents this object in the right menu
@@ -1369,7 +1371,7 @@ Location.prototype.bindEventListener = function() {
             campusMap.hideMenu();
         }
 	});
-}
+};
 
 
 //pans to the marker in the google map
@@ -1380,19 +1382,19 @@ Location.prototype.panToMarker = function() {
     });
     map.map.panTo(this.marker.getPosition());
     google.maps.event.trigger(this.marker, 'click');
-}
+};
 
 
 //creates a google maps marker for this object
 Location.prototype.createMarker = function() {
 	this.marker = map.createMarker(this.lat, this.lon, this.name, this.icon)
-}
+};
 
 
 //create the info window for this object
 Location.prototype.createInfoWindow = function() {
 	map.createInfoWindow(this.marker, this);
-}
+};
 
 
 //hides the marker on the map and in the menu
@@ -1401,13 +1403,13 @@ Location.prototype.hideAll = function() {
 	if (campusMap.includeMenus) {
 		this.hideMarker();
 	}
-}
+};
 
 
 //hides the marker on the map for this object
 Location.prototype.hideMarker = function() {
 	this.marker.setVisible(false);
-}
+};
 
 
 //hides the HTML element in the right menu that represents this object
@@ -1415,7 +1417,7 @@ Location.prototype.hideNavigation = function() {
 	this.hidden = true;
 	//hide it in the navigation and then hide it on the map
 	this.globals.doc.getElementById(this.elementID).style.display = "none";
-}
+};
 
 
 //shows the marker on the map and the element in the menu
@@ -1424,20 +1426,20 @@ Location.prototype.showAll = function() {
 	if (campusMap.includeMenus) {
 		this.showNavigation();
 	}
-}
+};
 
 
 //shows the marker on the map
 Location.prototype.showMarker = function() {
 	this.marker.setVisible(true);
-}
+};
 
 
 //shows the HTML element in the menu
 Location.prototype.showNavigation = function() {
 	this.hidden = false;
 	this.globals.doc.getElementById(this.elementID).style.display = "block";
-}
+};
 
 /**********************************************************************************
 * this class definition is for the maps, any interaction with the google maps should go through here
@@ -1498,7 +1500,7 @@ Map.prototype.initiateMap = function(local) {
     this.setGoogleMap(local);
     this.setInfoWindow();
     this.setCampusLayer();
-  }
+  };
 
 
 //sets the options used by google maps for displaying a map
@@ -1522,7 +1524,7 @@ Map.prototype.setGoogleMapOptions = function() {
              google.maps.MapTypeId.TERRAIN]
     }
   };
-}
+};
 
 
 //creates the google map
@@ -1555,13 +1557,13 @@ Map.prototype.setGoogleMap = function(local) {
 
   //pass the DOM element being used and the googleMapOptions
   this.map = new google.maps.Map(local.doc.getElementById('map_canvas'), this.googleMapOptions);
-}
+};
 
 
 //create the info window to be used by all markers
 Map.prototype.setInfoWindow = function() {
   this.infoWindow = new google.maps.InfoWindow();
-}
+};
 
 
 //places the campus layer on the map
@@ -1573,7 +1575,7 @@ Map.prototype.setCampusLayer = function() {
     preserveViewport: true,
     zoom: 18
   });
-}
+};
 
 
 //create a google map marker
@@ -1586,7 +1588,7 @@ Map.prototype.createMarker = function(lat, lon, name, icon) {
     title: name,
     icon: icon
   });
-}
+};
 
 
 //creates an info window whenever a marker is clicked and then displays it
@@ -1672,7 +1674,7 @@ Map.prototype.createInfoWindow = function(marker, obj) {
       }
       addthis.toolbox('.addthis_toolbox',{},addthis_share);
     });
-}
+};
 
 //creates an info window whenever a polygon is clicked and then displays it
 //it takes the polygon object and the Area object
@@ -1720,4 +1722,4 @@ Map.prototype.createPolygonInfoWindow = function(polygon, obj) {
       }
       addthis.toolbox('.addthis_toolbox',{},addthis_share);
     });
-}
+};
