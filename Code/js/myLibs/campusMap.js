@@ -32,7 +32,7 @@
 function CampusMap(options) {
     this.element = (options.element) ? options.element : console.log("No element provided."),
     this.menuState = (options.menuState) ? options.menuState : 1,
-    this.includeMenus = (options.includeMenus === null) ? true : options.includeMenus,
+    this.includeMenus = (options.includeMenus) ? options.includeMenus : true,
     this.KMLFiles = (options.categories) ? options.categories : console.log("No KML Files specified"),
     this.device = 0,
     this.categories = [];
@@ -115,7 +115,7 @@ CampusMap.prototype.buildHTML = function () {
     var html = (this.includeMenus) ? '<div id="title"><h1 id="heading">BYU-Idaho Campus Map</h1><a style="display: none;" id="device_type" href="#" onmousedown="toggleDevice(); return false;" title="Switch Device Type"><div id="device_container"><div class="device icon-desktop"></div><div class="device icon-mobile"></div></div></a><a id="menu_button" class="icon-settings" href="#" title="Open Menu. Click this or press [space] bar"></a></div>' : "";
     html += '<div id="container" name="container">';
     //only include the menu if they want it
-    html += (this.includeMenus) ? '<div id="menu" name="menu" style="display:block; z-index: 2;"><div id="inner_menu" class="scrolling-element-class" ><div id="object_search"><div class="search-wrapper"><input type="text" placeholder="Search"/><span class="icon-cancel"></span></div></div><nav id="categories" class="child-element"></nav><!-- // categories --></div><!-- // inner menu --><div id="notification" class="hybrid"><a id="info" title="[Coming Soon] More info about this map" class="icon-info" href="#"></a><a id="feedback" title="Submit feedback about this map" class="icon-feedback" target="_blank" href="http://www.byui.edu/feedback/maps"></a></div></div><!-- // menu -->' : "";
+    html += (this.includeMenus) ? '<div id="menu" name="menu" style="display:block; z-index: 2;"><div id="inner_menu" class="scrolling-element-class" ><div id="object_search"><div class="search-wrapper"><input type="text" placeholder="Search"/><span class="icon-cancel"></span></div></div><nav id="categories" class="child-element"></nav><!-- // categories --><div id="floor-plans-notification"><p>Floor plans of each building are available on <a href="https://www.google.com/maps/place/Brigham+Young+University+Idaho/@43.814113,-111.783878,17z/data=!4m2!3m1!1s0x53540b03dc48a5cf:0x1e5534d3c38ef412" target="_blank">Google Maps</a></p></div></div><!-- // inner menu --><div id="notification" class="hybrid"><a id="info" title="[Coming Soon] More info about this map" class="icon-info" href="#"></a><a id="feedback" title="Submit feedback about this map" class="icon-feedback" target="_blank" href="http://www.byui.edu/feedback/maps"></a></div></div><!-- // menu -->' : "";
     html += '<div id="map_canvas"><div id="nojs-msg"><br/>This BYU-Idaho Campus Map application requires Javascript to run. <br/>Your device or browser doesn\'t appear to have JavaScript enabled. <br/>Please enable it and try again, or try another device or browser.</div></div>';
     html += '<div id="map_keys"></div>';
     //place the html into the dom where they have specified it to be located
@@ -420,7 +420,7 @@ CampusMap.prototype.hideMenu = function () {
 //show the menu
 CampusMap.prototype.showMenu = function () {
     this.menuState = 1;
-    this.updateTransform(this.globals.doc.getElementById('menu'),0,0);
+    this.updateTransform(this.globals.doc.getElementById('menu'), 0, 0);
 };
 
 
@@ -549,7 +549,7 @@ CampusMap.prototype.handleResize = function () {
                 menu.setAttribute('class', menu.getAttribute('class').replace(" no-animate", ""));
             }
         }
-        
+
         campusMap.setMapHeight();
     });
 };

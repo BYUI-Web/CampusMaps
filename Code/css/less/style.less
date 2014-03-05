@@ -258,6 +258,13 @@ position: relative;
     .transition(height, 1s);
     background-color: lighten(@byui_darker_gray, 7%);
 }
+#floor-plans-notification {
+    padding: 5px;
+    a {
+        color: white;
+        font-weight: bold;
+    }
+}
 #map_canvas {
     -webkit-font-smoothing: normal;
     text-shadow: none;
@@ -276,16 +283,14 @@ position: relative;
     text-align: right;
     a {
         color: @byui_light_gray;
-        text-decoration: none;
+
+text-decoration: none;
         font-size: 23px;
         cursor: pointer;
-        padding:0 4px;
+        padding: 0 4px;
     }
 }
-#feedback {
-    
-} 
-#updated {
+#feedback {} #updated {
     font-size: 9px;
     color: white;
     text-shadow: 0 1px 3px #333;
@@ -315,7 +320,7 @@ text-shadow: none;
     float: left;
     display: block;
     margin: 1px 5px 2px;
-    height:30px;
+    height: 30px;
 }
 .object_name {
     width: 175px;
