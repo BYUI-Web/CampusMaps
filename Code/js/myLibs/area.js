@@ -5,7 +5,7 @@
 * name - string - the name of the polygon for use in the right menu
 * code - string - the unique code for use in referencing this object
 * contains - string - descriptive text for the polygon, used in the info window when someone clicks on the rendered
-*					  polygon on the map
+*                       polygon on the map
 * borderColor - string - a color for use on the border of the polygon
 * fillColor - string - a color for use to fill the polygon
 * map - url - an absolute path to the location of the KML file that defines this polygon
@@ -16,16 +16,16 @@
 * hidden - bool - for use in the search function to know if this Area object matches the search criteria and should be rendered or not
 */
 function Area() {
-	this.name = arguments[0],
-	this.code = arguments[1],
-	this.info = arguments[2],
+	this.name = arguments[0];
+	this.code = arguments[1];
+	this.info = arguments[2];
 	this.lineColor = arguments[3][0].lineColor;
 	this.fillColor = arguments[3][0].polyColor;
 	this.polygons = this.createPolygons(arguments[3]);
 	this.numberOfPolygons = this.polygons.length;
-	this.elementID = this.code + "_poly",
+	this.elementID = this.code + "_poly";
 	this.globals = arguments[4];
-	this.state = 0,
+	this.state = 0;
 	this.hidden = false;
 
 	//attaches all of the info window events on the polygons
@@ -43,13 +43,13 @@ Area.prototype.buildAreaDOM = function() {
     element.innerHTML += '<div class="object_name polygon">' + this.name + '</div>';
 
     return element;
-}
+};
 
 
 //builds this object's MapKey html
 Area.prototype.buildMapKey = function () {
 	return '<div class="polygon_key" id="poly_key_' + this.code + '" style="border-color:' + this.borderColor + '; background-color:' + this.fillColor + '">' + this.code + '</div>';
-}
+};
 
 
 //binds the event listener for the HTML element in the right menu that represents this object
@@ -60,7 +60,7 @@ Area.prototype.bindEventListener = function() {
 		area.globals.win.location.hash = area.code;
 		area.togglePolygon();
 	});
-}
+};
 
 
 //toggle whether the polygon is showing or not
@@ -76,7 +76,7 @@ Area.prototype.togglePolygon = function() {
 	else if (this.state === 1) {
 		this.hidePolygons(span, polyKey);
 	}
-}
+};
 
 
 //shows the polygon on the map and in the MapKey
@@ -93,7 +93,7 @@ Area.prototype.showPolygons = function(span, polyKey) {
 		polyKey.className = "polygon_key active_key";
 	}
 	this.state = 1;
-}
+};
 
 
 //hides the polygon on the map and in the MapKey
@@ -111,7 +111,7 @@ Area.prototype.hidePolygons = function(span, polyKey) {
 		}
 	}	
 	this.state = 0;
-}
+};
 
 
 //creates all of the polygons for this Area object
@@ -128,7 +128,7 @@ Area.prototype.createPolygons = function(polygons) {
 		newPolygons[i].setMap(map.map);
 	}
 	return newPolygons;
-}
+};
 
 
 //creates a polygon for this area object
@@ -141,8 +141,8 @@ Area.prototype.createPolygon = function(coordinates, strokeColor, strokeOpacity,
 		fillColor: fillColor,
 		fillOpacity: fillOpacity,
 		visible: false
-	})
-}
+	});
+};
 
 
 //hides both the polygon on the map(and mapkey) and in the right navigation
@@ -151,7 +151,7 @@ Area.prototype.hideAll = function() {
 		this.hideMapKey();
 		this.hideNavigation();
 	}
-}
+};
 
 
 //hides the HTML representing this object in the MapKey
@@ -161,14 +161,14 @@ Area.prototype.hideMapKey = function() {
 	var polyKey = (campusMap.includeMenus) ? this.globals.doc.getElementById("poly_key_" + this.code) : undefined;
 		//make sure that it is not checked and therefore not showing up in the map
 	this.hidePolygons(span, polyKey);
-}
+};
 
 //hides the HTML element that represents this object in the navigation
 Area.prototype.hideNavigation = function() {
 	this.hidden = true;
 	//hide it in the left navigation
 	this.globals.doc.getElementById(this.elementID).style.display = "none";
-}
+};
 
 
 //shows both the polygon on the map(and mapkey) and in the right navigation
@@ -177,7 +177,7 @@ Area.prototype.showAll = function() {
 		this.showMapKey();
 		this.showNavigation();
 	}
-}
+};
 
 //shows the HTML representing this object in the MapKey
 Area.prototype.showMapKey = function() {
@@ -185,18 +185,18 @@ Area.prototype.showMapKey = function() {
 	var span = (campusMap.includeMenus) ? this.globals.doc.getElementById(this.elementID).children[0].children[0] : undefined;
 	var polyKey = (campusMap.includeMenus) ? this.globals.doc.getElementById("poly_key_" + this.code) : undefined;
 	this.showPolygons(span, polyKey);
-}
+};
 
 
 //shows the HTML element that represents this object in the navigation
 Area.prototype.showNavigation = function() {
 	this.hidden = false;
 	this.globals.doc.getElementById(this.elementID).style.display = "block";
-}
+};
 
 //attaches all of the events onto each polygon when it is loaded on the google map
 Area.prototype.attachInfoWindowEvents = function() {
 	for (var i = 0; i < this.numberOfPolygons; i++) {
 		map.createPolygonInfoWindow(this.polygons[i], this);
 	}
-}
+};

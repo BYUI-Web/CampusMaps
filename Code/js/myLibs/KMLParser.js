@@ -1,3 +1,15 @@
+/*
+* Attributes:
+* categoryName
+* categoryText
+* categoryColor
+* link
+* image
+* Locations
+* Areas
+* foundStyles
+*/
+
 function KMLParser() {
 	try {
 		var xml = new DOMParser().parseFromString(arguments[0], 'text/xml');
@@ -8,11 +20,6 @@ function KMLParser() {
 		xml.loadXML(arguments[0]);
 		this.doc = xml.documentElement.firstChild;
 	}
-	this.categoryName;
-	this.categoryText;
-	this.categoryColor;
-	this.link;
-	this.image;
 
 	this.Locations = [];
 	this.Areas = [];
@@ -42,7 +49,7 @@ KMLParser.prototype.parseKML = function() {
 	this.Areas = result[1];
 	//we don't need the xml document anymore
 	this.doc = null;
-}
+};
 
 
 //this function will parse all of the placemarks according to whether they are a marker or a polygon
@@ -80,7 +87,7 @@ KMLParser.prototype.parseAllObjects = function(folder) {
 	}
 
 	return [placemarkContainer, polygonContainer];
-}
+};
 
 
 //parses all of the polygons
@@ -106,7 +113,7 @@ KMLParser.prototype.parsePolygon = function(folder) {
 	}
 
 	return polygonFolder;
-}
+};
 
 
 //parses all of the points
@@ -130,7 +137,7 @@ KMLParser.prototype.parsePlacemark = function(placemark) {
 	placemarkHolder.icon = this.getIcon(this.getElementText(placemark.getElementsByTagName("styleUrl")[0]));
 
 	return placemarkHolder;
-}
+};
 
 
 //this function will take a string of latitudes and longitudes and parse them into an array of just latitudes and longitudes
@@ -144,7 +151,7 @@ KMLParser.prototype.parseLatLng = function(string) {
 		latlngs.push([split[1], split[0]]);
 	}
 	return latlngs;
-}
+};
 
 //this function will extract the url from the link in any string
 KMLParser.prototype.extractLinkText = function(string) {
@@ -161,7 +168,7 @@ KMLParser.prototype.extractLinkText = function(string) {
 	}
 
 	return [anchor, string];
-}
+};
 
 
 //this function will extract the src from the image in any string
@@ -179,7 +186,7 @@ KMLParser.prototype.extractSrcFromImage = function(string) {
 	}
 
 	return [image, string];
-}
+};
 
 
 //this function wll extract the hours from the string
@@ -195,7 +202,8 @@ KMLParser.prototype.extractHours = function(string) {
 	}
 
 	return [hours, string];
-}
+};
+
 //this function wll extract the hours from the string
 KMLParser.prototype.extractCode = function(string) {
 	var code = "";
@@ -209,7 +217,7 @@ KMLParser.prototype.extractCode = function(string) {
 	}
 
 	return [code, string];
-}
+};
 
 
 //these functions below are for getting the icon styles
@@ -225,7 +233,7 @@ KMLParser.prototype.getIcon = function(id) {
 		this.foundStyles[id] = icon;
 	}
 	return icon;
-}
+};
 
 KMLParser.prototype.getColors = function(id) {
 	var lineColor = "";
@@ -237,14 +245,12 @@ KMLParser.prototype.getColors = function(id) {
 		var styleMap = this.getElement(id.substr(1), "StyleMap");
 		var styleUrl = this.getElementText(styleMap.getElementsByTagName("styleUrl")[0]).substr(1);
 		var styles = this.getElement(styleUrl, "Style");
-		var lineColor;
 		var line = styles.getElementsByTagName("LineStyle")[0];
 		if (line) {
 			lineColor = this.getElementText(line.getElementsByTagName("color")[0]).substr(2);
 		} else {
 			lineColor = "FFFFF";
 		}
-		var polyColor;
 		var poly = styles.getElementsByTagName("PolyStyle")[0];
 		if (poly) {
 			polyColor = this.getElementText(poly.getElementsByTagName("color")[0]).substr(2);
@@ -255,11 +261,11 @@ KMLParser.prototype.getColors = function(id) {
 		this.foundStyles[id] = style;
 	}
 	return style;
-}
+};
 
 KMLParser.prototype.getElementText = function(element) {
 	return (element.textContent === undefined) ? element.text : element.textContent;
-}
+};
 
 KMLParser.prototype.getElement = function(id, tag) {
 	var element = null;
@@ -273,7 +279,7 @@ KMLParser.prototype.getElement = function(id, tag) {
 		element = this.getElementByTagName(id, tag);
 	}
 	return element;
-}
+};
 
 
 KMLParser.prototype.getElementByTagName = function (id, tag) {
@@ -286,7 +292,7 @@ KMLParser.prototype.getElementByTagName = function (id, tag) {
 			}
 		}
 		return element;
-}
+};
 
 KMLParser.prototype.convertToArray = function(collection) {
 	var array = [];
@@ -294,4 +300,4 @@ KMLParser.prototype.convertToArray = function(collection) {
 		array[i] = collection[i];
 	}
 	return array;
-}
+};

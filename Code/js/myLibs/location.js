@@ -53,7 +53,7 @@ Location.prototype.buildLocationDOM = function() {
     element.innerHTML +=   '<div class="object_name">' + this.name + '</div>';
 
     return element;
-}
+};
 
 
 //binds the event listener to the HTML element that represents this object in the right menu
@@ -68,7 +68,7 @@ Location.prototype.bindEventListener = function() {
             campusMap.hideMenu();
         }
 	});
-}
+};
 
 
 //pans to the marker in the google map
@@ -79,19 +79,19 @@ Location.prototype.panToMarker = function() {
     });
     map.map.panTo(this.marker.getPosition());
     google.maps.event.trigger(this.marker, 'click');
-}
+};
 
 
 //creates a google maps marker for this object
 Location.prototype.createMarker = function() {
 	this.marker = map.createMarker(this.lat, this.lon, this.name, this.icon)
-}
+};
 
 
 //create the info window for this object
 Location.prototype.createInfoWindow = function() {
 	map.createInfoWindow(this.marker, this);
-}
+};
 
 
 //hides the marker on the map and in the menu
@@ -100,13 +100,13 @@ Location.prototype.hideAll = function() {
 	if (campusMap.includeMenus) {
 		this.hideMarker();
 	}
-}
+};
 
 
 //hides the marker on the map for this object
 Location.prototype.hideMarker = function() {
 	this.marker.setVisible(false);
-}
+};
 
 
 //hides the HTML element in the right menu that represents this object
@@ -114,7 +114,7 @@ Location.prototype.hideNavigation = function() {
 	this.hidden = true;
 	//hide it in the navigation and then hide it on the map
 	this.globals.doc.getElementById(this.elementID).style.display = "none";
-}
+};
 
 
 //shows the marker on the map and the element in the menu
@@ -123,17 +123,17 @@ Location.prototype.showAll = function() {
 	if (campusMap.includeMenus) {
 		this.showNavigation();
 	}
-}
+};
 
 
 //shows the marker on the map
 Location.prototype.showMarker = function() {
 	this.marker.setVisible(true);
-}
+};
 
 
 //shows the HTML element in the menu
 Location.prototype.showNavigation = function() {
 	this.hidden = false;
 	this.globals.doc.getElementById(this.elementID).style.display = "block";
-}
+};

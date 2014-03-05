@@ -58,7 +58,7 @@ Map.prototype.initiateMap = function(local) {
     this.setGoogleMap(local);
     this.setInfoWindow();
     this.setCampusLayer();
-  }
+  };
 
 
 //sets the options used by google maps for displaying a map
@@ -82,7 +82,7 @@ Map.prototype.setGoogleMapOptions = function() {
              google.maps.MapTypeId.TERRAIN]
     }
   };
-}
+};
 
 
 //creates the google map
@@ -115,13 +115,13 @@ Map.prototype.setGoogleMap = function(local) {
 
   //pass the DOM element being used and the googleMapOptions
   this.map = new google.maps.Map(local.doc.getElementById('map_canvas'), this.googleMapOptions);
-}
+};
 
 
 //create the info window to be used by all markers
 Map.prototype.setInfoWindow = function() {
   this.infoWindow = new google.maps.InfoWindow();
-}
+};
 
 
 //places the campus layer on the map
@@ -133,7 +133,7 @@ Map.prototype.setCampusLayer = function() {
     preserveViewport: true,
     zoom: 18
   });
-}
+};
 
 
 //create a google map marker
@@ -146,7 +146,7 @@ Map.prototype.createMarker = function(lat, lon, name, icon) {
     title: name,
     icon: icon
   });
-}
+};
 
 
 //creates an info window whenever a marker is clicked and then displays it
@@ -232,7 +232,7 @@ Map.prototype.createInfoWindow = function(marker, obj) {
       }
       addthis.toolbox('.addthis_toolbox',{},addthis_share);
     });
-}
+};
 
 //creates an info window whenever a polygon is clicked and then displays it
 //it takes the polygon object and the Area object
@@ -280,4 +280,4 @@ Map.prototype.createPolygonInfoWindow = function(polygon, obj) {
       }
       addthis.toolbox('.addthis_toolbox',{},addthis_share);
     });
-}
+};

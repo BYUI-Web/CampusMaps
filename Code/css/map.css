@@ -473,6 +473,13 @@
   transition: height 1s;
   background-color: #41474b;
 }
+#floor-plans-notification {
+  padding: 5px;
+}
+#floor-plans-notification a {
+  color: white;
+  font-weight: bold;
+}
 #map_canvas {
   -webkit-font-smoothing: normal;
   text-shadow: none;
