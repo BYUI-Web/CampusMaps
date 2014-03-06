@@ -639,46 +639,55 @@ CampusMap.prototype.loadKMLFiles = function (callback) {
     var json = (localStorage) ? localStorage.mapData : undefined;
     var mapData = (json) ? JSON.parse(json) : {};
 
-    //loop through all of the given KML files and load them
-    for (var i = 0, len = this.KMLFiles.length; i < len; i++) {
-        var filePath = this.KMLFiles[i];
-        var split = filePath.split(".");
-        var index = split[split.length - 2];
+    Promise.all(this.loadKMLFiles.map(this.loadKMLFile)).then(function (responses) {
+        responses.forEach(function(response) {
+        var data = new KMLParser(response);
+        mapData[index] = data;
+        parent.buildCategories(data);
+    });
 
-        if (mapData[index]) {
-            this.buildCategories(mapData[index]);
-        } else {
-            //create the xmlhttp object
-            var xmlhttp;
-            if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
-                xmlhttp = new XMLHttpRequest();
-            } else { // code for IE6, IE5
-                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-            }
-            xmlhttp.onreadystatechange = function () {
-                //after everything is loaded...
-                if (xmlhttp.readyState == 4) {
-                    //parse the JSON and pass the data to the parseCategories function
-                    //after parsing the JSON it will just create a bunch of object literals and thus won't have any methods or extra attributes
-                    //attached to them until we create them for each object which is redundant.  So a category, location, and area classes have
-                    //been created that match the structure of their respective objects loaded from the JSON.
-                    var data = new KMLParser(xmlhttp.responseText);
-                    mapData[index] = data;
-                    parent.buildCategories(data);
-                    if (callback && typeof (callback) === "function") {
-                        callback();
-                    }
-                }
-            }
-            //cannot be asynchronous or else it will not load them all
-            xmlhttp.open("GET", filePath, false);
-            xmlhttp.send();
-        }
-    }
+
+    //loop through all of the given KML files and load them
+//    for (var i = 0, len = this.KMLFiles.length; i < len; i++) {
+//        var filePath = this.KMLFiles[i];
+//        var split = filePath.split(".");
+//        var index = split[split.length - 2];
+//        //
+//        //        if (mapData[index]) {
+//        //            this.buildCategories(mapData[index]);
+//        //        } else {
+//        //create the xmlhttp object
+//
+//    }
+//    //    }
 
     //once everything is done we will save the information to local storage
-    localStorage.mapData = JSON.stringify(mapData);
+//    localStorage.mapData = JSON.stringify(mapData);
 };
+
+CampusMap.prototype.loadKMLFile = function (filepath) {
+    return new Promise(function (resolve, reject) {
+        var xmlhttp;
+        if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else { // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function () {
+            //after everything is loaded...
+            if (xmlhttp.readyState == 4) {
+                //parse the JSON and pass the data to the parseCategories function
+                //after parsing the JSON it will just create a bunch of object literals and thus won't have any methods or extra attributes
+                //attached to them until we create them for each object which is redundant.  So a category, location, and area classes have
+                //been created that match the structure of their respective objects loaded from the JSON.
+                resolve(xmlhttp.responseText);
+            }
+        }
+        //cannot be asynchronous or else it will not load them all
+        xmlhttp.open("GET", filePath);
+        xmlhttp.send();
+    });
+}
 
 
 //creates category objects from the category data
