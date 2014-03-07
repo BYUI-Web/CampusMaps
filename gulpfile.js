@@ -56,3 +56,9 @@ gulp.task('production', ["minifyjs", "combinejs"], function () {
         .pipe(rename("campusMap.min.js"))
         .pipe(gulp.dest("./"));
 });
+
+gulp.task('campusMap-lint', function() {
+    return gulp.src('./Code/js/myLibs/campusMap.js')
+            .pipe(lint())
+            .pipe(lint.reporter("default"));
+});
