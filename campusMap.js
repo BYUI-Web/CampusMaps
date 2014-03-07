@@ -546,14 +546,14 @@ function CampusMap(options) {
     this.globals = {
         doc: document,
         win: window
-    }
+    };
     //if we want to include the menus then we need to include the css file
     addCSS("//byui-web.github.io/CampusMaps/map.min.css", this.globals);
     //When the campusMap object is created it does not create the map or load anything yet.  It must first load the maps
     //api.  In the src for the maps api you can define a callback function to be run when the maps api loads which is what
     //we are doing here to call the campusMap objects initializeMaps method
     addScript("https://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=campusMap.initializeMaps", this.globals);
-}
+};
 
 
 /**********************************************************
@@ -562,7 +562,7 @@ function CampusMap(options) {
 CampusMap.prototype.initializeMaps = function () {
     //if it is being embeded, add an embed class to the element
     if (map.embedOptions.embed) {
-        var element = this.globals.doc.getElementById(this.element)
+        var element = this.globals.doc.getElementById(this.element);
         element.className += " embed";
     }
     //builds the mark up based on the options sent in
@@ -572,8 +572,9 @@ CampusMap.prototype.initializeMaps = function () {
     //detect what kind of device the user is on
     this.detectDevice();
 
-    this.loadKMLFiles();
-    this.bindAllEvents();
+    this.loadKMLFiles().then(function() {
+        this.bindAllEvents();
+    }.bind(this));
 
     //bind the menuButton event only if they want to include menus
     if (this.includeMenus) {
@@ -638,34 +639,35 @@ CampusMap.prototype.loadKMLFiles = function (callback) {
     //get any stored information from localStorage
     var json = (localStorage) ? localStorage.mapData : undefined;
     var mapData = (json) ? JSON.parse(json) : {};
-
-    Promise.all(this.loadKMLFiles.map(this.loadKMLFile)).then(function (responses) {
-        responses.forEach(function(response) {
-        var data = new KMLParser(response);
-        mapData[index] = data;
-        parent.buildCategories(data);
+    
+    return Promise.all(this.KMLFiles.map(this.loadKMLFile)).then(function (responses) {
+        responses.forEach(function (response) {
+            var data = new KMLParser(response);
+//            mapData[index] = data;
+            parent.buildCategories(data);
+        });
     });
 
 
     //loop through all of the given KML files and load them
-//    for (var i = 0, len = this.KMLFiles.length; i < len; i++) {
-//        var filePath = this.KMLFiles[i];
-//        var split = filePath.split(".");
-//        var index = split[split.length - 2];
-//        //
-//        //        if (mapData[index]) {
-//        //            this.buildCategories(mapData[index]);
-//        //        } else {
-//        //create the xmlhttp object
-//
-//    }
-//    //    }
+    //    for (var i = 0, len = this.KMLFiles.length; i < len; i++) {
+    //        var filePath = this.KMLFiles[i];
+    //        var split = filePath.split(".");
+    //        var index = split[split.length - 2];
+    //        //
+    //        //        if (mapData[index]) {
+    //        //            this.buildCategories(mapData[index]);
+    //        //        } else {
+    //        //create the xmlhttp object
+    //
+    //    }
+    //    //    }
 
     //once everything is done we will save the information to local storage
-//    localStorage.mapData = JSON.stringify(mapData);
+    //    localStorage.mapData = JSON.stringify(mapData);
 };
 
-CampusMap.prototype.loadKMLFile = function (filepath) {
+CampusMap.prototype.loadKMLFile = function (filePath) {
     return new Promise(function (resolve, reject) {
         var xmlhttp;
         if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
@@ -1075,6 +1077,7 @@ CampusMap.prototype.updateTransform = function (element, x, y) {
 };
 //adds the script for the addthis social sharing api
 addScript("https://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51f6872a25a1fb8c", { win: window, doc: document });
+addScript("js/vendor/promise.min.js", { win: window, doc: document });
 //addScript("https://www.byui.edu/Prebuilt/maps/js/vendor/modernizr-2.6.1.min.js", {doc: document});
 //both of the constructors takes a global options object literal containing all of the options the user
 //wishes to set for the campus map
