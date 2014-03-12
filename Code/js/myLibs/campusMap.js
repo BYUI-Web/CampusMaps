@@ -48,7 +48,7 @@ function CampusMap(options) {
     //api.  In the src for the maps api you can define a callback function to be run when the maps api loads which is what
     //we are doing here to call the campusMap objects initializeMaps method
     addScript("https://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=campusMap.initializeMaps", this.globals);
-};
+}
 
 
 /**********************************************************
@@ -67,7 +67,7 @@ CampusMap.prototype.initializeMaps = function () {
     //detect what kind of device the user is on
     this.detectDevice();
 
-    this.loadKMLFiles().then(function() {
+    this.loadKMLFiles().then(function () {
         this.bindAllEvents();
     }.bind(this));
 
@@ -134,11 +134,11 @@ CampusMap.prototype.loadKMLFiles = function (callback) {
     //get any stored information from localStorage
     var json = (localStorage) ? localStorage.mapData : undefined;
     var mapData = (json) ? JSON.parse(json) : {};
-    
+
     return Promise.all(this.KMLFiles.map(this.loadKMLFile)).then(function (responses) {
         responses.forEach(function (response) {
             var data = new KMLParser(response);
-//            mapData[index] = data;
+            //            mapData[index] = data;
             parent.buildCategories(data);
         });
     });
@@ -179,12 +179,12 @@ CampusMap.prototype.loadKMLFile = function (filePath) {
                 //been created that match the structure of their respective objects loaded from the JSON.
                 resolve(xmlhttp.responseText);
             }
-        }
+        };
         //cannot be asynchronous or else it will not load them all
         xmlhttp.open("GET", filePath);
         xmlhttp.send();
     });
-}
+};
 
 
 //creates category objects from the category data
@@ -198,7 +198,7 @@ CampusMap.prototype.buildCategories = function (data) {
 
     //only do it if we need to inlude the menus
     if (this.includeMenus) {
-        var element = this.globals.doc.getElementById("categories")
+        var element = this.globals.doc.getElementById("categories");
         var DOM = this.categories[index].getCatDOMObj();
         element.appendChild(DOM);
     }
@@ -214,7 +214,7 @@ CampusMap.prototype.parseLocations = function (locations, color) {
     var markerLocations = [];
     for (var j = 0, numberLocations = locations.length; j < numberLocations; j++) {
         //create a new Location object and push it onto the markerLocations array
-        var marker = locations[j]
+        var marker = locations[j];
         markerLocations.push(new Location(marker.name, marker.code, marker.coordinates[0][0], marker.coordinates[0][1], marker.image, marker.hours, marker.description, marker.link, j, this.globals, (this.includeMenus) ? color + (j + 1) + ".png" : marker.icon));
     }
     //send back the array of the Location objects for the category to hold
@@ -228,7 +228,7 @@ CampusMap.prototype.parseLocations = function (locations, color) {
 CampusMap.prototype.parseAreas = function (areas) {
     var polygonAreas = [];
     for (var j = 0, numberAreas = areas.length; j < numberAreas; j++) {
-        var polygon = areas[j]
+        var polygon = areas[j];
         polygonAreas.push(new Area(polygon.name, polygon.code, polygon.description, polygon.polygons, this.globals));
 
     }
@@ -256,13 +256,13 @@ CampusMap.prototype.bindAllEvents = function () {
             category.bindEventListener();
             //for each marker and each polygon we will bind their events
             if (category.markerLocations) {
-                for (var j = 0, len2 = category.markerLocations.length; j < len2; j++) {
+                for (var j = 0, markerLength = category.markerLocations.length; j < markerLength; j++) {
                     category.markerLocations[j].bindEventListener();
                 }
             }
             if (category.polygonLocations) {
-                for (var j = 0, len2 = category.polygonLocations.length; j < len2; j++) {
-                    category.polygonLocations[j].bindEventListener();
+                for (var h = 0, polyLength = category.polygonLocations.length; h < polyLength; h++) {
+                    category.polygonLocations[h].bindEventListener();
                 }
             }
         }
@@ -281,11 +281,13 @@ CampusMap.prototype.buildMapKey = function () {
     //do it all at once so we are minimizing the amount of DOM manipulation we are doing
     this.globals.doc.getElementById("map_keys").innerHTML = html;
     //attach events to close it
-    for (var i = 0, len = this.categories.length; i < len; i++) {
-        this.addClickHandler(this.globals.doc.getElementById("poly_key_" + (i + 1)).getElementsByTagName("a")[0], function () {
-            this.parentElement.style.display = "none";
-        })
+    for (i = 0, len = this.categories.length; i < len; i++) {
+        this.addClickHandler(this.globals.doc.getElementById("poly_key_" + (i + 1)).getElementsByTagName("a")[0], campusMap.hideKey);
     }
+};
+
+CampusMap.prototype.hideKey = function () {
+    this.parentElement.style.display = "none";
 };
 
 
@@ -333,7 +335,7 @@ CampusMap.prototype.initializeSearch = function () {
 //criteria
 CampusMap.prototype.performSearch = function (val) {
     //only perform the search if something was sent
-    if (val != "") {
+    if (val !== "") {
         //we lowercase the criteria just to make sure that their won't be any case sensitive problems
         val = val.toLowerCase();
         //loop through each category and then through each Location and Area to find matches
@@ -345,7 +347,7 @@ CampusMap.prototype.performSearch = function (val) {
             var visibleOptions = ((cat.markerLocations) ? cat.markerLocations.length : 0) + ((cat.polygonLocations) ? cat.polygonLocations.length : 0);
             //if there are any Location objects then search them
             if (cat.markerLocations) {
-                for (var j = 0, len2 = cat.markerLocations.length; j < len2; j++) {
+                for (var j = 0, markerLength = cat.markerLocations.length; j < markerLength; j++) {
                     //if it doesn't match then hide the marker and element in the right
                     //menu and decrease the number of visible options
                     if (cat.markerLocations[j].name.toLowerCase().indexOf(val) === -1) {
@@ -360,12 +362,12 @@ CampusMap.prototype.performSearch = function (val) {
             }
             //same logic as the Location object search
             if (cat.polygonLocations) {
-                for (var j = 0, len2 = cat.polygonLocations.length; j < len2; j++) {
-                    if (cat.polygonLocations[j].name.toLowerCase().indexOf(val) === -1) {
-                        cat.polygonLocations[j].hideAll();
+                for (var h = 0, polyLength = cat.polygonLocations.length; h < polyLength; h++) {
+                    if (cat.polygonLocations[h].name.toLowerCase().indexOf(val) === -1) {
+                        cat.polygonLocations[h].hideAll();
                         visibleOptions--;
                     } else {
-                        cat.polygonLocations[j].showAll();
+                        cat.polygonLocations[h].showAll();
                     }
                 }
             }
@@ -383,17 +385,17 @@ CampusMap.prototype.performSearch = function (val) {
     //if nothing was sent then we will put the maps back to it's original state
     else {
         //loop through each category and hide all the markers and polygons from the map
-        for (var i = 0, len = this.categories.length; i < len; i++) {
-            var cat = this.categories[i];
-            if (cat.markerLocations) {
-                this.categories[i].hideAllMarkers();
+        for (var a = 0, catLength = this.categories.length; a < catLength; a++) {
+            var category = this.categories[a];
+            if (category.markerLocations) {
+                this.categories[a].hideAllMarkers();
             }
-            if (cat.polygonLocations) {
-                this.categories[i].hideAllPolygons();
+            if (category.polygonLocations) {
+                this.categories[a].hideAllPolygons();
             }
             //close that category
-            var sibling = this.globals.doc.getElementById(cat.elementID).parentElement.children[1];
-            cat.closeCategory(sibling);
+            var categorySibling = this.globals.doc.getElementById(category.elementID).parentElement.children[1];
+            category.closeCategory(categorySibling);
         }
     }
 };
@@ -461,16 +463,16 @@ CampusMap.prototype.findObject = function (code) {
     for (var i = 0, len = this.categories.length; i < len && object === null; i++) {
         var cat = this.categories[i];
         if (cat.markerLocations) {
-            for (var j = 0, len2 = cat.markerLocations.length; j < len2 && object === null; j++) {
+            for (var j = 0, markerLength = cat.markerLocations.length; j < markerLength && object === null; j++) {
                 if (cat.markerLocations[j].code === code) {
                     object = cat.markerLocations[j];
                 }
             }
         }
         if (cat.polygonLocations) {
-            for (var j = 0, len2 = cat.polygonLocations.length; j < len2 && object === null; j++) {
-                if (cat.polygonLocations[j].code === code) {
-                    object = cat.polygonLocations[j];
+            for (var h = 0, polyLength = cat.polygonLocations.length; h < polyLength && object === null; h++) {
+                if (cat.polygonLocations[h].code === code) {
+                    object = cat.polygonLocations[h];
                 }
             }
         }
@@ -486,13 +488,13 @@ CampusMap.prototype.displayAll = function () {
     for (var i = 0, len = this.categories.length; i < len; i++) {
         var cat = this.categories[i];
         if (cat.markerLocations) {
-            for (var j = 0, len2 = cat.markerLocations.length; j < len2; j++) {
+            for (var j = 0, markerLength = cat.markerLocations.length; j < markerLength; j++) {
                 cat.markerLocations[j].showAll();
             }
         }
         if (cat.polygonLocations) {
-            for (var j = 0, len2 = cat.polygonLocations.length; j < len2; j++) {
-                cat.polygonLocations[j].showPolygons();
+            for (var h = 0, polyLength = cat.polygonLocations.length; h < polyLength; h++) {
+                cat.polygonLocations[h].showPolygons();
             }
         }
     }
@@ -507,8 +509,8 @@ CampusMap.prototype.fireEvent = function (element, event) {
         return !element.dispatchEvent(evt);
     } else {
         // dispatch for IE
-        var evt = document.createEventObject();
-        return element.fireEvent('on' + event, evt)
+        var IEevt = document.createEventObject();
+        return element.fireEvent('on' + event, IEevt);
     }
 };
 
@@ -568,5 +570,5 @@ CampusMap.prototype.handleResize = function () {
 CampusMap.prototype.updateTransform = function (element, x, y) {
     element.style.webkitTransform = "translate(" + x + "px," + y + "px)";
     element.style.mozTransform = "translate(" + x + "px," + y + "px)";
-    element.style.transform = "translate(" + x + "px," + y + "px)"
+    element.style.transform = "translate(" + x + "px," + y + "px)";
 };

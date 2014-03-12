@@ -30,7 +30,9 @@ gulp.task('minifycss', ['less'], function () {
 
 gulp.task('lint', function () {
     return gulp.src("./Code/js/myLibs/*.js")
-        .pipe(lint())
+        .pipe(lint({
+            expr: true
+        }))
         .pipe(lint.reporter("default"));
 });
 
@@ -57,8 +59,8 @@ gulp.task('production', ["minifyjs", "combinejs"], function () {
         .pipe(gulp.dest("./"));
 });
 
-gulp.task('campusMap-lint', function() {
+gulp.task('campusMap-lint', function () {
     return gulp.src('./Code/js/myLibs/campusMap.js')
-            .pipe(lint())
-            .pipe(lint.reporter("default"));
+        .pipe(lint())
+        .pipe(lint.reporter("default"));
 });
