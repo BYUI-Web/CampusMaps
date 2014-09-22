@@ -35,15 +35,15 @@
 function Map(options) {
   this.map;
   this.mapOptions = {
-    campusOverlayVisible : (options['campusOverlay'] == null) ? true : options['campusOverlay'],
+    campusOverlayVisible : (options.campusOverlay === null) ? true : options.campusOverlay,
     campusFile : 'http://www.byui.edu/Prebuilt/maps/campus_outline.xml',
-    coordinates : (options['centerCoordinates'] !== undefined) ? options['centerCoordinates'] : [43.815045,-111.783515]
+    coordinates : (options.centerCoordinates !== undefined) ? options.centerCoordinates : [43.815045,-111.783515]
   },
   this.embedOptions = {
-    embed : (options['embed'] === undefined) ? false : options['embed'],
-    zoom: (options['zoom']) ? options['zoom'] : 16,
-    mapView: (options['mapView']) ? options['mapView'] : "map"
-  }
+    embed : (options.embed === undefined) ? false : options.embed,
+    zoom: (options.zoom) ? options.zoom : 16,
+    mapView: (options.mapView) ? options.mapView : "map"
+  };
   this.googleMapOptions = {},
   this.infoWindow,
   this.campusLayer;
@@ -64,10 +64,11 @@ Map.prototype.initiateMap = function(local) {
 //sets the options used by google maps for displaying a map
 Map.prototype.setGoogleMapOptions = function() {
   //determine which view will be used based on the embedOptions
+    var view;
   if (this.embedOptions.mapView === "map") {
-    var view = google.maps.MapTypeId.ROADMAP;
+    view = google.maps.MapTypeId.ROADMAP;
   } else {
-    var view = google.maps.MapTypeId.HYBRID;
+    view = google.maps.MapTypeId.HYBRID;
   }
 
   //set the options
@@ -111,7 +112,7 @@ Map.prototype.setGoogleMap = function(local) {
       var lat = latMin + ((latMax - latMin) / 2);
       var lon = lonMin + ((lonMax - lonMin) / 2);
       return new google.maps.LatLng(lat, lon);
-    }
+    };
 
   //pass the DOM element being used and the googleMapOptions
   this.map = new google.maps.Map(local.doc.getElementById('map_canvas'), this.googleMapOptions);
@@ -229,7 +230,7 @@ Map.prototype.createInfoWindow = function(marker, obj) {
       {
         url : "http://www.byui.edu/maps#" + obj.code,
         title : obj.name
-      }
+      };
       addthis.toolbox('.addthis_toolbox',{},addthis_share);
     });
 };
@@ -277,7 +278,7 @@ Map.prototype.createPolygonInfoWindow = function(polygon, obj) {
       {
         url : "http://www.byui.edu/maps#" + obj.code,
         title : obj.name
-      }
+      };
       addthis.toolbox('.addthis_toolbox',{},addthis_share);
     });
 };

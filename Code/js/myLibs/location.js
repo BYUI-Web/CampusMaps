@@ -4,7 +4,7 @@
 * 
 * Parameters
 * number - int - this is the number of the Location object within a category, it is mainly
-*				 used when giving it a number in the menu and on the map
+*               used when giving it a number in the menu and on the map
 * name - string - the name of the Location, used in the right menu
 * code - string - a unique code given to each Location and Area object so that they can be referenced
 * lat - float - the latitude of the location, in decimal format
@@ -64,7 +64,7 @@ Location.prototype.bindEventListener = function() {
 		event.preventDefault();
 		marker.globals.win.location.hash = marker.code;
 		marker.panToMarker();
-        if (campusMap.device == 0) {
+        if (campusMap.device === 0) {
             campusMap.hideMenu();
         }
 	});
@@ -84,7 +84,7 @@ Location.prototype.panToMarker = function() {
 
 //creates a google maps marker for this object
 Location.prototype.createMarker = function() {
-	this.marker = map.createMarker(this.lat, this.lon, this.name, this.icon)
+	this.marker = map.createMarker(this.lat, this.lon, this.name, this.icon);
 };
 
 

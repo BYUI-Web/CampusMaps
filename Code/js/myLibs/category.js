@@ -35,13 +35,13 @@ function Category() {
 
 //creates an element and builds the html for the element
 Category.prototype.buildCatDOM = function() {
-	  var element = this.globals.doc.createElement("a");
-	  element.className = 'category_bar';
-	  element.id = this.elementID;
-	  element.setAttribute('href', '#');
-      element.innerHTML += '<img class="cat_icon" src="https://www.byui.edu/Prebuilt/maps/imgs/icons/blank-colors/'+ this.iconColor + '.png" />';
-      element.innerHTML += '<span class="category_name">' + this.title + '</span>';
-      return element;
+    var element = this.globals.doc.createElement("a");
+	element.className = 'category_bar';
+	element.id = this.elementID;
+	element.setAttribute('href', '#');
+    element.innerHTML += '<img class="cat_icon" src="https://www.byui.edu/Prebuilt/maps/imgs/icons/blank-colors/'+ this.iconColor + '.png" />';
+    element.innerHTML += '<span class="category_name">' + this.title + '</span>';
+    return element;
 };
 
 
