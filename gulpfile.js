@@ -1,13 +1,14 @@
-var gulp = require('gulp');
-var less = require('gulp-less');
-var minify = require('gulp-minify-css');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
-var concat = require('gulp-concat');
-var replace = require('gulp-replace');
-var lint = require('gulp-jshint');
+var gulp = require('gulp'),
+    less = require('gulp-less'),
+    minify = require('gulp-minify-css'),
+    uglify = require('gulp-uglify'),
+    rename = require('gulp-rename'),
+    concat = require('gulp-concat'),
+    replace = require('gulp-replace'),
+    lint = require('gulp-jshint'),
+    connect = require("gulp-connect");
 
-gulp.task('default', ['less', 'minifycss', 'lint', 'combinejs', 'minifyjs', 'production'], function () {
+gulp.task('default', ['less', 'minifycss', 'lint', 'combinejs', 'minifyjs', 'production', "connect"], function () {
 
     gulp.watch('./Code/css/less/*', ['less', 'minifycss']);
     gulp.watch('./Code/js/myLibs/*.js', ['lint', 'combinejs', 'minifyjs', 'production']);
@@ -63,4 +64,11 @@ gulp.task('campusMap-lint', function () {
     return gulp.src('./Code/js/myLibs/campusMap.js')
         .pipe(lint())
         .pipe(lint.reporter("default"));
+});
+
+gulp.task("connect", function () {
+    connect.server({
+        root: "Code",
+        livreload: true
+    });
 });
