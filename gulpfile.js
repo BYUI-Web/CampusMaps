@@ -52,7 +52,8 @@ gulp.task('minifyjs', ['combinejs', 'lint'], function () {
 
 gulp.task('production', ["minifyjs", "combinejs"], function () {
     return gulp.src("./Code/js/campusMap.js")
-        .pipe(replace("css/map.css", "//byui-web.github.io/CampusMaps/map.min.css"))
+        .pipe(replace("css/map.css", "prebuilt/maps/css/map.min.css"))
+        .pipe(replace("js/vendor/promise.min.js", "prebuilt/maps/js/promise.min.js"))
         .pipe(rename("campusMap.js"))
         .pipe(gulp.dest("./"))
         .pipe(uglify())
