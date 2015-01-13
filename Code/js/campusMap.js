@@ -248,14 +248,14 @@ KMLParser.prototype.getColors = function(id) {
 		var line = styles.getElementsByTagName("LineStyle")[0];
 		if (line) {
 			lineColor = this.getElementText(line.getElementsByTagName("color")[0]).substr(2);
-			lineColor = lineColor.substr(4,5) + lineColor.substr(2,2) + lineColor.substr(0,2);
+			lineColor = lineColor.substr(4,2) + lineColor.substr(2,2) + lineColor.substr(0,2);
 		} else {
 			lineColor = "FFFFFF";
 		}
 		var poly = styles.getElementsByTagName("PolyStyle")[0];
 		if (poly) {
 			polyColor = this.getElementText(poly.getElementsByTagName("color")[0]).substr(2);
-			polyColor = polyColor.substr(4,5) + polyColor.substr(2,2) + polyColor.substr(0,2);
+			polyColor = polyColor.substr(4,2) + polyColor.substr(2,2) + polyColor.substr(0,2);
 		} else {
 			polyColor = "FFFFFF";
 		}
