@@ -249,13 +249,13 @@ KMLParser.prototype.getColors = function(id) {
 		if (line) {
 			lineColor = this.getElementText(line.getElementsByTagName("color")[0]).substr(2);
 		} else {
-			lineColor = "FFFFF";
+			lineColor = "FFFFFF";
 		}
 		var poly = styles.getElementsByTagName("PolyStyle")[0];
 		if (poly) {
 			polyColor = this.getElementText(poly.getElementsByTagName("color")[0]).substr(2);
 		} else {
-			polyColor = "FFFFF";
+			polyColor = "FFFFFF";
 		}
 		style = ['#' + lineColor, '#' + polyColor];
 		this.foundStyles[id] = style;
