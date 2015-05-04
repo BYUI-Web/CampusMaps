@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>EventLocations.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ffa44b31</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ffa44b31</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Event Locations</name>
+		<open>1</open>
+		<description><![CDATA[<img src="http://dark-rust"/>
+<p>All Campus Parking Available:</p>
+<p>-After 4 P.M. on weekdays</p>
+<p>-Weekends</p>
+<p>No Permit Required</p>
+<a href="http://www.byui.edu/Documents/Google Maps/ParkingMapv2.pdf">http://www.byui.edu/Documents/Google Maps/ParkingMapv2.pdf</a>]]></description>
+		<Folder>
+			<name>EV - Event Locations</name>
+			<description><![CDATA[<code>EV</code>]]></description>
+			<Placemark>
+				<name>Snow</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7843438616622,43.82085634834048,0 -111.7829388182297,43.82084884113083,0 -111.7829114896514,43.82173236260326,0 -111.7843564431525,43.82174158338087,0 -111.7843438616622,43.82085634834048,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Kirkham</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7820379295348,43.8206388462734,0 -111.7812342694588,43.82063018183424,0 -111.7812460006921,43.82160804235333,0 -111.7820558973255,43.82160718331566,0 -111.782070665378,43.82160769456649,0 -111.7820379295348,43.8206388462734,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hart</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7864023945858,43.81919843102619,0 -111.7840757864928,43.81917784176793,0 -111.784075867145,43.81990289353514,0 -111.7864350168927,43.81990335727355,0 -111.7864023945858,43.81919843102619,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>BYU-I Center</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7862330694837,43.81906862131916,0 -111.7862410092466,43.81790686173306,0 -111.784021584813,43.81793046747089,0 -111.7840219131671,43.81906712449418,0 -111.7862330694837,43.81906862131916,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

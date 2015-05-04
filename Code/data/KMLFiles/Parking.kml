@@ -2,98 +2,8 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Parking.kml</name>
-	<visibility>0</visibility>
-	<StyleMap id="msn_ylw-pushpin25">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin24</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin14</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin23">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff18f6ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b310f6ff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin31">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin33</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin32</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin28">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin21</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin19</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin360">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffa123ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3a72fff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin16">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffbe6800</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3fd8904</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin30">
+	<open>1</open>
+	<Style id="sh_ylw-pushpin300">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -108,54 +18,9 @@
 			<color>b31010ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin45">
+	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff18f6ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b310f6ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin7">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff18f6ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b310f6ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin24">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffbe6800</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3fd8904</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -164,6 +29,9 @@
 		<LineStyle>
 			<color>ff33ff99</color>
 		</LineStyle>
+		<PolyStyle>
+			<color>ccffffff</color>
+		</PolyStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin000">
 		<IconStyle>
@@ -180,24 +48,9 @@
 			<color>b3fd8904</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin4">
+	<Style id="sh_ylw-pushpin4">
 		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff2be8</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3a42ba3</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin19">
-		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -208,196 +61,6 @@
 		</LineStyle>
 		<PolyStyle>
 			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin12">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin9</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff9abf00</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3ccff00</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin100">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffbe6800</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3fd8904</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin22">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin22</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin26">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff2be8</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3a42ba3</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin9">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin11">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00467f</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b300467f</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin17">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffbe6800</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3fd8904</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin27">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin110</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin25</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin19</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin27</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin3">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00467f</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b300467f</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin24">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff18f6ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b310f6ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff9abf00</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3ccff00</color>
 		</PolyStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin110">
@@ -415,7 +78,17 @@
 			<color>b31010ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin21">
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -430,9 +103,339 @@
 			<color>b31010ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin13">
+	<Style id="sn_ylw-pushpin9">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0909bc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b31010ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin18">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0909bc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b31010ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin51</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff18f6ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b310f6ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0909bc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b31010ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin230">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin23</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin19">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0909bc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b31010ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00467f</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b300467f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin70">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff18f6ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b310f6ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin350">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0909bc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b31010ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff9abf00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3ccff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin29">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin45</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff18f6ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b310f6ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff9abf00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3ccff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00467f</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b300467f</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00f04c</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3009933</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -469,13 +472,98 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff00467f</color>
+			<color>ffff2be8</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>b300467f</color>
+			<color>b3a42ba3</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin28">
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0909bc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b31010ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0909bc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b31010ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin29">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin24">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff33ff99</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ccffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin16">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -490,6 +578,102 @@
 			<color>b31010ff</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sh_ylw-pushpin45">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff18f6ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b310f6ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_wheel_chair_accessible">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin41">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff33ff99</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff18f6ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b310f6ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00467f</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b300467f</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_ylw-pushpin25">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -505,137 +689,7 @@
 			<color>b31010ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin6">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffbe6800</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3fd8904</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin34">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin7">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff18f6ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b310f6ff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin23">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin14">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff18f6ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b310f6ff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin36">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin35">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin17</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin220">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin190</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin18</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin4">
+	<Style id="sh_ylw-pushpin40">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -653,106 +707,14 @@
 	<StyleMap id="msn_ylw-pushpin4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin20</styleUrl>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin23</styleUrl>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin29</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin40">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff18f6ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b310f6ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin18">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffbe6800</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3fd8904</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin22">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff33ff99</color>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffbe6800</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3fd8904</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin27">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin260</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin360</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin">
+	<Style id="sh_ylw-pushpin14">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -763,8 +725,165 @@
 		<LineStyle>
 			<color>ff33ff99</color>
 		</LineStyle>
+		<PolyStyle>
+			<color>ccffffff</color>
+		</PolyStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin12">
+	<StyleMap id="msn_ylw-pushpin35">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin15">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffa123ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3a72fff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin15">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00467f</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b300467f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin360">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffa123ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3a72fff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin17">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin16">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff9abf00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3ccff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_wheel_chair_accessible">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin500">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -779,72 +898,7 @@
 			<color>b300467f</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin190">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00f04c</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3009933</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin15">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin27</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin3">
+	<Style id="sh_ylw-pushpin70">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -853,38 +907,43 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff0909bc</color>
+			<color>ff18f6ff</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>b31010ff</color>
+			<color>b310f6ff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin130">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin10">
+	<Style id="sh_ylw-pushpin32">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ffbe6800</color>
+			<color>ff00467f</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>b3fd8904</color>
+			<color>b300467f</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin260">
+	<Style id="sh_ylw-pushpin001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff18f6ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b310f6ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -899,7 +958,47 @@
 			<color>b3a72fff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin14">
+	<StyleMap id="msn_ylw-pushpin80">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin300</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00467f</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b300467f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -929,7 +1028,32 @@
 			<color>b310f6ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin26">
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin260">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -942,6 +1066,341 @@
 		</LineStyle>
 		<PolyStyle>
 			<color>b3a72fff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin260</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin360</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00467f</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b300467f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin33</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin32</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin27">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0909bc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b31010ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin190">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00f04c</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3009933</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff18f6ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b310f6ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff4c0ea3</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff330c8e</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin220">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin190</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin130">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff2be8</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3a42ba3</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff4c0ea3</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff330c8e</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin23">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0909bc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b31010ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin140">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin36">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff9abf00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3ccff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0909bc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b31010ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbe6800</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3fd8904</color>
 		</PolyStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin8">
@@ -959,307 +1418,27 @@
 			<color>b31010ff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin21">
+	<StyleMap id="msn_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin13</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin12</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin01">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff18f6ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b310f6ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin9">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin12">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff18f6ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b310f6ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin6">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00467f</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b300467f</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin19">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin12</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin17</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin29">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin14</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin45</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin32">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin11</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin300">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin19">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin25</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin26</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff9abf00</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3ccff00</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin270">
+	<StyleMap id="msn_ylw-pushpin25">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin26</styleUrl>
+			<styleUrl>#sn_ylw-pushpin24</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin36</styleUrl>
+			<styleUrl>#sh_ylw-pushpin140</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin13">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin28</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin18</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin16</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin23">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin23</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin13</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin13">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin8">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin14">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin24</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin18">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin36">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffa123ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3a72fff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin20">
+	<Style id="sn_ylw-pushpin51">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1274,64 +1453,9 @@
 			<color>b31010ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin10">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00f04c</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3009933</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin25">
+	<Style id="sn_ylw-pushpin22">
 		<IconStyle>
 			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff2be8</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3a42ba3</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin29">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffbe6800</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3fd8904</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin80">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin8</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin300</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin20">
-		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -1341,82 +1465,7 @@
 			<color>ff33ff99</color>
 		</LineStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin32">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00467f</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b300467f</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin27">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0909bc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b31010ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin15">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff2be8</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b3a42ba3</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin20</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin9">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin15</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin30</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin15</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin0">
+	<Style id="sn_ylw-pushpin11">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1425,32 +1474,170 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff9abf00</color>
+			<color>ff33ff99</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>b3ccff00</color>
+			<color>ccffffff</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin14">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff18f6ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b310f6ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin34">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin70</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>Parking</name>
-		<visibility>0</visibility>
 		<open>1</open>
-		<description><![CDATA[<img src="http://dark-tan"/>Parking Areas are plotted according to the following key. Parking passes will be required as indicated.<a href="http://www2.byui.edu/ParkingServices/">http://www2.byui.edu/ParkingServices/</a>]]></description>
+		<description><![CDATA[<p><img src="http://dark-tan"/>Parking Areas are plotted according to the following key. Parking passes will be required as indicated.<a href="http://www2.byui.edu/ParkingServices/">http://www2.byui.edu/ParkingServices/</a></p>
+<p>Last Updated: 2014-02-21</p>]]></description>
+		<Folder>
+			<name>Reserved Accessibility (Handicap Permit)</name>
+			<description>handicap</description>
+			<Placemark>
+				<name>Benson Building</name>
+				<description>Handicap permit required</description>
+				<LookAt>
+					<longitude>-111.7836553032486</longitude>
+					<latitude>43.815323886168</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0002773447535043737</heading>
+					<tilt>0</tilt>
+					<range>174.3264569387185</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-111.7837300191313,43.81537374155791,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rigby and Austin</name>
+				<description>Handicap permit required.</description>
+				<LookAt>
+					<longitude>-111.7828430634651</longitude>
+					<latitude>43.81636596671751</latitude>
+					<altitude>0</altitude>
+					<heading>0.0002850123383215647</heading>
+					<tilt>0</tilt>
+					<range>384.9623687042783</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-111.7841339757428,43.8164880839126,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Biddulph</name>
+				<description>Handicap permit required.
+
+2 stalls.</description>
+				<LookAt>
+					<longitude>-111.7847279797421</longitude>
+					<latitude>43.81685515588037</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001020008372143822</heading>
+					<tilt>0</tilt>
+					<range>224.0709455081287</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-111.7854358676568,43.81651161715597,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rigby, I-Center, MC</name>
+				<LookAt>
+					<longitude>-111.7843806952576</longitude>
+					<latitude>43.81783058275922</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0007795900427549694</heading>
+					<tilt>0</tilt>
+					<range>141.414235416372</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-111.7841313581971,43.81764277615537,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>I-Center, Biddulph, Rigby</name>
+				<description>2 stalls.</description>
+				<LookAt>
+					<longitude>-111.7844332937391</longitude>
+					<latitude>43.81782651054839</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000816008084509165</heading>
+					<tilt>0</tilt>
+					<range>141.4327998310043</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-111.7849875723569,43.81773228941744,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Biddulph, I-Center, Rigby</name>
+				<open>1</open>
+				<description>2 stalls.</description>
+				<LookAt>
+					<longitude>-111.7844343770775</longitude>
+					<latitude>43.81782784232463</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0008167341769553509</heading>
+					<tilt>0</tilt>
+					<range>115.6091262461883</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-111.7849863832288,43.81765124098307,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
 		<Folder>
 			<name>V - Visitor</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<code>V</code>]]></description>
 			<Placemark>
 				<name>Hinckley Lot - Visitor Parking</name>
-				<visibility>0</visibility>
-				<description>Visitor Students and employees not permitted to park in visitor parking stalls. Overnight parking not allowed.</description>
-				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<description><![CDATA[<p>Students and employees are not permitted to park in visitor parking stalls. Overnight parking not allowed.</p>
+<p>6 stalls</p>]]></description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7792839132278,43.81595830681322,0 -111.7792048017583,43.8159060148885,0 -111.7790463519788,43.81602309708774,0 -111.7791233070232,43.81607489568782,0 -111.7792839132278,43.81595830681322,0 
+								-111.7793901845129,43.81594776744802,0 -111.7793395506138,43.81591516285831,0 -111.7791999120004,43.81602480997251,0 -111.779254145477,43.81605913546761,0 -111.7793901845129,43.81594776744802,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1458,7 +1645,6 @@
 			</Placemark>
 			<Placemark>
 				<name>Hart / Stadium - Visitor Parking</name>
-				<visibility>0</visibility>
 				<description>Visitor Students and employees not permitted to park in visitor parking stalls. Overnight parking not allowed.</description>
 				<styleUrl>#msn_ylw-pushpin22</styleUrl>
 				<Polygon>
@@ -1474,7 +1660,6 @@
 			</Placemark>
 			<Placemark>
 				<name>Kimball Lot - Visitor Parking</name>
-				<visibility>0</visibility>
 				<description>Visitor Students and employees not permitted to park in visitor parking stalls. Overnight parking not allowed.</description>
 				<styleUrl>#msn_ylw-pushpin22</styleUrl>
 				<Polygon>
@@ -1490,15 +1675,14 @@
 			</Placemark>
 			<Placemark>
 				<name>BYU-Idaho Center South Parking Lot- Handicap &amp; Visitor</name>
-				<visibility>0</visibility>
 				<description>Visitor Students and employees not permitted to park in visitor parking stalls. Overnight parking not allowed.</description>
-				<styleUrl>#msn_ylw-pushpin22</styleUrl>
+				<styleUrl>#msn_ylw-pushpin7</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7842947747953,43.81777087530146,0 -111.7842924910367,43.81767602245601,0 -111.7840556205061,43.81767612857497,0 -111.7840559407179,43.81777119239727,0 -111.7842947747953,43.81777087530146,0 
+								-111.7844515291773,43.81776608683956,0 -111.7844420186344,43.8176459018315,0 -111.7841749025341,43.81764877904044,0 -111.7841728048023,43.81769426691613,0 -111.7841073341929,43.81769561334917,0 -111.7841067238996,43.81776742532765,0 -111.7844515291773,43.81776608683956,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1506,7 +1690,6 @@
 			</Placemark>
 			<Placemark>
 				<name>Manwaring East Parking Lot-Visitor Parking</name>
-				<visibility>0</visibility>
 				<description>Visitor Students and employees not permitted to park in visitor parking stalls. Overnight parking not allowed.</description>
 				<styleUrl>#msn_ylw-pushpin22</styleUrl>
 				<Polygon>
@@ -1522,7 +1705,6 @@
 			</Placemark>
 			<Placemark>
 				<name>Manwaring Center East Parking Lot - Visitor Parking</name>
-				<visibility>0</visibility>
 				<description>Visitor Students and employees not permitted to park in visitor parking stalls. Overnight parking not allowed.</description>
 				<styleUrl>#msn_ylw-pushpin22</styleUrl>
 				<Polygon>
@@ -1539,11 +1721,9 @@
 		</Folder>
 		<Folder>
 			<name>A - Faculty &amp; Staff</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<code>A</code>]]></description>
 			<Placemark>
 				<name>Benson Parking lot</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
 				<styleUrl>#msn_ylw-pushpin00</styleUrl>
@@ -1552,7 +1732,7 @@ Full time employees may receive one transferable hanging A permit. Employees may
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7835096915399,43.81651851429142,0 -111.7835098021257,43.81608603087316,0 -111.7826553753275,43.81608640403385,0 -111.7825190416659,43.81618715045637,0 -111.7825154358521,43.816217333947,0 -111.7825851034618,43.81625497965472,0 -111.7825842822744,43.81646000438012,0 -111.7830618798164,43.81646064913496,0 -111.7828512171184,43.8165198709663,0 -111.7835096915399,43.81651851429142,0 
+								-111.7834636348218,43.81615934597098,0 -111.7827275309248,43.81616219188608,0 -111.7826569572188,43.81621026783764,0 -111.7826566539833,43.81632656616745,0 -111.7826221738562,43.81632796110509,0 -111.7826235471948,43.81643117469397,0 -111.7834717175564,43.81643221897755,0 -111.7834636348218,43.81615934597098,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1560,16 +1740,15 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Austin Faculty Parking Lot</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7855492006947,43.81593906386387,0 -111.7855494899199,43.81515122478296,0 -111.7853006729758,43.81515092621469,0 -111.785302303897,43.81544185445986,0 -111.7851264321061,43.81544194147558,0 -111.7851299734211,43.81639872451802,0 -111.7853428866502,43.81639741347597,0 -111.7853431727266,43.81593805004827,0 -111.7855492006947,43.81593906386387,0 
+								-111.7855492006947,43.81593906386387,0 -111.7855328580816,43.81525692655254,0 -111.7853340629803,43.81525718443543,0 -111.7853347909683,43.81520718764845,0 -111.785199297057,43.81520453085147,0 -111.7851940439137,43.81639665906712,0 -111.7852633834524,43.81639680536384,0 -111.785265864726,43.81603568527161,0 -111.7853493216052,43.81603348339677,0 -111.7853431727266,43.81593805004827,0 -111.7855492006947,43.81593906386387,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1577,17 +1756,16 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Austin Faculty Parking Lot</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin13</styleUrl>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7840462250287,43.8151538391138,0 -111.7840456837697,43.8153404876762,0 -111.7851291018772,43.81534019448812,0 -111.7851281510643,43.81515434413416,0 -111.7840462250287,43.8151538391138,0 
+								-111.784602697818,43.81518595514408,0 -111.7845723826806,43.81522019293981,0 -111.7846357506398,43.81536205338508,0 -111.7849863598739,43.81535520586372,0 -111.7850805655163,43.815285306615,0 -111.7851465947738,43.81528319059219,0 -111.7851508713483,43.81524058638773,0 -111.7850779362804,43.81523800048156,0 -111.7850724615261,43.8151841716592,0 -111.784602697818,43.81518595514408,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1595,16 +1773,15 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Auxiliary Services Parking Lot</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin20</styleUrl>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7834121754682,43.81440751080741,0 -111.7828631588755,43.81440775224526,0 -111.7828610732651,43.81382520967553,0 -111.783414583701,43.81382608491444,0 -111.7834125732912,43.8136528626214,0 -111.7826566505134,43.81365281156533,0 -111.7826579487885,43.81467494052389,0 -111.783411197122,43.81467732866107,0 -111.7834121754682,43.81440751080741,0 
+								-111.7834595945885,43.81448988536425,0 -111.7827665168182,43.81448954539972,0 -111.782764329742,43.81441960542888,0 -111.782699047344,43.81442066057225,0 -111.7827024608697,43.81384115552019,0 -111.7833286297819,43.81383680240198,0 -111.7833312162466,43.81387628947168,0 -111.7834636294143,43.81387888189685,0 -111.7834637517446,43.8137818880705,0 -111.7828721029558,43.81378255643073,0 -111.7828776256457,43.81383434945111,0 -111.7827019733117,43.81383898000077,0 -111.7826984946381,43.81442293068089,0 -111.7826926136472,43.81459683693193,0 -111.7834585691916,43.81455714989752,0 -111.7834595945885,43.81448988536425,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1612,16 +1789,17 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Auxiliary Services Parking</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
-Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin20</styleUrl>
+Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.
+
+10 stalls</description>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.783484006564,43.81479513461974,0 -111.7834828002048,43.81469258735209,0 -111.7831096964745,43.8146942691575,0 -111.7831107029752,43.81479648836372,0 -111.783484006564,43.81479513461974,0 
+								-111.7835183073029,43.81476215101897,0 -111.7835167195124,43.8147019310935,0 -111.7831750267855,43.81470303907634,0 -111.7831778727767,43.81476239484273,0 -111.7835183073029,43.81476215101897,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1629,16 +1807,15 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>AG Engineering Parking Lot</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin20</styleUrl>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7832174282341,43.81358255728245,0 -111.7833095454349,43.81352231051616,0 -111.7833091213935,43.81347668569106,0 -111.7827341566022,43.81347672422442,0 -111.7827347248272,43.81358255717169,0 -111.7832174282341,43.81358255728245,0 
+								-111.7833268789433,43.813628286336,0 -111.7833260045977,43.81355800093851,0 -111.7827792716896,43.813554749714,0 -111.7827791850701,43.81362717089685,0 -111.7833268789433,43.813628286336,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1646,7 +1823,6 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Snow parking Lot 2</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
 				<styleUrl>#msn_ylw-pushpin12</styleUrl>
@@ -1663,10 +1839,9 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Hart Parking Lot</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<styleUrl>#msn_ylw-pushpin000</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1680,7 +1855,6 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>I-Center parking lot</name>
-				<visibility>0</visibility>
 				<description>West parking lot
 Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
@@ -1698,7 +1872,6 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Manwaring East Parking Lot</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
 				<styleUrl>#msn_ylw-pushpin80</styleUrl>
@@ -1715,7 +1888,6 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Clarke Parking Lot</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
 				<styleUrl>#msn_ylw-pushpin12</styleUrl>
@@ -1732,7 +1904,6 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Faculty/ Staff Parking</name>
-				<visibility>0</visibility>
 				<description>Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
 				<styleUrl>#msn_ylw-pushpin12</styleUrl>
 				<Polygon>
@@ -1748,15 +1919,14 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Faculty/ Staff Parking</name>
-				<visibility>0</visibility>
 				<description>Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin10</styleUrl>
+				<styleUrl>#msn_ylw-pushpin9</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7789375891977,43.816756895883,0 -111.778937411417,43.81660605663878,0 -111.7786804553521,43.81660382410797,0 -111.7786780066531,43.81675663567837,0 -111.7789375891977,43.816756895883,0 
+								-111.7789726398963,43.81675559440159,0 -111.7789691960219,43.81669886985905,0 -111.7787238212429,43.81670023364983,0 -111.7787204779262,43.81675725080148,0 -111.7789726398963,43.81675559440159,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1764,7 +1934,6 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Faculty/ Staff Parking</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
 				<styleUrl>#msn_ylw-pushpin9</styleUrl>
@@ -1773,7 +1942,7 @@ Full time employees may receive one transferable hanging A permit. Employees may
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7788640420703,43.81627107299197,0 -111.7791241987669,43.81607665791873,0 -111.7790447327318,43.81602426960474,0 -111.7792031733076,43.81590600787922,0 -111.7792841415463,43.815957529737,0 -111.7792871035309,43.81569803285752,0 -111.7787011858,43.8161676856398,0 -111.7788640420703,43.81627107299197,0 
+								-111.7789482437307,43.81629149800852,0 -111.7792513742244,43.81605707855284,0 -111.7791347088039,43.81598531182874,0 -111.7792479746744,43.81589324452086,0 -111.7791905641038,43.81585634515275,0 -111.7788255205686,43.81614941709031,0 -111.778869289253,43.81617908102118,0 -111.7789059049061,43.81626519770639,0 -111.7789482437307,43.81629149800852,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1781,16 +1950,15 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Faculty/ Staff Parking</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin20</styleUrl>
+				<styleUrl>#msn_ylw-pushpin9</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7830747236373,43.81296759860128,0 -111.7830738301036,43.81280394630021,0 -111.7829057895935,43.81280292699918,0 -111.7829060665498,43.81296784176453,0 -111.7830747236373,43.81296759860128,0 
+								-111.7831279333545,43.812917801377,0 -111.7831283203409,43.81282824182568,0 -111.782904639874,43.81282554520925,0 -111.7829049146684,43.81291745502033,0 -111.7831279333545,43.812917801377,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1798,16 +1966,18 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Faculty/ Staff Parking</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
-Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin4</styleUrl>
+Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.
+
+26 stalls
+6 reserved accessibility stalls</description>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7800347942644,43.81530749056251,0 -111.7801456424953,43.81530737875404,0 -111.7801459394653,43.81411419760258,0 -111.7800330888349,43.8141150082328,0 -111.7800347942644,43.81530749056251,0 
+								-111.7801601632569,43.81530267468508,0 -111.78023081369,43.81530500673865,0 -111.7802514560106,43.81413194520331,0 -111.78016851653,43.81412781169929,0 -111.7801646488794,43.81447941796035,0 -111.7802448613384,43.81447987257773,0 -111.7802408774409,43.81473036027768,0 -111.7801646971304,43.81472909841089,0 -111.7801646720408,43.81487853186223,0 -111.7802379762414,43.81487869863625,0 -111.7802338356509,43.8151314433972,0 -111.780162319058,43.81513162407046,0 -111.7801601632569,43.81530267468508,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1815,16 +1985,15 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Faculty/ Staff Parking</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin28</styleUrl>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7858977954143,43.8165840322632,0 -111.7855672316086,43.81658390299803,0 -111.7855657112888,43.81696014893006,0 -111.7858980147912,43.81696245159047,0 -111.7858977954143,43.8165840322632,0 
+								-111.7853649823249,43.81656427540563,0 -111.7853424975668,43.81651577896454,0 -111.7850563735492,43.81640252377495,0 -111.7841396091469,43.81639610979698,0 -111.7841346130117,43.81656304174819,0 -111.7853649823249,43.81656427540563,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1832,11 +2001,10 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>East Kimball Parking Lot (A lot, employee parking)</name>
-				<visibility>0</visibility>
 				<description>Employee parking lot (A lot).
 Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin23</styleUrl>
+				<styleUrl>#msn_ylw-pushpin230</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1851,14 +2019,12 @@ Full time employees may receive one transferable hanging A permit. Employees may
 		</Folder>
 		<Folder>
 			<name>City R - City Street Parking</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<code>CR</code>]]></description>
 			<Placemark>
 				<name>City Resident Street Parking</name>
-				<visibility>0</visibility>
 				<description>City R Permit Required
 The City provides two permits per household to residents living on the streets zoned City R. Students living on these streets should consult with their landlord to determine if the access to these permits is available.</description>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin001</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1872,10 +2038,9 @@ The City provides two permits per household to residents living on the streets z
 			</Placemark>
 			<Placemark>
 				<name>City Resident Street Parking</name>
-				<visibility>0</visibility>
 				<description>City R Permit Required
 The City provides two permits per household to residents living on the streets zoned City R. Students living on these streets should consult with their landlord to determine if the access to these permits is available.</description>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin001</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1889,10 +2054,9 @@ The City provides two permits per household to residents living on the streets z
 			</Placemark>
 			<Placemark>
 				<name>City Resident Street Parking</name>
-				<visibility>0</visibility>
 				<description>City R Permit Required
 The City provides two permits per household to residents living on the streets zoned City R. Students living on these streets should consult with their landlord to determine if the access to these permits is available.</description>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<styleUrl>#msn_ylw-pushpin001</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1906,7 +2070,6 @@ The City provides two permits per household to residents living on the streets z
 			</Placemark>
 			<Placemark>
 				<name>City Resident Street Parking</name>
-				<visibility>0</visibility>
 				<description>City R Permit Required
 The City provides two permits per household to residents living on the streets zoned City R. Students living on these streets should consult with their landlord to determine if the access to these permits is available.</description>
 				<styleUrl>#msn_ylw-pushpin01</styleUrl>
@@ -1924,20 +2087,18 @@ The City provides two permits per household to residents living on the streets z
 		</Folder>
 		<Folder>
 			<name>City U - City Street Parking</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<code>CU</code>]]></description>
 			<Placemark>
 				<name>City Street Parking</name>
-				<visibility>0</visibility>
 				<description>City U permit Required
 Parking on city streets requires a permit from the City of Rexburg. Information about city parking permits can be obtained by contacting City of Rexburg at: 208-359-3020 ext. 8000</description>
-				<styleUrl>#msn_ylw-pushpin270</styleUrl>
+				<styleUrl>#msn_ylw-pushpin20</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7807199374426,43.81985265301661,0 -111.7807603981672,43.81985597346902,0 -111.7807899784694,43.81987195644538,0 -111.7807945367291,43.81989957925804,0 -111.7807842664586,43.82321540220465,0 -111.7810166684411,43.82321639631569,0 -111.7810212177951,43.82191961291536,0 -111.7836936353202,43.82192108247766,0 -111.7836969231971,43.82320347823487,0 -111.7839110540547,43.82320327524074,0 -111.7839134744411,43.82192104764771,0 -111.7880541790568,43.82192049280614,0 -111.7880548092757,43.82177171376195,0 -111.7867842597251,43.82177359211556,0 -111.7867915613752,43.81986008252514,0 -111.7880928686999,43.81985973090145,0 -111.7880983871177,43.81972863744198,0 -111.7867897980923,43.81972666722407,0 -111.7867879459983,43.81777099259799,0 -111.788038991429,43.81777111334547,0 -111.7880409502477,43.81761385589068,0 -111.7867928226805,43.81761336280816,0 -111.7867900229534,43.81568953456011,0 -111.7880335331032,43.81568896072967,0 -111.7880354793049,43.81555079219868,0 -111.7867860421507,43.8155525394419,0 -111.7867898386954,43.81494081674324,0 -111.7865939970195,43.81493917304816,0 -111.7865761922306,43.82177227546313,0 -111.7810206065032,43.82177239204516,0 -111.7810280130899,43.81988222649291,0 -111.7810233714911,43.81982050393014,0 -111.7810114536481,43.81977116345151,0 -111.7809958366595,43.81973479022982,0 -111.7809608857268,43.81970534919907,0 -111.7809292526469,43.81968244531164,0 -111.7808748077228,43.81966759236519,0 -111.7807960419275,43.81966329764153,0 -111.7781425919481,43.81966261912751,0 -111.7781400564442,43.81985121112139,0 -111.7807199374426,43.81985265301661,0 
+								-111.7807199374426,43.81985265301661,0 -111.7807603981672,43.81985597346902,0 -111.7807899784694,43.81987195644538,0 -111.7807945367291,43.81989957925804,0 -111.7807842664586,43.82321540220465,0 -111.7810166684411,43.82321639631569,0 -111.7810212177951,43.82191961291536,0 -111.7836936353202,43.82192108247766,0 -111.7836969231971,43.82320347823487,0 -111.7839110540547,43.82320327524074,0 -111.7839134744411,43.82192104764771,0 -111.7880541790568,43.82192049280614,0 -111.7880548092757,43.82177171376195,0 -111.7867842597251,43.82177359211556,0 -111.7867915613752,43.81986008252514,0 -111.7880928686999,43.81985973090145,0 -111.7880983871177,43.81972863744198,0 -111.7867897980923,43.81972666722407,0 -111.7867879459983,43.81777099259799,0 -111.788038991429,43.81777111334547,0 -111.7880409502477,43.81761385589068,0 -111.7867928226805,43.81761336280816,0 -111.7867900229534,43.81568953456011,0 -111.7880335331032,43.81568896072967,0 -111.7880354793049,43.81555079219868,0 -111.7867860421507,43.8155525394419,0 -111.7865888114304,43.81555067563904,0 -111.7865761922306,43.82177227546313,0 -111.7810206065032,43.82177239204516,0 -111.7810280130899,43.81988222649291,0 -111.7810233714911,43.81982050393014,0 -111.7810114536481,43.81977116345151,0 -111.7809958366595,43.81973479022982,0 -111.7809608857268,43.81970534919907,0 -111.7809292526469,43.81968244531164,0 -111.7808748077228,43.81966759236519,0 -111.7807960419275,43.81966329764153,0 -111.7781425919481,43.81966261912751,0 -111.7781400564442,43.81985121112139,0 -111.7807199374426,43.81985265301661,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1945,7 +2106,6 @@ Parking on city streets requires a permit from the City of Rexburg. Information 
 			</Placemark>
 			<Placemark>
 				<name>City Street Parking</name>
-				<visibility>0</visibility>
 				<description>City Street Parking 
 City U permit Required
 Parking on city streets requires a permit from the City of Rexburg. Information about city parking permits can be obtained by contacting City of Rexburg at: 208-359-3020 ext. 8000</description>
@@ -1964,11 +2124,9 @@ Parking on city streets requires a permit from the City of Rexburg. Information 
 		</Folder>
 		<Folder>
 			<name>F - Free Permit Lot</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<code>F</code>]]></description>
 			<Placemark>
 				<name>Free Parking Lot</name>
-				<visibility>0</visibility>
 				<description>Free
 Other paid permits are also valid in this lot. Overnight parking not allowed.</description>
 				<styleUrl>#msn_ylw-pushpin35</styleUrl>
@@ -1985,16 +2143,15 @@ Other paid permits are also valid in this lot. Overnight parking not allowed.</d
 			</Placemark>
 			<Placemark>
 				<name>7th South Parking Lot-Free</name>
-				<visibility>0</visibility>
 				<description>Free
 Other paid permits are also valid in this lot. Overnight parking not allowed.</description>
-				<styleUrl>#msn_ylw-pushpin32</styleUrl>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7818782388025,43.81162101798856,0 -111.7818161386544,43.81162128664597,0 -111.7818166651196,43.81167832036292,0 -111.7808876557586,43.81167821577257,0 -111.7808880137775,43.8116225055565,0 -111.7806635124905,43.81162238735439,0 -111.7806579133239,43.81278048532255,0 -111.780762091242,43.81278075845475,0 -111.780761047049,43.81285511845693,0 -111.7819050781505,43.81285660760005,0 -111.782739846701,43.81265543332562,0 -111.7835773997268,43.81265605961801,0 -111.7835810529755,43.81252901813562,0 -111.7825933595667,43.81252931701504,0 -111.7818782512568,43.81270011429991,0 -111.7818782388025,43.81162101798856,0 
+								-111.7818847243292,43.81181801507174,0 -111.7818296004038,43.81176580475565,0 -111.7810058321329,43.81176404850922,0 -111.7808075866894,43.81171741274348,0 -111.7807297015412,43.81171587916599,0 -111.7807162863729,43.81279586685702,0 -111.780810516184,43.81279367419365,0 -111.7808060017445,43.81286319795583,0 -111.7819212114431,43.81286456479229,0 -111.7827725163168,43.81265347202473,0 -111.7834258663022,43.81265741334515,0 -111.7834270690146,43.81248103318562,0 -111.7827568954612,43.81247814432708,0 -111.7826557825841,43.81251139967436,0 -111.7826963492752,43.81261232372288,0 -111.7818954329273,43.81281801535069,0 -111.7818847243292,43.81181801507174,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -2002,14 +2159,16 @@ Other paid permits are also valid in this lot. Overnight parking not allowed.</d
 			</Placemark>
 			<Placemark>
 				<name>Hinckley Free Area</name>
-				<visibility>0</visibility>
+				<description>117 stalls
+0 motorcycle stalls
+0 reserved accessibility stalls</description>
 				<styleUrl>#msn_ylw-pushpin31</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7783885331247,43.81477163373727,0 -111.7785040190878,43.81466299471729,0 -111.7791358104787,43.81372639292409,0 -111.7790359885285,43.81365033969936,0 -111.7783972300318,43.81365048433214,0 -111.7782201339742,43.81384692320584,0 -111.7782167385584,43.81454746051687,0 -111.7783151521141,43.81459186901284,0 -111.7782301527786,43.81470803000812,0 -111.7783885331247,43.81477163373727,0 
+								-111.7784817687612,43.81373984360643,0 -111.7783518350189,43.8139205997229,0 -111.7783444736584,43.81452508086971,0 -111.7785061595037,43.81457501079699,0 -111.7783504192555,43.81474920734527,0 -111.7784096182112,43.81478180690615,0 -111.7785387661824,43.81465397209067,0 -111.7792012438218,43.81373374212763,0 -111.7784817687612,43.81373984360643,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -2017,7 +2176,6 @@ Other paid permits are also valid in this lot. Overnight parking not allowed.</d
 			</Placemark>
 			<Placemark>
 				<name>First South Free Area</name>
-				<visibility>0</visibility>
 				<styleUrl>#msn_ylw-pushpin21</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -2030,14 +2188,29 @@ Other paid permits are also valid in this lot. Overnight parking not allowed.</d
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
+			<Placemark>
+				<name>1st West Street-side</name>
+				<open>1</open>
+				<description>Free
+Other paid permits are also valid in this lot. Overnight parking not allowed.</description>
+				<styleUrl>#msn_ylw-pushpin350</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7868034393506,43.81489885883238,0 -111.7865951230244,43.81491421124633,0 -111.7865916815998,43.81555060453346,0 -111.7867873707301,43.81555192034179,0 -111.7868034393506,43.81489885883238,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
 		</Folder>
 		<Folder>
 			<name>H - On-Campus Housing</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<code>H</code>]]></description>
 			<Placemark>
 				<name>Pioneer Parking Lot</name>
-				<visibility>0</visibility>
 				<description>On-Campus Housing
 Requires a form from housing for registration. Valid in Pioneer and Biddulf lots only. Required to park overnight.</description>
 				<styleUrl>#msn_ylw-pushpin220</styleUrl>
@@ -2055,20 +2228,18 @@ Requires a form from housing for registration. Valid in Pioneer and Biddulf lots
 		</Folder>
 		<Folder>
 			<name>L - Long Term</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<code>L</code>]]></description>
 			<Placemark>
 				<name>7th South Parking Lot-Long Term &amp; Overnight</name>
-				<visibility>0</visibility>
 				<description>Long Term &amp; Overnight
 Students living in on-campus housing may choose to purchase this permit for this lot instead of an H permit.</description>
-				<styleUrl>#msn_ylw-pushpin7</styleUrl>
+				<styleUrl>#msn_ylw-pushpin13</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7818862629736,43.81269133477308,0 -111.782602487865,43.81252270071237,0 -111.7825985652474,43.8117176277833,0 -111.7824843217346,43.81171975521308,0 -111.7824834410463,43.81162226514207,0 -111.781882632966,43.81162100115569,0 -111.7818862629736,43.81269133477308,0 
+								-111.7819720961418,43.81268359520544,0 -111.7820420688933,43.81271490729767,0 -111.7824497367022,43.81241388691149,0 -111.7825486015738,43.8125361694511,0 -111.7826250169964,43.81253636033588,0 -111.7826213024089,43.81171758285971,0 -111.7825206065361,43.8117191675893,0 -111.7825239252989,43.81163669776079,0 -111.7820078459548,43.81163686627414,0 -111.7820064217343,43.81170378334368,0 -111.7819710341262,43.81182754803949,0 -111.7819720961418,43.81268359520544,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -2076,14 +2247,14 @@ Students living in on-campus housing may choose to purchase this permit for this
 			</Placemark>
 			<Placemark>
 				<name>7th South Parking Lot-Long Term Parking</name>
-				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<description>30 stalls</description>
+				<styleUrl>#msn_ylw-pushpin13</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7808901588243,43.81162106195337,0 -111.780889599507,43.8116754206396,0 -111.7818146360051,43.81167547071858,0 -111.7818141386674,43.81162129530547,0 -111.7808901588243,43.81162106195337,0 
+								-111.7808186661676,43.81164546876604,0 -111.7808131420991,43.81170341114677,0 -111.7818316447685,43.81170723889267,0 -111.7818308272235,43.81165081268818,0 -111.7808186661676,43.81164546876604,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -2092,7 +2263,6 @@ Students living in on-campus housing may choose to purchase this permit for this
 		</Folder>
 		<Folder>
 			<name>N - North Zone</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<code>N</code>]]></description>
 			<Style>
 				<ListStyle>
@@ -2103,11 +2273,10 @@ Students living in on-campus housing may choose to purchase this permit for this
 			</Style>
 			<Placemark>
 				<name>North Zone Parking</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>North Zone
 Required for campus parking on campus streets in the North Zone. Required in student parking lots on the North Zone.</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#msn_ylw-pushpin30</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -2121,17 +2290,16 @@ Required for campus parking on campus streets in the North Zone. Required in stu
 			</Placemark>
 			<Placemark>
 				<name>I-Center</name>
-				<visibility>0</visibility>
 				<description>South Parking Lot
 Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin6</styleUrl>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7865359018146,43.81757188147418,0 -111.7860712351564,43.81756947638436,0 -111.7858236690342,43.81749561578209,0 -111.7850367898857,43.81749564979725,0 -111.7850367233759,43.81755890622877,0 -111.7848896021602,43.81755800819425,0 -111.7848882297473,43.81750207207723,0 -111.7842983612782,43.81750329219193,0 -111.7843001149974,43.81777044631264,0 -111.7865370708843,43.8177692904548,0 -111.7865359018146,43.81757188147418,0 
+								-111.785663157398,43.81776856569277,0 -111.7856615147251,43.81765211602244,0 -111.7856957236768,43.81757339404625,0 -111.785694645762,43.81753286052477,0 -111.7850495320299,43.81753477541659,0 -111.7850508851682,43.81758826503364,0 -111.7849234717937,43.81758826110701,0 -111.7849218500927,43.81753840379591,0 -111.7846524303392,43.81753766543543,0 -111.7846536682083,43.81758629359798,0 -111.7845558494031,43.81758856441538,0 -111.7845527740156,43.81753457656358,0 -111.7840964228452,43.81753417050405,0 -111.7840995307356,43.81759354550152,0 -111.7844468000697,43.81759124402101,0 -111.7844519265287,43.81776436283791,0 -111.784894782736,43.81776440604024,0 -111.7848912825315,43.8176480149192,0 -111.7850550753504,43.8176496018699,0 -111.7850501013284,43.81769675795969,0 -111.7850841385203,43.81771968978352,0 -111.7850873063181,43.81777259606734,0 -111.785663157398,43.81776856569277,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -2139,7 +2307,6 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>I-Center west parking lot</name>
-				<visibility>0</visibility>
 				<description>West parking lot.
 Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
@@ -2157,7 +2324,6 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Snow Parking Lot 1</name>
-				<visibility>0</visibility>
 				<styleUrl>#msn_ylw-pushpin25</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -2172,7 +2338,6 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Stadium Parking Lot</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
 				<styleUrl>#msn_ylw-pushpin25</styleUrl>
@@ -2189,10 +2354,9 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>Kimball Student parking lot</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#msn_ylw-pushpin30</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -2205,42 +2369,7 @@ Full time employees may receive one transferable hanging A permit. Employees may
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<name>West Campus drive parking</name>
-				<visibility>0</visibility>
-				<description>North Zone
-Required for campus parking on campus streets in the North Zone. Required in student parking lots on the North Zone.</description>
-				<styleUrl>#msn_ylw-pushpin6</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-111.784826670998,43.81645122753929,0 -111.7848258686403,43.81638869224982,0 -111.7840735973918,43.81638815416594,0 -111.7840736472443,43.81645148223629,0 -111.784826670998,43.81645122753929,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
-			<Placemark>
 				<name>West campus Drive Parking 1</name>
-				<visibility>0</visibility>
-				<description>North Zone
-Required for campus parking on campus streets in the North Zone. Required in student parking lots on the North Zone.</description>
-				<styleUrl>#msn_ylw-pushpin6</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-111.7839746125025,43.81656324381714,0 -111.7855453849692,43.8165640426243,0 -111.7855448729545,43.81651329012472,0 -111.7839010996684,43.81651265897005,0 -111.7839020344063,43.81746712290848,0 -111.7839749491434,43.81746608241419,0 -111.7839746125025,43.81656324381714,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
-			<Placemark>
-				<name>West campus Drive Parking 1</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>North Zone
 Required for campus parking on campus streets in the North Zone. Required in student parking lots on the North Zone.</description>
@@ -2257,18 +2386,34 @@ Required for campus parking on campus streets in the North Zone. Required in stu
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<name>Taylor Parking lot</name>
-				<visibility>0</visibility>
+				<name>West campus Drive Parking 1</name>
+				<open>1</open>
 				<description>North Zone
-Faculty/ Staff 
-Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
-				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+Required for campus parking on campus streets in the North Zone. Required in student parking lots on the North Zone.</description>
+				<styleUrl>#msn_ylw-pushpin4</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.783507807769,43.81729055520985,0 -111.7835097065313,43.81652008784757,0 -111.7828506521418,43.81651954006895,0 -111.7828528518931,43.81663083244067,0 -111.783168223247,43.81662995697743,0 -111.7831686295323,43.81671426087264,0 -111.783293482109,43.81671442855087,0 -111.7832931257503,43.81698092804042,0 -111.7831889231397,43.81698299223623,0 -111.7831886081339,43.81728915924471,0 -111.783507807769,43.81729055520985,0 
+								-111.783956533156,43.81661565179017,0 -111.7838814912587,43.81660872167345,0 -111.7838797268261,43.81735131857393,0 -111.7839696423368,43.81734603288609,0 -111.783956533156,43.81661565179017,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Taylor Parking lot</name>
+				<description>North Zone
+Faculty/ Staff 
+Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7835615593588,43.81731646392445,0 -111.7835671101845,43.8166281142804,0 -111.7831495106003,43.81663547728039,0 -111.7831519424545,43.8167117763132,0 -111.7833047529477,43.81671514434397,0 -111.7833102207359,43.81699152957256,0 -111.7831459165672,43.81699353227815,0 -111.7831403125155,43.81731134273622,0 -111.7835615593588,43.81731646392445,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -2276,7 +2421,6 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>3rd South Parking Lot</name>
-				<visibility>0</visibility>
 				<description>Faculty/ Staff 
 Full time employees may receive one transferable hanging A permit. Employees may receive either an N, S or F tag for a second vehicle. Additional N or S parking decals may be purchased at regular cost.</description>
 				<styleUrl>#msn_ylw-pushpin130</styleUrl>
@@ -2293,10 +2437,9 @@ Full time employees may receive one transferable hanging A permit. Employees may
 			</Placemark>
 			<Placemark>
 				<name>North Zone Parking</name>
-				<visibility>0</visibility>
 				<description>North Zone
 Required for campus parking on campus streets in the North Zone. Required in student parking lots on the North Zone.</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#msn_ylw-pushpin30</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -2310,11 +2453,10 @@ Required for campus parking on campus streets in the North Zone. Required in stu
 			</Placemark>
 			<Placemark>
 				<name>North Zone Parking</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>North Zone
 Required for campus parking on campus streets in the North Zone. Required in student parking lots on the North Zone.</description>
-				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<styleUrl>#msn_ylw-pushpin30</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -2326,74 +2468,19 @@ Required for campus parking on campus streets in the North Zone. Required in stu
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
-			<Placemark>
-				<name>North Zone Parking</name>
-				<visibility>0</visibility>
-				<description>North Zone
-Required for campus parking on campus streets in the North Zone. Required in student parking lots on the North Zone.</description>
-				<styleUrl>#msn_ylw-pushpin6</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-111.7860517721967,43.8164507535836,0 -111.7860508099524,43.81639694267089,0 -111.7859423175725,43.81639687255274,0 -111.7859430901496,43.81645058802962,0 -111.7860517721967,43.8164507535836,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
-			<Placemark>
-				<name>North Zone Parking</name>
-				<visibility>0</visibility>
-				<open>1</open>
-				<description>North Zone
-Required for campus parking on campus streets in the North Zone. Required in student parking lots on the North Zone.</description>
-				<styleUrl>#msn_ylw-pushpin6</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-111.7864247645037,43.81644884247991,0 -111.7864221166942,43.81639572327938,0 -111.7861704435406,43.81639558121744,0 -111.7861710241581,43.81644839313617,0 -111.7864247645037,43.81644884247991,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
-			<Placemark>
-				<name>North Zone Parking</name>
-				<visibility>0</visibility>
-				<open>1</open>
-				<description>North Zone
-Required for campus parking on campus streets in the North Zone. Required in student parking lots on the North Zone.</description>
-				<styleUrl>#msn_ylw-pushpin6</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-111.7858863063311,43.81645049912505,0 -111.7858856486334,43.81639868164274,0 -111.7857415970732,43.8163985406453,0 -111.7857394776015,43.81645018942245,0 -111.7858863063311,43.81645049912505,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>S - South Zone</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<code>S</code>]]></description>
 			<Placemark>
 				<name>Hinkley Parking Lot</name>
-				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7786709294879,43.81635635728848,0 -111.7786709749924,43.81640607972706,0 -111.7787965462819,43.81640547456888,0 -111.7787945450821,43.81635916362625,0 -111.7788088334874,43.81631431910297,0 -111.7788640286329,43.81627351419692,0 -111.7786977134532,43.81616720712386,0 -111.7792892381629,43.81569541456475,0 -111.7792882781902,43.81554547270016,0 -111.779592060415,43.81530762889374,0 -111.7795108574793,43.81524518160038,0 -111.7795132471524,43.81429016715087,0 -111.7792823874366,43.81429027750447,0 -111.77882109948,43.81466912785556,0 -111.77898682689,43.81476667769141,0 -111.7791881068463,43.81461721468524,0 -111.7791857239897,43.81466691292654,0 -111.7783446295845,43.81534113240942,0 -111.7783444742585,43.81599521478851,0 -111.7783755805157,43.81601640600729,0 -111.7783413692768,43.8160467272822,0 -111.7786527837556,43.81625688915932,0 -111.7786822760962,43.81623541623134,0 -111.778724125977,43.8162610926303,0 -111.7786838164472,43.81629755631405,0 -111.7786709294879,43.81635635728848,0 
+								-111.7788050081195,43.81613012863284,0 -111.7792429694626,43.81576821813899,0 -111.7792463986355,43.81560429822909,0 -111.7795138761424,43.81521786471406,0 -111.7795029325823,43.81433066896975,0 -111.7792908900226,43.81433438888407,0 -111.7788684887135,43.81466816845185,0 -111.7790766659809,43.81480459265936,0 -111.7783777186741,43.81536164431414,0 -111.7783814997199,43.815966602237,0 -111.7784540037779,43.81602427037212,0 -111.7784006225662,43.81606788836487,0 -111.77869250984,43.81626287876902,0 -111.778754926071,43.8162278322762,0 -111.7788050081195,43.81613012863284,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -2401,14 +2488,16 @@ Required for campus parking on campus streets in the North Zone. Required in stu
 			</Placemark>
 			<Placemark>
 				<name>Ricks Parking Lot</name>
-				<visibility>0</visibility>
-				<styleUrl>#msn_ylw-pushpin19</styleUrl>
+				<description>123 stalls
+0 motorcycle
+0 reserved accessibility stalls</description>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7800331002807,43.81411685633039,0 -111.7797423306617,43.81411767704846,0 -111.7797428039546,43.81530685364919,0 -111.7800322859449,43.81530671276018,0 -111.7800331002807,43.81411685633039,0 
+								-111.7800845064425,43.81420521164431,0 -111.7798582602426,43.8142064551358,0 -111.7798544876608,43.81413395382236,0 -111.7797857263651,43.81413179996787,0 -111.7797754507646,43.81524877898274,0 -111.7800694740256,43.81524855754565,0 -111.7800845064425,43.81420521164431,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -2416,7 +2505,6 @@ Required for campus parking on campus streets in the North Zone. Required in stu
 			</Placemark>
 			<Placemark>
 				<name>2nd East Parking Lot</name>
-				<visibility>0</visibility>
 				<styleUrl>#msn_ylw-pushpin29</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -2430,7 +2518,6 @@ Required for campus parking on campus streets in the North Zone. Required in stu
 			</Placemark>
 			<Placemark>
 				<name>South Zone Parking</name>
-				<visibility>0</visibility>
 				<description>South Zone
 Required for parking on the streets in the South Zone. Required for student parking lots in the South Zone.</description>
 				<styleUrl>#msn_ylw-pushpin36</styleUrl>
@@ -2447,16 +2534,15 @@ Required for parking on the streets in the South Zone. Required for student park
 			</Placemark>
 			<Placemark>
 				<name>South Zone Parking</name>
-				<visibility>0</visibility>
 				<description>South Zone
 Required for parking on the streets in the South Zone. Required for student parking lots in the South Zone.</description>
-				<styleUrl>#msn_ylw-pushpin36</styleUrl>
+				<styleUrl>#msn_ylw-pushpin14</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-								-111.7836027477984,43.81637495453789,0 -111.7836831398715,43.8163746490459,0 -111.7836695700662,43.81162296682303,0 -111.7835820420851,43.81161979370378,0 -111.7836027477984,43.81637495453789,0 
+								-111.7836789893715,43.81638281948115,0 -111.783742488701,43.8163553808622,0 -111.7837370263431,43.81542820901581,0 -111.7836782124567,43.81545296306349,0 -111.7836820182755,43.81539303625438,0 -111.7837369519833,43.81536284986549,0 -111.7837387298425,43.81172671000999,0 -111.7836823550547,43.81175302866623,0 -111.7836789893715,43.81638281948115,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -2464,7 +2550,6 @@ Required for parking on the streets in the South Zone. Required for student park
 			</Placemark>
 			<Placemark>
 				<name>South Zone Parking</name>
-				<visibility>0</visibility>
 				<description>South Zone
 Required for parking on the streets in the South Zone. Required for student parking lots in the South Zone.</description>
 				<styleUrl>#msn_ylw-pushpin36</styleUrl>
@@ -2481,7 +2566,6 @@ Required for parking on the streets in the South Zone. Required for student park
 			</Placemark>
 			<Placemark>
 				<name>South Zone Parking</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>South Zone
 Required for parking on the streets in the South Zone. Required for student parking lots in the South Zone.</description>
@@ -2492,6 +2576,389 @@ Required for parking on the streets in the South Zone. Required for student park
 						<LinearRing>
 							<coordinates>
 								-111.7839732854437,43.81515275748732,0 -111.7851281413172,43.81515245638777,0 -111.7851304710391,43.81509022970402,0 -111.7838959599978,43.81508963781842,0 -111.7838979298458,43.81638139748703,0 -111.7839773800674,43.81638060379569,0 -111.7839732854437,43.81515275748732,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>E - Event Parking</name>
+			<open>1</open>
+			<description><![CDATA[<code>E</code>]]></description>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7831514303801,43.81730388161963,0 -111.7835606153312,43.81729980348387,0 -111.7835617840926,43.81612209053007,0 -111.7826817772895,43.81612518756268,0 -111.7825911783053,43.81619884486324,0 -111.7825656145316,43.81641993692983,0 -111.7831496183869,43.81641651526811,0 -111.7831483489871,43.81663618027525,0 -111.7831514303801,43.81730388161963,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7857067870745,43.81775776712551,0 -111.7857094087711,43.81765394699399,0 -111.7841191316552,43.81764761717791,0 -111.784134336037,43.81776080180025,0 -111.7857067870745,43.81775776712551,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.786500714651,43.81842928956009,0 -111.7864229130847,43.81842903917358,0 -111.7862765368241,43.81833783949042,0 -111.7862701932389,43.81898136155579,0 -111.7864972650411,43.81898300888656,0 -111.786500714651,43.81842928956009,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.786310900682,43.82136772210048,0 -111.7858299016825,43.8213665018588,0 -111.7858364592078,43.82167593435091,0 -111.7864811891277,43.82168025423862,0 -111.7865044519923,43.82010089734445,0 -111.7858739922759,43.82010607978719,0 -111.7858519437311,43.8206053901262,0 -111.7863269462882,43.82061053190487,0 -111.786310900682,43.82136772210048,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7844723414647,43.8217050765473,0 -111.7846964004916,43.82169961286552,0 -111.7847066167166,43.82030931169641,0 -111.7846553764966,43.82024339506086,0 -111.7846808460451,43.82013805399138,0 -111.7846443337644,43.82008836904934,0 -111.7839276857069,43.82009248438829,0 -111.783913735006,43.82063166614918,0 -111.7840780517853,43.82064995466435,0 -111.7840838446682,43.82073616215256,0 -111.7844551839242,43.82073785297285,0 -111.7844723414647,43.8217050765473,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7813160382268,43.81986223382056,0 -111.7811184251277,43.81986706253312,0 -111.7811063906272,43.82062985495713,0 -111.7812996618394,43.82063234830212,0 -111.7813160382268,43.81986223382056,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7794540953725,43.81987639555597,0 -111.7794504761809,43.82014736160504,0 -111.7795610174343,43.82014827385262,0 -111.7795565035943,43.81986680425958,0 -111.7794540953725,43.81987639555597,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7807505131251,43.8188352088366,0 -111.7807531894887,43.81876540036557,0 -111.7783353533261,43.81875663950738,0 -111.7783326423893,43.81884149470917,0 -111.7807505131251,43.8188352088366,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7783296756434,43.81775960410338,0 -111.7783323326479,43.81780040498818,0 -111.7804749217866,43.81780570650331,0 -111.7804737190476,43.81776871543849,0 -111.7783296756434,43.81775960410338,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7795202573172,43.81763721013571,0 -111.7795274143262,43.81760134729729,0 -111.7783397692863,43.81758595568056,0 -111.7783327448148,43.8176388050901,0 -111.7795202573172,43.81763721013571,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7806948829658,43.81764498261052,0 -111.7807024188782,43.81760347224399,0 -111.7797608372582,43.81759883402619,0 -111.7797600771768,43.81762870060115,0 -111.7806948829658,43.81764498261052,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7807630822444,43.81748169274419,0 -111.7807731958649,43.81660841447201,0 -111.7797119693938,43.81659674455157,0 -111.7797021668152,43.81748189248538,0 -111.7807630822444,43.81748169274419,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7802395558666,43.81413413125141,0 -111.7797786142985,43.81413669673228,0 -111.7797641884316,43.81530115150745,0 -111.7802195735281,43.8153125517744,0 -111.7802395558666,43.81413413125141,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7783809279335,43.81533363860863,0 -111.7784130843162,43.81604873411673,0 -111.7786897775197,43.81624438857073,0 -111.7789562334431,43.81628428539606,0 -111.7793946059889,43.81592095415549,0 -111.7793925096478,43.81557672936644,0 -111.7795036840514,43.81522408643091,0 -111.7794983529821,43.81432356247072,0 -111.7794332670732,43.81432294592074,0 -111.7793304433852,43.81428599683856,0 -111.778871893183,43.81465468289554,0 -111.779036011836,43.81476142659843,0 -111.7793471133384,43.81453693661332,0 -111.7792913902451,43.81462374556344,0 -111.7783809279335,43.81533363860863,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7784073654919,43.81475154158639,0 -111.7785384910622,43.81464480374428,0 -111.7789137786219,43.81410183795602,0 -111.7791740199766,43.81373018220045,0 -111.7783900795841,43.81372948763916,0 -111.7782677919602,43.81387717667643,0 -111.7782848956669,43.81456515466007,0 -111.7783825994688,43.81460177482639,0 -111.7783030594434,43.8146935526166,0 -111.7784073654919,43.81475154158639,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7834164091872,43.81265158307521,0 -111.7834109609337,43.81248816119909,0 -111.7827614457737,43.81247276504622,0 -111.7826107062184,43.81251639524445,0 -111.7826106455776,43.81171624239548,0 -111.7825076671788,43.8117012735281,0 -111.7825018203782,43.81163388546938,0 -111.7820210733393,43.81164291682317,0 -111.780804497827,43.81164579432287,0 -111.7808164898562,43.81170826256047,0 -111.7807108743768,43.81171235033112,0 -111.7807239207589,43.81278205909269,0 -111.7808114417465,43.81278943691663,0 -111.7808195633024,43.81286178844763,0 -111.781949652284,43.81285709551614,0 -111.7827801989844,43.81265813478097,0 -111.7834164091872,43.81265158307521,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7837391437623,43.81172431905089,0 -111.7836667838587,43.81172414394477,0 -111.7836809870722,43.81736225158384,0 -111.7837387057558,43.8173641975491,0 -111.7837391437623,43.81172431905089,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7839243020672,43.81735661562182,0 -111.7839726330168,43.81735422366436,0 -111.7839684374843,43.8117204773718,0 -111.7839246457936,43.81171716083698,0 -111.7839243020672,43.81735661562182,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7840655268919,43.81651091236703,0 -111.7840650848026,43.81655593021543,0 -111.7854877140495,43.8165532609293,0 -111.7854800978836,43.81651847845558,0 -111.7840655268919,43.81651091236703,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.784090421238,43.81639303751034,0 -111.7840941870981,43.81643369035594,0 -111.7850869696112,43.81644058435348,0 -111.7850917792228,43.81639586410275,0 -111.784090421238,43.81639303751034,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7853924209436,43.81512944957169,0 -111.785898777055,43.81512970510823,0 -111.7859011010289,43.8150884629604,0 -111.7853909619107,43.81509100075058,0 -111.7853924209436,43.81512944957169,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7850933771005,43.81513167229927,0 -111.7850969802064,43.81509109139107,0 -111.7841076378438,43.81509138277548,0 -111.7841099953441,43.81512391074108,0 -111.7850933771005,43.81513167229927,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7853346873886,43.81516094890621,0 -111.785186047142,43.81515593799587,0 -111.7852013486473,43.8163553448079,0 -111.7853281873984,43.81635539138114,0 -111.7853346873886,43.81516094890621,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7840994019971,43.81495317799033,0 -111.7840958667921,43.81499330810695,0 -111.7864440388307,43.81499924603,0 -111.7864348717189,43.81495206743973,0 -111.7840994019971,43.81495317799033,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7815051549529,43.81824104502365,0 -111.7815072105467,43.81790566262113,0 -111.7811716595075,43.81790109182592,0 -111.7811631173464,43.81823705171633,0 -111.7815051549529,43.81824104502365,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7811830566485,43.82316075291595,0 -111.7816683081886,43.8231585438493,0 -111.781663729329,43.82257954750517,0 -111.7811889421417,43.82259056817656,0 -111.7811830566485,43.82316075291595,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Parking</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111.7829262388388,43.82460558195525,0 -111.7829432714245,43.82408182312341,0 -111.7825045553116,43.82407705018716,0 -111.7825051938089,43.82460927583096,0 -111.7829262388388,43.82460558195525,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
